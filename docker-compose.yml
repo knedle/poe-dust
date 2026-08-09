@@ -1,0 +1,14 @@
+services:
+  poe-dust:
+    image: node:22-alpine
+    container_name: poe-dust
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: node server.js
+    ports:
+      - "3001:3001"
+    environment:
+      - PORT=3001
+      - ADMIN_PASSWORD=changeme
+    restart: "no"
