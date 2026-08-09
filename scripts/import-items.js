@@ -30,16 +30,19 @@ function parseSeedCsv(csvText) {
   const nameIdx = header.indexOf('name');
   const dust84Idx = header.indexOf('dustValIlvl84');
   const dust84q20Idx = header.indexOf('dustValIlvl84Q20');
+  const slotsIdx = header.indexOf('slots');
   const items = [];
   for (let i = 1; i < lines.length; i++) {
     if (!lines[i].trim()) continue;
     const fields = parseCsvLine(lines[i]);
     const name = fields[nameIdx];
     if (!name) continue;
+    const slots = slotsIdx === -1 ? null : parseInt(fields[slotsIdx], 10);
     items.push({
       name,
       dust84: Math.round(parseFloat(fields[dust84Idx])),
       dust84q20: Math.round(parseFloat(fields[dust84q20Idx])),
+      slots: Number.isNaN(slots) ? null : slots,
     });
   }
   return items;

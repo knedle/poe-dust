@@ -23,11 +23,11 @@ test('parseCsvLine splits on commas outside of double-quoted fields', () => {
   );
 });
 
-test('parseSeedCsv extracts name, dust84, and dust84q20 from every row', () => {
+test('parseSeedCsv extracts name, dust84, dust84q20, and slots from every row', () => {
   const items = parseSeedCsv(FIXTURE_CSV);
   assert.deepStrictEqual(items, [
-    { name: 'Original Sin', dust84: 2257780, dust84q20: 2709336 },
-    { name: 'Jack, the Axe', dust84: 26520, dust84q20: 31824 },
+    { name: 'Original Sin', dust84: 2257780, dust84q20: 2709336, slots: 1 },
+    { name: 'Jack, the Axe', dust84: 26520, dust84q20: 31824, slots: 6 },
   ]);
 });
 
@@ -49,6 +49,25 @@ test('run imports the CSV into a fresh SQLite file with dust83/85 left null', ()
   assert.strictEqual(originalSin.dust84q20, 2709336);
   assert.strictEqual(originalSin.dust83, null);
   assert.strictEqual(originalSin.dust85, null);
+  assert.strictEqual(originalSin.slots, 1);
 
   fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test('parseSeedCsv sets slots to null when the column is missing or unparseable', () => {
+  const csvNoSlotsColumn = [
+    'name,dustValIlvl84,dustValIlvl84Q20',
+    'Foo,100,120',
+  ].join('\n');
+  assert.deepStrictEqual(parseSeedCsv(csvNoSlotsColumn), [
+    { name: 'Foo', dust84: 100, dust84q20: 120, slots: null },
+  ]);
+
+  const csvBlankSlots = [
+    'name,dustValIlvl84,dustValIlvl84Q20,slots',
+    'Foo,100,120,',
+  ].join('\n');
+  assert.deepStrictEqual(parseSeedCsv(csvBlankSlots), [
+    { name: 'Foo', dust84: 100, dust84q20: 120, slots: null },
+  ]);
 });

@@ -191,7 +191,7 @@
   </div>
   <div class="controls">
     <input type="text" id="nameFilter" placeholder="Search items…" />
-    <div id="type-filter" style="display:flex; gap:0.5rem;"></div>
+    <div id="slots-filter" style="display:flex; gap:0.5rem;"></div>
   </div>
 </header>
 
@@ -234,7 +234,7 @@ let mergedItems = [];
 let isAdmin = false;
 let sortKey = 'chaosValue';
 let sortDir = 'desc';
-let activeType = 'all';
+let activeSlots = 'all';
 let nameQuery = '';
 let minChaos = 0;
 let maxChaos = Infinity;
@@ -361,22 +361,22 @@ function sortItems(items) {
   return sorted;
 }
 
-function renderTypeFilter() {
-  const bar = document.getElementById('type-filter');
+function renderSlotsFilter() {
+  const bar = document.getElementById('slots-filter');
   bar.innerHTML = '';
-  const presentTypes = [...new Set(mergedItems.map(i => i._category))];
-  for (const type of ['all', ...presentTypes]) {
+  const presentSlots = [...new Set(mergedItems.map(i => i.slots).filter(s => s != null))].sort((a, b) => a - b);
+  for (const slots of ['all', ...presentSlots]) {
     const btn = document.createElement('button');
-    btn.className = 'type-btn' + (type === activeType ? ' active' : '');
-    btn.textContent = type === 'all' ? 'All' : (TYPE_LABELS[type] || type);
-    btn.addEventListener('click', () => { activeType = type; renderTypeFilter(); applyAndRender(); });
+    btn.className = 'type-btn' + (slots === activeSlots ? ' active' : '');
+    btn.textContent = slots === 'all' ? 'All' : `${slots} slot${slots === 1 ? '' : 's'}`;
+    btn.addEventListener('click', () => { activeSlots = slots; renderSlotsFilter(); applyAndRender(); });
     bar.appendChild(btn);
   }
 }
 
 function applyAndRender() {
   let filtered = mergedItems;
-  if (activeType !== 'all') filtered = filtered.filter(i => i._category === activeType);
+  if (activeSlots !== 'all') filtered = filtered.filter(i => i.slots === activeSlots);
   if (minChaos > 0) filtered = filtered.filter(i => i.chaosValue >= minChaos);
   if (maxChaos < Infinity) filtered = filtered.filter(i => i.chaosValue <= maxChaos);
   if (nameQuery) filtered = filtered.filter(i => i.name.toLowerCase().includes(nameQuery));
@@ -414,7 +414,7 @@ async function loadPrices() {
     const data = await res.json();
     priceByName = new Map(data.items.map(i => [i.name, i]));
     mergeItemsWithPrices();
-    renderTypeFilter();
+    renderSlotsFilter();
     applyAndRender();
     refreshBlockedUntil = data.timestamp + CACHE_TTL;
     if (btnInterval) clearInterval(btnInterval);
@@ -506,7 +506,7 @@ document.getElementById('logoutBtn').addEventListener('click', async () => {
 
 renderHeader();
 checkAdminSession();
-loadItems().then(() => { renderTypeFilter(); applyAndRender(); });
+loadItems().then(() => { renderSlotsFilter(); applyAndRender(); });
 detectCurrentLeague();
 </script>
 
