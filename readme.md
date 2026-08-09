@@ -1,3 +1,8 @@
+> Implemented — see `CLAUDE.md` for how to run it, and
+> `docs/superpowers/specs/2026-08-09-poe-dust-design.md` /
+> `docs/superpowers/plans/2026-08-09-poe-dust-implementation.md` for the design
+> and implementation history.
+
 web funkcnosti podobny poe heist replika - viz e:\docker\heist\
 
 o co jde: 

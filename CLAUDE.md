@@ -2,21 +2,65 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Status
+## What this is
 
-This repository is currently empty — no source code, configuration, or dependency
-manifests exist yet. This file is a placeholder to be expanded once the project
-has actual content.
+A Path of Exile unique-item "dust" tracker: shows disenchant dust yield at
+item levels 83/84/85 (base and +20% quality) next to each item's current
+poe.ninja chaos price and a dust-per-chaos efficiency ratio. Modeled on
+`E:\docker\heist`. Design spec: `docs/superpowers/specs/2026-08-09-poe-dust-design.md`.
+Implementation plan: `docs/superpowers/plans/2026-08-09-poe-dust-implementation.md`.
 
-## Intended purpose
+## Running
 
-`poe-dust` is intended to be a Docker-based tool related to the game *Path of
-Exile* (e.g. trade, currency/price tracking, or similar). The specifics of
-architecture, tech stack, and tooling are not yet decided.
+```bash
+# Directly with Node.js
+node server.js
 
-## Next steps for whoever picks this up
+# Via Docker Compose (preferred for local dev)
+docker compose up -d
+```
 
-Once code is added, update this file with:
-- Build, lint, and test commands (and how to run a single test)
-- High-level architecture — how the pieces fit together, not a file listing
-- Any Docker Compose services and how they relate to each other
+Server starts on port 3001 (or `$PORT`). No `npm install` needed — zero
+dependencies, only Node built-ins (including `node:sqlite`).
+
+Set `ADMIN_PASSWORD` (env var) to enable admin login for editing dust values
+in the UI. `docker-compose.yml` sets it to `changeme` for local dev.
+
+## Tests
+
+```bash
+node --test
+```
+
+Runs every `*.test.js` file (colocated with the module it tests).
+
+## Architecture
+
+- `server.js` — HTTP server wiring together the modules below. `createServer(opts)`
+  takes injectable dependencies so tests can hit real routes without real network
+  or a real database file.
+- `lib/db.js` — SQLite (`node:sqlite`) access to the `items` table (`name`,
+  `dust83`, `dust83q20`, `dust84`, `dust84q20`, `dust85`, `dust85q20`).
+- `lib/auth.js` — single-shared-password admin sessions (in-memory token map,
+  24h TTL, `HttpOnly` cookie).
+- `lib/priceCache.js` — 1-hour file cache for poe.ninja responses (`cache/<league>.json`).
+- `lib/poeNinja.js` — poe.ninja HTTP client; fetches `UniqueWeapon`/`UniqueArmour`/
+  `UniqueAccessory`, collapses link-count variants to the cheapest `chaosValue` per name.
+- `index.html` — self-contained SPA (inline CSS/JS, no build step). Fetches
+  `/api/items` (dust data) and `/api/prices` (live prices) separately and joins
+  them client-side by item name; items with no price match are hidden.
+- `scripts/import-items.js` + `scripts/seed.csv` — one-time seed of `data/poe-dust.db`
+  from a community-sourced dust-value dataset. Re-running it is a full, destructive
+  rebuild: it overwrites ALL SIX dust columns for every item in `seed.csv`, including
+  resetting `dust83`/`dust83q20`/`dust85`/`dust85q20` back to `NULL` even if an admin
+  had already filled them in. Only re-run it if you intend to discard existing admin
+  edits and start over from the seed data.
+
+## Key details
+
+- `data/` and `cache/` are both `.gitignore`d. `data/poe-dust.db` must exist
+  locally before the server has anything to show — run `node scripts/import-items.js`
+  once after cloning.
+- Production deployment (Render) and how `data/poe-dust.db` persists there is
+  an open question, deliberately out of scope so far — see the design spec's
+  "Out of scope" section.
