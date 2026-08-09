@@ -24,11 +24,6 @@ docker compose up -d
 Server starts on port 3001 (or `$PORT`). No `npm install` needed — zero
 dependencies, only Node built-ins (including `node:sqlite`).
 
-Set `ADMIN_PASSWORD` (env var) to enable admin login (`/admin`) for editing
-dust values in the UI. `docker-compose.yml` sets it to `changeme` for local
-dev. Admin edits are **session-scoped, not persistent** — see Architecture
-below; there's no data to lose by restarting.
-
 ## Tests
 
 ```bash
@@ -43,40 +38,28 @@ Runs every `*.test.js` file (colocated with the module it tests).
   takes injectable dependencies so tests can hit real routes without real network
   or a real database file.
 - `lib/db.js` — SQLite (`node:sqlite`) access to the `items` table (`name`,
-  `dust84`, `dust84q20`, `slots`, `type`, `subtype`). ilvl 83/85 columns were
-  dropped (2026-08-09) — the data source only reliably covers ilvl 84.
-- `lib/auth.js` — single-shared-password admin sessions (in-memory token map,
-  24h TTL, `HttpOnly` cookie).
+  `dust84`, `dust84q20`, `slots`). ilvl 83/85, `type`, and `subtype` columns
+  were all dropped (2026-08-09) — the data source only reliably covers ilvl 84,
+  and `type`/`subtype` only ever existed to back an admin-edit feature that's
+  since been removed (see below).
 - `lib/priceCache.js` — 1-hour file cache for poe.ninja responses (`cache/<league>.json`).
 - `lib/poeNinja.js` — poe.ninja HTTP client; fetches `UniqueWeapon`/`UniqueArmour`/
   `UniqueAccessory`, collapses link-count variants to the cheapest `chaosValue` per name.
-- `public/index.html` — self-contained SPA (inline CSS/JS, no build step). Fetches
-  `/api/items` (dust data) and `/api/prices` (live prices) separately and joins
-  them client-side by item name; items with no price match are hidden.
-- `public/admin.html` — standalone login page, served at `GET /admin`, posts to
-  `/api/admin/login` and redirects to `/` on success.
+- `public/index.html` — self-contained, read-only SPA (inline CSS/JS, no build
+  step). Fetches `/api/items` (dust data) and `/api/prices` (live prices)
+  separately and joins them client-side by item name; items with no price
+  match are hidden.
 - `scripts/import-items.js` + `scripts/seed.csv` — seeds `data/poe-dust.db`
   from a community-sourced dust-value dataset. **Runs automatically on every
-  server boot** (see `server.js`'s `require.main === module` block) — this is
-  deliberate, not just a leftover one-time-setup script: `data/poe-dust.db` is
-  treated as a rebuildable cache of `scripts/seed.csv`, the same way heist
-  treats `cache/*.json` as a rebuildable cache of poe.ninja. Each boot fully
-  overwrites `dust84`, `dust84q20`, `slots`, and `subtype` for every item in
-  `seed.csv` (`type` always goes back to `NULL` — it's never in the CSV) via
-  `insertItem`'s upsert. It does NOT remove rows for items that existed in a
-  previous `seed.csv` but are absent from the current one (a stale row has to
-  be deleted manually — see the 2026-08-09 cleanup that dropped 18 leftover
-  Legion "Piece of ..." fragments after switching data sources).
-
-  **Consequence: admin edits (`PUT /api/admin/items/:name`) are session-scoped
-  only.** They persist in the running `data/poe-dust.db` until the next
-  restart/redeploy, at which point the boot-time reseed silently overwrites
-  them. This is an accepted tradeoff (confirmed 2026-08-09), not a bug — it's
-  what lets this app run on a platform with an ephemeral filesystem (e.g.
-  Render's free tier) with zero persistence setup. If a real need for durable
-  admin edits ever comes back, this tradeoff needs revisiting (real DB +
-  persistent disk, or an external store) — don't "fix" it by just skipping
-  the reseed, since then a fresh deploy would start from an empty/stale DB.
+  server boot** (see `server.js`'s `require.main === module` block):
+  `data/poe-dust.db` is a rebuildable cache of `scripts/seed.csv`, the same
+  way heist treats `cache/*.json` as a rebuildable cache of poe.ninja. Each
+  boot fully overwrites `dust84`, `dust84q20`, and `slots` for every item in
+  `seed.csv` via `insertItem`'s upsert. It does NOT remove rows for items that
+  existed in a previous `seed.csv` but are absent from the current one (a
+  stale row has to be deleted manually — see the 2026-08-09 cleanup that
+  dropped 18 leftover Legion "Piece of ..." fragments after switching data
+  sources).
 
   **Data source:** `scripts/seed.csv` is currently derived from
   https://github.com/deronek/poe-disenchant-tool/tree/main/data/dust (`poe-dust.js`) —
@@ -84,6 +67,20 @@ Runs every `*.test.js` file (colocated with the module it tests).
   `seed.csv` from it when the numbers drift, since it's more accurate than the original
   Google Sheet/gist source this project started with (e.g. it uses a per-item quality
   multiplier instead of a flat +20%, and excludes non-disenchantable fragment items).
+
+## History: admin editing was removed (2026-08-09)
+
+Earlier versions of this app had a shared-password admin login (`/admin`),
+session auth (`lib/auth.js`), an edit modal, and `PUT /api/admin/items/:name`
+for correcting dust values by hand. It was removed once the GitHub-maintained
+data source above made manual correction largely unnecessary, and because the
+boot-time reseed (added at the same time so the app could run without a
+persistent disk) meant any edit only survived until the next restart anyway —
+on Render's free tier, that's a matter of minutes, not a real editing
+workflow. If a real need for durable manual corrections comes back, don't
+just re-add admin routes without also solving persistence (real DB +
+persistent disk, or an external store) — the old design's write-then-lose-it
+tradeoff is exactly what made it worth removing.
 
 ## Key details
 

@@ -80,16 +80,14 @@
     button#loadBtn:hover { filter: brightness(1.15); }
     button#loadBtn:disabled { opacity: 0.45; cursor: not-allowed; filter: none; }
 
-    button#filterBtn, button#logoutBtn {
+    button#filterBtn {
       background: linear-gradient(180deg, #e8dcc0 0%, #c8a870 100%);
       border: 1px solid #a07840;
       color: #1a0e04;
       padding: 0.45rem 1rem;
       transition: filter 0.2s;
     }
-    button#filterBtn:hover, button#logoutBtn:hover { filter: brightness(1.1); }
-
-    .admin-area { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; }
+    button#filterBtn:hover { filter: brightness(1.1); }
 
     .type-btn {
       background: #ede5d0;
@@ -166,10 +164,8 @@
     thead th:nth-child(4) { width: 90px; }
     thead th:nth-child(5) { width: 100px; }
     thead th:nth-child(6) { width: 80px; }
-    thead th:nth-child(7) { width: 70px; }
     thead th.sorted { color: #1a0e04; background: #e0d4b8; }
     thead th .arrow { font-size: 0.7rem; margin-left: 0.2rem; }
-    thead th.no-sort { cursor: default; }
 
     tbody td {
       border-bottom: 1px solid #e0d4b8;
@@ -191,71 +187,6 @@
     tbody tr:hover { background: #f8f0e0; }
 
     .empty-row td { text-align: center; color: #8a6840; padding: 3rem; }
-
-    .edit-btn {
-      background: #ede5d0;
-      border: 1px solid #c8a870;
-      color: #6a5030;
-      padding: 0.25rem 0.7rem;
-      border-radius: 4px;
-      font-size: 0.78rem;
-      transition: background 0.15s, color 0.15s, border-color 0.15s;
-    }
-    .edit-btn:hover { border-color: #7a3010; color: #1a0e04; background: #e0d4b8; }
-
-    .modal-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: #1a0e0480;
-      align-items: center;
-      justify-content: center;
-      z-index: 100;
-    }
-    .modal-overlay.visible { display: flex; }
-
-    .modal {
-      background: linear-gradient(160deg, #fffdf5 0%, #f8f0e0 100%);
-      border: 1px solid #d4bc8c;
-      border-radius: 8px;
-      padding: 1.5rem;
-      width: 420px;
-      max-width: 90vw;
-      box-shadow: 0 8px 30px #00000040;
-    }
-    .modal h2 { color: #7a3010; font-size: 1.15rem; margin-bottom: 1rem; }
-    .modal-row { display: flex; gap: 0.75rem; margin-bottom: 0.75rem; }
-    .modal-row label {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 0.3rem;
-      font-size: 0.8rem;
-      color: #6a5030;
-    }
-    .modal-row input, .modal-row select {
-      background: #fffdf5;
-      border: 1px solid #c8a870;
-      color: #1a0e04;
-      padding: 0.4rem 0.6rem;
-      border-radius: 4px;
-      font-size: 0.9rem;
-      width: 100%;
-      outline: none;
-    }
-    .modal-actions { display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 0.5rem; }
-    button#editSaveBtn {
-      background: linear-gradient(180deg, #c87830 0%, #7a3010 100%);
-      border: 1px solid #7a3010;
-      color: #fffdf5;
-      padding: 0.45rem 1.1rem;
-    }
-    button#editCancelBtn {
-      background: #ede5d0;
-      border: 1px solid #c8a870;
-      color: #1a0e04;
-      padding: 0.45rem 1.1rem;
-    }
   </style>
 </head>
 <body>
@@ -263,9 +194,6 @@
 <header>
   <div class="header-top">
     <h1>POE <span>Dust</span> prices</h1>
-    <div class="admin-area">
-      <button id="logoutBtn" style="display:none">Logout</button>
-    </div>
   </div>
   <div class="controls">
     <label>League:</label>
@@ -296,39 +224,6 @@
   </table>
 </main>
 
-<div class="modal-overlay" id="editOverlay">
-  <div class="modal">
-    <h2 id="editModalTitle">Edit</h2>
-    <form id="editForm">
-      <div class="modal-row">
-        <label>Type
-          <select id="editType">
-            <option value="">—</option>
-            <option value="Weapon">Weapon</option>
-            <option value="Armour">Armour</option>
-            <option value="Jewellery">Jewellery</option>
-          </select>
-        </label>
-        <label>Subtype
-          <input type="text" id="editSubtype" placeholder="e.g. Amethyst Ring">
-        </label>
-        <label>Slots
-          <input type="number" id="editSlots" min="1" step="1">
-        </label>
-      </div>
-      <div class="modal-row">
-        <label>Dust<input type="number" id="editDust84"></label>
-        <label>Dust +20q<input type="number" id="editDust84q20"></label>
-      </div>
-      <div class="error-msg" id="editError" style="display:none"></div>
-      <div class="modal-actions">
-        <button type="button" id="editCancelBtn">Cancel</button>
-        <button type="submit" id="editSaveBtn">Save</button>
-      </div>
-    </form>
-  </div>
-</div>
-
 <script>
 const COLUMNS = [
   { key: 'name', label: 'Name', numeric: false },
@@ -338,15 +233,12 @@ const COLUMNS = [
   { key: 'dust84q20', label: 'Dust +20q', numeric: true },
   { key: 'eff84', label: 'dust/c', numeric: true },
 ];
-const DUST_FIELDS = ['dust84', 'dust84q20'];
-const TYPE_LABELS = { UniqueWeapon: 'Weapon', UniqueArmour: 'Armour', UniqueAccessory: 'Jewellery' };
 const CACHE_TTL = 60 * 60 * 1000;
 const SKIP_LEAGUES = new Set(['Standard', 'Hardcore', 'SSF Standard', 'SSF Hardcore']);
 
 let rawItems = [];
 let priceByName = new Map();
 let mergedItems = [];
-let isAdmin = false;
 let sortKey = 'chaosValue';
 let sortDir = 'desc';
 let activeSlots = 'all';
@@ -355,7 +247,6 @@ let minChaos = 0;
 let maxChaos = Infinity;
 let refreshBlockedUntil = 0;
 let btnInterval = null;
-let editingItemName = null;
 
 function computeEfficiency(dustQ20, chaosValue) {
   if (dustQ20 == null || !chaosValue) return null;
@@ -382,7 +273,7 @@ function renderHeader() {
   row.innerHTML = '';
   for (const col of COLUMNS) {
     const th = document.createElement('th');
-    const arrow = sortKey === col.key ? `<span class="arrow">${sortDir === 'asc' ? '\u25b2' : '\u25bc'}</span>` : '';
+    const arrow = sortKey === col.key ? `<span class="arrow">${sortDir === 'asc' ? '▲' : '▼'}</span>` : '';
     th.innerHTML = col.label + arrow;
     if (sortKey === col.key) th.classList.add('sorted');
     th.addEventListener('click', () => {
@@ -393,21 +284,15 @@ function renderHeader() {
     });
     row.appendChild(th);
   }
-  if (isAdmin) {
-    const th = document.createElement('th');
-    th.textContent = 'Edit';
-    th.classList.add('no-sort');
-    row.appendChild(th);
-  }
 }
 
 function formatNumber(n) {
-  if (n == null) return '\u2014';
+  if (n == null) return '—';
   return Math.round(n).toLocaleString('en-US');
 }
 
 function formatEfficiency(n) {
-  if (n == null) return '\u2014';
+  if (n == null) return '—';
   return n.toFixed(2);
 }
 
@@ -420,72 +305,11 @@ function copyNameToClipboard(name, td) {
   });
 }
 
-function defaultTypeFor(item) {
-  return item.type || TYPE_LABELS[item._category] || '';
-}
-
-function openEditModal(item) {
-  editingItemName = item.name;
-  document.getElementById('editModalTitle').textContent = `Edit — ${item.name}`;
-  document.getElementById('editType').value = defaultTypeFor(item);
-  document.getElementById('editSubtype').value = item.subtype ?? '';
-  document.getElementById('editSlots').value = item.slots ?? '';
-  for (const field of DUST_FIELDS) {
-    document.getElementById('edit' + field[0].toUpperCase() + field.slice(1)).value = item[field] ?? '';
-  }
-  document.getElementById('editError').style.display = 'none';
-  document.getElementById('editOverlay').classList.add('visible');
-}
-
-function closeEditModal() {
-  editingItemName = null;
-  document.getElementById('editOverlay').classList.remove('visible');
-}
-
-function showEditError(msg) {
-  const el = document.getElementById('editError');
-  el.textContent = msg;
-  el.style.display = 'block';
-}
-
-function collectEditFields() {
-  const fields = {};
-  const typeVal = document.getElementById('editType').value;
-  fields.type = typeVal === '' ? null : typeVal;
-  const subtypeVal = document.getElementById('editSubtype').value.trim();
-  fields.subtype = subtypeVal === '' ? null : subtypeVal;
-  const slotsVal = document.getElementById('editSlots').value;
-  fields.slots = slotsVal === '' ? null : Math.round(parseFloat(slotsVal));
-  for (const field of DUST_FIELDS) {
-    const val = document.getElementById('edit' + field[0].toUpperCase() + field.slice(1)).value;
-    fields[field] = val === '' ? null : Math.round(parseFloat(val));
-  }
-  return fields;
-}
-
-async function saveEditModal() {
-  const name = editingItemName;
-  const fields = collectEditFields();
-  const res = await fetch(`/api/admin/items/${encodeURIComponent(name)}`, {
-    method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(fields),
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const item = rawItems.find(i => i.name === name);
-  if (item) Object.assign(item, fields);
-  mergeItemsWithPrices();
-  renderSlotsFilter();
-  applyAndRender();
-  closeEditModal();
-}
-
 function renderRows(items) {
   const tbody = document.getElementById('tbody');
   tbody.innerHTML = '';
-  const colCount = COLUMNS.length + (isAdmin ? 1 : 0);
   if (items.length === 0) {
-    tbody.innerHTML = `<tr class="empty-row"><td colspan="${colCount}">No items match the current filters.</td></tr>`;
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="${COLUMNS.length}">No items match the current filters.</td></tr>`;
     return;
   }
   for (const item of items) {
@@ -500,15 +324,6 @@ function renderRows(items) {
       else if (col.key === 'chaosValue') td.textContent = formatNumber(item.chaosValue);
       else if (col.key.startsWith('eff')) td.textContent = formatEfficiency(item[col.key]);
       else td.textContent = formatNumber(item[col.key]);
-      tr.appendChild(td);
-    }
-    if (isAdmin) {
-      const td = document.createElement('td');
-      const btn = document.createElement('button');
-      btn.className = 'edit-btn';
-      btn.textContent = 'Edit';
-      btn.addEventListener('click', () => openEditModal(item));
-      td.appendChild(btn);
       tr.appendChild(td);
     }
     tbody.appendChild(tr);
@@ -575,7 +390,7 @@ async function loadPrices() {
   const statusText = document.getElementById('statusText');
   btn.disabled = true;
   spinner.classList.add('active');
-  statusText.textContent = 'Loading prices from poe.ninja\u2026';
+  statusText.textContent = 'Loading prices from poe.ninja…';
   try {
     const res = await fetch(`/api/prices?league=${encodeURIComponent(league)}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -592,7 +407,7 @@ async function loadPrices() {
     const ageStr = data.fromCache ? ` (cached ${ageMins}m ago)` : '';
     statusText.textContent = data.errors && data.errors.length
       ? `Errors: ${data.errors.join(', ')}`
-      : `Loaded \u2014 league "${league}"${ageStr}.`;
+      : `Loaded — league "${league}"${ageStr}.`;
   } catch (e) {
     statusText.innerHTML = `<span class="error-msg">Error: ${e.message}</span>`;
     updateLoadBtn();
@@ -629,30 +444,17 @@ async function detectCurrentLeague() {
     const res = await fetch(`/api/cache-status?league=${encodeURIComponent(league)}`);
     const status = await res.json();
     if (!status.timestamp) {
-      statusText.textContent = `League: ${league} \u2014 no data yet, click Load.`;
+      statusText.textContent = `League: ${league} — no data yet, click Load.`;
     } else if (!status.fresh) {
       const ageMins = Math.round((Date.now() - status.timestamp) / 60000);
-      statusText.innerHTML = `League: ${league} \u2014 <strong>data is ${ageMins}m old</strong>, click Load to refresh.`;
+      statusText.innerHTML = `League: ${league} — <strong>data is ${ageMins}m old</strong>, click Load to refresh.`;
     } else {
       refreshBlockedUntil = status.timestamp + CACHE_TTL;
       loadPrices();
     }
   } catch (e) {
-    statusText.textContent = `League: ${league} \u2014 click Load to fetch data.`;
+    statusText.textContent = `League: ${league} — click Load to fetch data.`;
   }
-}
-
-async function checkAdminSession() {
-  const res = await fetch('/api/admin/session');
-  const data = await res.json();
-  isAdmin = !!data.authenticated;
-  updateAdminUI();
-}
-
-function updateAdminUI() {
-  document.getElementById('logoutBtn').style.display = isAdmin ? 'inline-block' : 'none';
-  renderHeader();
-  applyAndRender();
 }
 
 document.getElementById('loadBtn').addEventListener('click', loadPrices);
@@ -667,26 +469,8 @@ document.getElementById('nameFilter').addEventListener('input', e => {
   nameQuery = e.target.value.trim().toLowerCase();
   applyAndRender();
 });
-document.getElementById('logoutBtn').addEventListener('click', async () => {
-  await fetch('/api/admin/logout', { method: 'POST' });
-  isAdmin = false;
-  updateAdminUI();
-});
-document.getElementById('editForm').addEventListener('submit', async e => {
-  e.preventDefault();
-  try {
-    await saveEditModal();
-  } catch (err) {
-    showEditError(`Save failed: ${err.message}`);
-  }
-});
-document.getElementById('editCancelBtn').addEventListener('click', closeEditModal);
-document.getElementById('editOverlay').addEventListener('click', e => {
-  if (e.target.id === 'editOverlay') closeEditModal();
-});
 
 renderHeader();
-checkAdminSession();
 loadItems().then(() => { renderSlotsFilter(); applyAndRender(); });
 detectCurrentLeague();
 </script>

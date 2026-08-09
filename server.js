@@ -4,7 +4,6 @@ const path = require('node:path');
 const url = require('node:url');
 
 const db = require('./lib/db');
-const auth = require('./lib/auth');
 const priceCache = require('./lib/priceCache');
 const poeNinja = require('./lib/poeNinja');
 const importItems = require('./scripts/import-items');
@@ -19,41 +18,13 @@ const MIME = {
   '.ico':  'image/x-icon',
 };
 
-function readJsonBody(req) {
-  return new Promise((resolve, reject) => {
-    let data = '';
-    req.on('data', chunk => { data += chunk; });
-    req.on('end', () => {
-      if (!data) return resolve({});
-      try { resolve(JSON.parse(data)); }
-      catch (e) { reject(new Error('Invalid JSON body')); }
-    });
-    req.on('error', reject);
-  });
-}
-
 function sendJson(res, status, body) {
   res.writeHead(status, { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
   res.end(JSON.stringify(body));
 }
 
-function getSessionToken(req) {
-  // A malformed percent-encoded Cookie header (e.g. `session=%E0%A4%A`) makes
-  // auth.parseCookies's decodeURIComponent throw synchronously. Since this is
-  // called directly from request handlers (not inside a Promise chain), an
-  // uncaught throw here would crash the whole process, not just this request.
-  // Degrade to "no session" instead.
-  try {
-    return auth.parseCookies(req.headers.cookie).session;
-  } catch (e) {
-    return undefined;
-  }
-}
-
 function resolveStaticPath(staticDir, pathname) {
-  const safePathname = pathname === '/' ? '/index.html'
-    : pathname === '/admin' ? '/admin.html'
-    : pathname;
+  const safePathname = pathname === '/' ? '/index.html' : pathname;
   const resolvedStaticDir = path.resolve(staticDir);
   const resolvedFilePath = path.resolve(path.join(staticDir, safePathname));
   if (resolvedFilePath !== resolvedStaticDir && !resolvedFilePath.startsWith(resolvedStaticDir + path.sep)) {
@@ -68,7 +39,6 @@ function createServer({
   staticDir = path.join(__dirname, 'public'),
   fetchLeagues = poeNinja.fetchLeagues,
   fetchAllPrices = poeNinja.fetchAllPrices,
-  adminPassword = process.env.ADMIN_PASSWORD,
 } = {}) {
   return http.createServer((req, res) => {
     const parsedUrl = url.parse(req.url, true);
@@ -110,47 +80,6 @@ function createServer({
       return sendJson(res, 200, db.getAllItems(dbConn));
     }
 
-    if (pathname === '/api/admin/session' && req.method === 'GET') {
-      return sendJson(res, 200, { authenticated: auth.isValidSession(getSessionToken(req)) });
-    }
-
-    if (pathname === '/api/admin/login' && req.method === 'POST') {
-      readJsonBody(req)
-        .then(body => {
-          const token = auth.login(body.password, adminPassword);
-          if (!token) return sendJson(res, 401, { error: 'invalid password' });
-          res.setHeader('Set-Cookie', `session=${token}; HttpOnly; Path=/; Max-Age=${Math.floor(auth.SESSION_TTL_MS / 1000)}`);
-          sendJson(res, 200, { ok: true });
-        })
-        .catch(e => sendJson(res, 400, { error: e.message }));
-      return;
-    }
-
-    if (pathname === '/api/admin/logout' && req.method === 'POST') {
-      auth.logout(getSessionToken(req));
-      res.setHeader('Set-Cookie', 'session=; HttpOnly; Path=/; Max-Age=0');
-      return sendJson(res, 200, { ok: true });
-    }
-
-    const itemMatch = pathname.match(/^\/api\/admin\/items\/(.+)$/);
-    if (itemMatch && req.method === 'PUT') {
-      if (!auth.isValidSession(getSessionToken(req))) return sendJson(res, 401, { error: 'not authenticated' });
-      let name;
-      try {
-        name = decodeURIComponent(itemMatch[1]);
-      } catch (e) {
-        return sendJson(res, 400, { error: 'invalid item name' });
-      }
-      readJsonBody(req)
-        .then(body => {
-          const changed = db.updateItem(dbConn, name, body);
-          if (changed === 0) return sendJson(res, 404, { error: 'item not found' });
-          sendJson(res, 200, { ok: true });
-        })
-        .catch(e => sendJson(res, 400, { error: e.message }));
-      return;
-    }
-
     const filePath = resolveStaticPath(staticDir, pathname);
     if (!filePath) { res.writeHead(403); return res.end('Forbidden'); }
     fs.readFile(filePath, (err, data) => {
@@ -172,8 +101,8 @@ if (require.main === module) {
   const seedCsvPath = path.join(__dirname, 'scripts', 'seed.csv');
 
   // Re-seed from scripts/seed.csv on every boot so the app never depends on
-  // data/poe-dust.db surviving a restart — admin edits made in the running
-  // instance are session-scoped, not guaranteed to persist past a redeploy.
+  // data/poe-dust.db surviving a restart — this is a rebuildable cache of the
+  // seed data, not a durable store.
   try {
     const count = importItems.run(seedCsvPath, dbPath);
     console.log(`Seeded ${count} items from ${seedCsvPath}`);

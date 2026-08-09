@@ -24,20 +24,16 @@ GitHub repo (already created and pushed): https://github.com/knedle/poe-dust
      `Dockerfile` at the repo root and select this automatically. If it
      doesn't, pick it manually from the environment dropdown.
    - **Instance Type**: **Free**
-5. Under **Environment Variables**, add:
-   - `ADMIN_PASSWORD` = *(pick a real password — do NOT reuse `changeme` from
-     local dev)*
-
-   Do not set `PORT` — Render injects its own `PORT` value automatically, and
-   `server.js` already reads `process.env.PORT` (falling back to `3001` only
-   when unset, which won't happen on Render).
+5. No environment variables are required. In particular, do not set `PORT` —
+   Render injects its own `PORT` value automatically, and `server.js` already
+   reads `process.env.PORT` (falling back to `3001` only when unset, which
+   won't happen on Render).
 6. Leave **Health Check Path** at its default (or set it to `/` — either is fine).
 7. Click **Create Web Service**. Render clones the repo, builds the
    `Dockerfile`, and starts the container. First build takes a few minutes.
 8. Once the deploy log shows `poe-dust running on http://localhost:<port>`,
-   open the `https://<name>.onrender.com` URL Render shows you. Confirm:
-   - `/` loads the table and (after clicking **Load**) shows items with prices
-   - `/admin` lets you log in with the `ADMIN_PASSWORD` you set
+   open the `https://<name>.onrender.com` URL Render shows you. Confirm `/`
+   loads the table and (after clicking **Load**) shows items with prices.
 
 ## Notes
 
@@ -47,8 +43,8 @@ GitHub repo (already created and pushed): https://github.com/knedle/poe-dust
   traffic and takes ~30–50 seconds to wake up on the next request. This is
   expected and fine for this app — the boot-time reseed means a cold start
   never serves stale or missing data.
-- **Admin edits don't survive a restart or redeploy** — by design, see
-  `CLAUDE.md`. If that ever needs to change, re-read that section before
-  "fixing" it; skipping the reseed would break fresh deploys instead.
 - **poe.ninja/PoE trade API price cache** (`cache/*.json`) is also rebuilt
   on demand and doesn't need to survive restarts, same as `data/`.
+- There's no admin login or write path anymore — the app is read-only. If
+  dust values are ever wrong, fix them upstream (see `CLAUDE.md`'s Data
+  source note), not in the app.
