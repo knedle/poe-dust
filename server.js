@@ -62,7 +62,7 @@ function resolveStaticPath(staticDir, pathname) {
 function createServer({
   dbConn,
   cacheDir,
-  staticDir = __dirname,
+  staticDir = path.join(__dirname, 'public'),
   fetchLeagues = poeNinja.fetchLeagues,
   fetchAllPrices = poeNinja.fetchAllPrices,
   adminPassword = process.env.ADMIN_PASSWORD,
