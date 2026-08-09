@@ -9,6 +9,7 @@ item level 84 (base and +20% quality) next to each item's current poe.ninja
 chaos price and a dust-per-chaos efficiency ratio. Modeled on
 `E:\docker\heist`. Design spec: `docs/superpowers/specs/2026-08-09-poe-dust-design.md`.
 Implementation plan: `docs/superpowers/plans/2026-08-09-poe-dust-implementation.md`.
+Deployment: `DEPLOY.md`. GitHub: https://github.com/knedle/poe-dust.
 
 ## Running
 
