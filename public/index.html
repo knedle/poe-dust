@@ -74,35 +74,16 @@
     button#loadBtn:hover { filter: brightness(1.15); }
     button#loadBtn:disabled { opacity: 0.45; cursor: not-allowed; filter: none; }
 
-    button#filterBtn, button#loginBtn, button#logoutBtn, button#loginSubmit {
+    button#filterBtn, button#logoutBtn {
       background: linear-gradient(180deg, #e8dcc0 0%, #c8a870 100%);
       border: 1px solid #a07840;
       color: #1a0e04;
       padding: 0.45rem 1rem;
       transition: filter 0.2s;
     }
-    button#filterBtn:hover, button#loginBtn:hover, button#logoutBtn:hover, button#loginSubmit:hover { filter: brightness(1.1); }
+    button#filterBtn:hover, button#logoutBtn:hover { filter: brightness(1.1); }
 
-    .admin-area { margin-left: auto; position: relative; display: flex; align-items: center; gap: 0.5rem; }
-
-    .login-box {
-      position: absolute;
-      top: 120%;
-      right: 0;
-      background: #fffdf5;
-      border: 1px solid #c8a870;
-      border-radius: 6px;
-      padding: 0.75rem;
-      display: none;
-      gap: 0.5rem;
-      flex-direction: column;
-      box-shadow: 0 4px 20px #00000020;
-      z-index: 10;
-      min-width: 220px;
-    }
-    .login-box.visible { display: flex; }
-    .login-error { color: #8a2020; font-size: 0.78rem; display: none; }
-    .login-error.visible { display: block; }
+    .admin-area { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; }
 
     .type-btn {
       background: #ede5d0;
@@ -195,15 +176,7 @@
   <div class="header-top">
     <h1>POE <span>Dust</span> prices</h1>
     <div class="admin-area">
-      <button id="loginBtn">Login</button>
       <button id="logoutBtn" style="display:none">Logout</button>
-      <div class="login-box" id="loginBox">
-        <label>Admin password:
-          <input type="text" id="loginPassword" autocomplete="current-password" style="width:160px">
-        </label>
-        <div class="login-error" id="loginError"></div>
-        <button id="loginSubmit">Sign in</button>
-      </div>
     </div>
   </div>
   <div class="controls">
@@ -509,16 +482,8 @@ async function checkAdminSession() {
 }
 
 function updateAdminUI() {
-  document.getElementById('loginBtn').style.display = isAdmin ? 'none' : 'inline-block';
   document.getElementById('logoutBtn').style.display = isAdmin ? 'inline-block' : 'none';
-  document.getElementById('loginBox').classList.remove('visible');
   applyAndRender();
-}
-
-function showLoginError(msg) {
-  const el = document.getElementById('loginError');
-  el.textContent = msg;
-  el.classList.add('visible');
 }
 
 document.getElementById('loadBtn').addEventListener('click', loadPrices);
@@ -532,26 +497,6 @@ document.getElementById('filterBtn').addEventListener('click', () => {
 document.getElementById('nameFilter').addEventListener('input', e => {
   nameQuery = e.target.value.trim().toLowerCase();
   applyAndRender();
-});
-document.getElementById('loginBtn').addEventListener('click', () => {
-  document.getElementById('loginBox').classList.add('visible');
-});
-document.getElementById('loginSubmit').addEventListener('click', async () => {
-  const password = document.getElementById('loginPassword').value;
-  document.getElementById('loginError').classList.remove('visible');
-  try {
-    const res = await fetch('/api/admin/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ password }),
-    });
-    if (!res.ok) { showLoginError('Wrong password.'); return; }
-    isAdmin = true;
-    document.getElementById('loginPassword').value = '';
-    updateAdminUI();
-  } catch (e) {
-    showLoginError(e.message);
-  }
 });
 document.getElementById('logoutBtn').addEventListener('click', async () => {
   await fetch('/api/admin/logout', { method: 'POST' });

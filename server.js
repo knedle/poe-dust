@@ -50,7 +50,9 @@ function getSessionToken(req) {
 }
 
 function resolveStaticPath(staticDir, pathname) {
-  const safePathname = pathname === '/' ? '/index.html' : pathname;
+  const safePathname = pathname === '/' ? '/index.html'
+    : pathname === '/admin' ? '/admin.html'
+    : pathname;
   const resolvedStaticDir = path.resolve(staticDir);
   const resolvedFilePath = path.resolve(path.join(staticDir, safePathname));
   if (resolvedFilePath !== resolvedStaticDir && !resolvedFilePath.startsWith(resolvedStaticDir + path.sep)) {

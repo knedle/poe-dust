@@ -39,6 +39,11 @@ test('resolveStaticPath refuses to escape staticDir via ../ segments', () => {
   assert.ok(resolveStaticPath('/app', '/'));
 });
 
+test('resolveStaticPath maps /admin to admin.html', () => {
+  const resolved = resolveStaticPath('/app', '/admin');
+  assert.strictEqual(path.basename(resolved), 'admin.html');
+});
+
 test('GET /api/items returns all rows from the database', async () => {
   const dbConn = setupDb();
   const cacheDir = tempDir('poe-dust-cache-');
@@ -189,6 +194,19 @@ test('static files are served from staticDir, defaulting / to index.html', async
     assert.strictEqual(await res.text(), '<html>ok</html>');
     const notFound = await fetch(`${base}/nope.html`);
     assert.strictEqual(notFound.status, 404);
+  });
+  dbConn.close();
+});
+
+test('GET /admin serves admin.html', async () => {
+  const dbConn = setupDb();
+  const cacheDir = tempDir('poe-dust-cache-');
+  const staticDir = tempDir('poe-dust-static-');
+  fs.writeFileSync(path.join(staticDir, 'admin.html'), '<html>admin</html>');
+  await withServer({ dbConn, cacheDir, adminPassword: 'secret', staticDir }, async (base) => {
+    const res = await fetch(`${base}/admin`);
+    assert.strictEqual(res.status, 200);
+    assert.strictEqual(await res.text(), '<html>admin</html>');
   });
   dbConn.close();
 });
