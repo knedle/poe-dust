@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POE Dust prices</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f4efe6;
+      color: #1a0e04;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(180deg, #ede5d0 0%, #f4efe6 100%);
+      border-bottom: 2px solid #c8a870;
+      padding: 1.25rem 2rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      color: #7a3010;
+      text-shadow: 0 1px 0 #fffdf5;
+      white-space: nowrap;
+    }
+    header h1 span { color: #1a0e04; }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .controls label { font-size: 0.85rem; color: #6a5030; }
+
+    input[type="text"], input[type="number"] {
+      background: #fffdf5;
+      border: 1px solid #c8a870;
+      color: #1a0e04;
+      padding: 0.4rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input[type="text"] { width: 180px; }
+    input[type="number"] { width: 90px; }
+    input:focus { border-color: #7a3010; }
+
+    button { font-family: inherit; cursor: pointer; border-radius: 4px; font-size: 0.9rem; }
+
+    button#loadBtn {
+      background: linear-gradient(180deg, #c87830 0%, #7a3010 100%);
+      border: 1px solid #7a3010;
+      color: #fffdf5;
+      padding: 0.45rem 1.25rem;
+      transition: filter 0.2s;
+      white-space: nowrap;
+    }
+    button#loadBtn:hover { filter: brightness(1.15); }
+    button#loadBtn:disabled { opacity: 0.45; cursor: not-allowed; filter: none; }
+
+    button#filterBtn, button#loginBtn, button#logoutBtn, button#loginSubmit {
+      background: linear-gradient(180deg, #e8dcc0 0%, #c8a870 100%);
+      border: 1px solid #a07840;
+      color: #1a0e04;
+      padding: 0.45rem 1rem;
+      transition: filter 0.2s;
+    }
+    button#filterBtn:hover, button#loginBtn:hover, button#logoutBtn:hover, button#loginSubmit:hover { filter: brightness(1.1); }
+
+    .admin-area { margin-left: auto; position: relative; display: flex; align-items: center; gap: 0.5rem; }
+
+    .login-box {
+      position: absolute;
+      top: 120%;
+      right: 0;
+      background: #fffdf5;
+      border: 1px solid #c8a870;
+      border-radius: 6px;
+      padding: 0.75rem;
+      display: none;
+      gap: 0.5rem;
+      flex-direction: column;
+      box-shadow: 0 4px 20px #00000020;
+      z-index: 10;
+      min-width: 220px;
+    }
+    .login-box.visible { display: flex; }
+    .login-error { color: #8a2020; font-size: 0.78rem; display: none; }
+    .login-error.visible { display: block; }
+
+    .type-btn {
+      background: #ede5d0;
+      border: 1px solid #c8a870;
+      color: #6a5030;
+      padding: 0.3rem 0.9rem;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .type-btn:hover { border-color: #7a3010; color: #1a0e04; background: #e0d4b8; }
+    .type-btn.active { background: #7a3010; border-color: #7a3010; color: #fffdf5; }
+
+    #status {
+      padding: 0.75rem 2rem;
+      font-size: 0.85rem;
+      color: #6a5030;
+      min-height: 2.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .spinner {
+      width: 16px; height: 16px;
+      border: 2px solid #c8a870;
+      border-top-color: #7a3010;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      display: none;
+    }
+    .spinner.active { display: block; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    #count-badge {
+      background: #ede5d0;
+      border: 1px solid #c8a870;
+      border-radius: 20px;
+      padding: 0.15rem 0.6rem;
+      font-size: 0.8rem;
+      color: #7a3010;
+      font-weight: 600;
+    }
+
+    .error-msg {
+      color: #8a2020;
+      background: #fdf0f0;
+      border: 1px solid #d4a0a0;
+      border-radius: 4px;
+      padding: 0.5rem 1rem;
+      font-size: 0.85rem;
+    }
+
+    main { padding: 0.5rem 2rem 3rem; overflow-x: auto; }
+
+    table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+
+    thead th {
+      background: #ede5d0;
+      border-bottom: 2px solid #c8a870;
+      color: #7a3010;
+      font-weight: 600;
+      padding: 0.5rem 0.7rem;
+      text-align: right;
+      white-space: nowrap;
+      cursor: pointer;
+      user-select: none;
+    }
+    thead th:nth-child(1), thead th:nth-child(2) { text-align: left; }
+    thead th.sorted { color: #1a0e04; background: #e0d4b8; }
+    thead th .arrow { font-size: 0.7rem; margin-left: 0.2rem; }
+
+    tbody td {
+      border-bottom: 1px solid #e0d4b8;
+      padding: 0.4rem 0.7rem;
+      text-align: right;
+      white-space: nowrap;
+    }
+    tbody td:nth-child(1), tbody td:nth-child(2) { text-align: left; }
+    tbody tr:hover { background: #f8f0e0; }
+
+    .empty-row td { text-align: center; color: #8a6840; padding: 3rem; }
+
+    td input[type="number"] { width: 90px; text-align: right; padding: 0.2rem 0.4rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <h1>POE <span>Dust</span> prices</h1>
+    <div class="admin-area">
+      <button id="loginBtn">Login</button>
+      <button id="logoutBtn" style="display:none">Logout</button>
+      <div class="login-box" id="loginBox">
+        <label>Admin password:
+          <input type="text" id="loginPassword" autocomplete="current-password" style="width:160px">
+        </label>
+        <div class="login-error" id="loginError"></div>
+        <button id="loginSubmit">Sign in</button>
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <label>League:</label>
+    <input type="text" id="leagueInput" value="" placeholder="detecting…" />
+    <button id="loadBtn">Load</button>
+    <label>Min (chaos):</label>
+    <input type="number" id="minChaos" value="0" min="0" step="1" />
+    <label>Max (chaos):</label>
+    <input type="number" id="maxChaos" value="" min="0" step="1" placeholder="∞" />
+    <button id="filterBtn">Filter</button>
+  </div>
+  <div class="controls">
+    <input type="text" id="nameFilter" placeholder="Search items…" />
+    <div id="type-filter" style="display:flex; gap:0.5rem;"></div>
+  </div>
+</header>
+
+<div id="status">
+  <div class="spinner" id="spinner"></div>
+  <span id="statusText">Detecting current league…</span>
+  <span id="count-badge" style="display:none"></span>
+</div>
+
+<main>
+  <table>
+    <thead><tr id="headerRow"></tr></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</main>
+
+<script>
+const COLUMNS = [
+  { key: 'name', label: 'Name', numeric: false },
+  { key: '_category', label: 'Type', numeric: false },
+  { key: 'chaosValue', label: 'Price (c)', numeric: true },
+  { key: 'dust83', label: '83', numeric: true },
+  { key: 'dust83q20', label: '83+20', numeric: true },
+  { key: 'eff83', label: 'c/dust 83', numeric: true },
+  { key: 'dust84', label: '84', numeric: true },
+  { key: 'dust84q20', label: '84+20', numeric: true },
+  { key: 'eff84', label: 'c/dust 84', numeric: true },
+  { key: 'dust85', label: '85', numeric: true },
+  { key: 'dust85q20', label: '85+20', numeric: true },
+  { key: 'eff85', label: 'c/dust 85', numeric: true },
+];
+const EDITABLE_COLUMNS = ['dust83', 'dust83q20', 'dust84', 'dust84q20', 'dust85', 'dust85q20'];
+const TYPE_LABELS = { UniqueWeapon: 'Weapon', UniqueArmour: 'Armour', UniqueAccessory: 'Jewellery' };
+const CACHE_TTL = 60 * 60 * 1000;
+const SKIP_LEAGUES = new Set(['Standard', 'Hardcore', 'SSF Standard', 'SSF Hardcore']);
+
+let rawItems = [];
+let priceByName = new Map();
+let mergedItems = [];
+let isAdmin = false;
+let sortKey = 'chaosValue';
+let sortDir = 'desc';
+let activeType = 'all';
+let nameQuery = '';
+let minChaos = 0;
+let maxChaos = Infinity;
+let refreshBlockedUntil = 0;
+let btnInterval = null;
+
+function computeEfficiency(dustQ20, chaosValue) {
+  if (dustQ20 == null || !chaosValue) return null;
+  return dustQ20 / chaosValue;
+}
+
+function mergeItemsWithPrices() {
+  const merged = [];
+  for (const item of rawItems) {
+    const price = priceByName.get(item.name);
+    if (!price) continue;
+    merged.push({
+      ...item,
+      chaosValue: price.chaosValue,
+      _category: price._category,
+      eff83: computeEfficiency(item.dust83q20, price.chaosValue),
+      eff84: computeEfficiency(item.dust84q20, price.chaosValue),
+      eff85: computeEfficiency(item.dust85q20, price.chaosValue),
+    });
+  }
+  mergedItems = merged;
+}
+
+function renderHeader() {
+  const row = document.getElementById('headerRow');
+  row.innerHTML = '';
+  for (const col of COLUMNS) {
+    const th = document.createElement('th');
+    const arrow = sortKey === col.key ? `<span class="arrow">${sortDir === 'asc' ? '\u25b2' : '\u25bc'}</span>` : '';
+    th.innerHTML = col.label + arrow;
+    if (sortKey === col.key) th.classList.add('sorted');
+    th.addEventListener('click', () => {
+      if (sortKey === col.key) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+      else { sortKey = col.key; sortDir = col.numeric ? 'desc' : 'asc'; }
+      renderHeader();
+      applyAndRender();
+    });
+    row.appendChild(th);
+  }
+}
+
+function formatNumber(n) {
+  if (n == null) return '\u2014';
+  return Math.round(n).toLocaleString('en-US');
+}
+
+function formatEfficiency(n) {
+  if (n == null) return '\u2014';
+  return n.toFixed(2);
+}
+
+async function saveEdit(name, field, value) {
+  const parsed = value === '' ? null : Math.round(parseFloat(value));
+  const res = await fetch(`/api/admin/items/${encodeURIComponent(name)}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ [field]: parsed }),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const item = rawItems.find(i => i.name === name);
+  if (item) item[field] = parsed;
+  mergeItemsWithPrices();
+}
+
+function editableCell(item, field) {
+  const td = document.createElement('td');
+  const input = document.createElement('input');
+  input.type = 'number';
+  input.value = item[field] ?? '';
+  const commit = () => {
+    saveEdit(item.name, field, input.value).catch(e => {
+      input.value = item[field] ?? '';
+      alert(`Save failed: ${e.message}`);
+    });
+  };
+  input.addEventListener('blur', commit);
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') input.blur(); });
+  td.appendChild(input);
+  return td;
+}
+
+function renderRows(items) {
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = '';
+  if (items.length === 0) {
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="${COLUMNS.length}">No items match the current filters.</td></tr>`;
+    return;
+  }
+  for (const item of items) {
+    const tr = document.createElement('tr');
+    for (const col of COLUMNS) {
+      if (isAdmin && EDITABLE_COLUMNS.includes(col.key)) {
+        tr.appendChild(editableCell(item, col.key));
+        continue;
+      }
+      const td = document.createElement('td');
+      if (col.key === 'name') td.textContent = item.name;
+      else if (col.key === '_category') td.textContent = TYPE_LABELS[item._category] || item._category;
+      else if (col.key === 'chaosValue') td.textContent = formatNumber(item.chaosValue);
+      else if (col.key.startsWith('eff')) td.textContent = formatEfficiency(item[col.key]);
+      else td.textContent = formatNumber(item[col.key]);
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+}
+
+function sortItems(items) {
+  const sorted = [...items];
+  sorted.sort((a, b) => {
+    const av = a[sortKey];
+    const bv = b[sortKey];
+    if (av == null && bv == null) return 0;
+    if (av == null) return 1;
+    if (bv == null) return -1;
+    if (typeof av === 'string') return sortDir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+    return sortDir === 'asc' ? av - bv : bv - av;
+  });
+  return sorted;
+}
+
+function renderTypeFilter() {
+  const bar = document.getElementById('type-filter');
+  bar.innerHTML = '';
+  const presentTypes = [...new Set(mergedItems.map(i => i._category))];
+  for (const type of ['all', ...presentTypes]) {
+    const btn = document.createElement('button');
+    btn.className = 'type-btn' + (type === activeType ? ' active' : '');
+    btn.textContent = type === 'all' ? 'All' : (TYPE_LABELS[type] || type);
+    btn.addEventListener('click', () => { activeType = type; renderTypeFilter(); applyAndRender(); });
+    bar.appendChild(btn);
+  }
+}
+
+function applyAndRender() {
+  let filtered = mergedItems;
+  if (activeType !== 'all') filtered = filtered.filter(i => i._category === activeType);
+  if (minChaos > 0) filtered = filtered.filter(i => i.chaosValue >= minChaos);
+  if (maxChaos < Infinity) filtered = filtered.filter(i => i.chaosValue <= maxChaos);
+  if (nameQuery) filtered = filtered.filter(i => i.name.toLowerCase().includes(nameQuery));
+  const sorted = sortItems(filtered);
+  renderRows(sorted);
+  const badge = document.getElementById('count-badge');
+  badge.textContent = `${sorted.length} items`;
+  badge.style.display = 'inline';
+}
+
+function updateLoadBtn() {
+  const btn = document.getElementById('loadBtn');
+  const remaining = refreshBlockedUntil - Date.now();
+  if (remaining > 0) {
+    btn.disabled = true;
+    btn.textContent = `Load (${Math.ceil(remaining / 60000)}m)`;
+  } else {
+    btn.disabled = false;
+    btn.textContent = 'Load';
+  }
+}
+
+async function loadPrices() {
+  const league = document.getElementById('leagueInput').value.trim();
+  if (!league) { alert('Enter a league name.'); return; }
+  const btn = document.getElementById('loadBtn');
+  const spinner = document.getElementById('spinner');
+  const statusText = document.getElementById('statusText');
+  btn.disabled = true;
+  spinner.classList.add('active');
+  statusText.textContent = 'Loading prices from poe.ninja\u2026';
+  try {
+    const res = await fetch(`/api/prices?league=${encodeURIComponent(league)}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    priceByName = new Map(data.items.map(i => [i.name, i]));
+    mergeItemsWithPrices();
+    renderTypeFilter();
+    applyAndRender();
+    refreshBlockedUntil = data.timestamp + CACHE_TTL;
+    if (btnInterval) clearInterval(btnInterval);
+    btnInterval = setInterval(updateLoadBtn, 30000);
+    updateLoadBtn();
+    const ageMins = Math.round((Date.now() - data.timestamp) / 60000);
+    const ageStr = data.fromCache ? ` (cached ${ageMins}m ago)` : '';
+    statusText.textContent = data.errors && data.errors.length
+      ? `Errors: ${data.errors.join(', ')}`
+      : `Loaded \u2014 league "${league}"${ageStr}.`;
+  } catch (e) {
+    statusText.innerHTML = `<span class="error-msg">Error: ${e.message}</span>`;
+    updateLoadBtn();
+  } finally {
+    spinner.classList.remove('active');
+  }
+}
+
+async function loadItems() {
+  const res = await fetch('/api/items');
+  rawItems = await res.json();
+  mergeItemsWithPrices();
+}
+
+async function detectCurrentLeague() {
+  const input = document.getElementById('leagueInput');
+  const statusText = document.getElementById('statusText');
+  try {
+    const res = await fetch('/api/leagues');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const leagues = data.result ?? data;
+    const challenge = leagues.find(l =>
+      !SKIP_LEAGUES.has(l.id) && !l.id.startsWith('SSF ') && !l.id.startsWith('Hardcore ')
+    );
+    input.value = challenge ? challenge.id : 'Standard';
+  } catch (e) {
+    input.value = 'Standard';
+    statusText.textContent = 'League detection error: ' + e.message;
+    return;
+  }
+  const league = input.value;
+  try {
+    const res = await fetch(`/api/cache-status?league=${encodeURIComponent(league)}`);
+    const status = await res.json();
+    if (!status.timestamp) {
+      statusText.textContent = `League: ${league} \u2014 no data yet, click Load.`;
+    } else if (!status.fresh) {
+      const ageMins = Math.round((Date.now() - status.timestamp) / 60000);
+      statusText.innerHTML = `League: ${league} \u2014 <strong>data is ${ageMins}m old</strong>, click Load to refresh.`;
+    } else {
+      refreshBlockedUntil = status.timestamp + CACHE_TTL;
+      loadPrices();
+    }
+  } catch (e) {
+    statusText.textContent = `League: ${league} \u2014 click Load to fetch data.`;
+  }
+}
+
+async function checkAdminSession() {
+  const res = await fetch('/api/admin/session');
+  const data = await res.json();
+  isAdmin = !!data.authenticated;
+  updateAdminUI();
+}
+
+function updateAdminUI() {
+  document.getElementById('loginBtn').style.display = isAdmin ? 'none' : 'inline-block';
+  document.getElementById('logoutBtn').style.display = isAdmin ? 'inline-block' : 'none';
+  document.getElementById('loginBox').classList.remove('visible');
+  applyAndRender();
+}
+
+function showLoginError(msg) {
+  const el = document.getElementById('loginError');
+  el.textContent = msg;
+  el.classList.add('visible');
+}
+
+document.getElementById('loadBtn').addEventListener('click', loadPrices);
+document.getElementById('leagueInput').addEventListener('keydown', e => { if (e.key === 'Enter') loadPrices(); });
+document.getElementById('filterBtn').addEventListener('click', () => {
+  minChaos = parseFloat(document.getElementById('minChaos').value) || 0;
+  const maxVal = document.getElementById('maxChaos').value;
+  maxChaos = maxVal === '' ? Infinity : parseFloat(maxVal);
+  applyAndRender();
+});
+document.getElementById('nameFilter').addEventListener('input', e => {
+  nameQuery = e.target.value.trim().toLowerCase();
+  applyAndRender();
+});
+document.getElementById('loginBtn').addEventListener('click', () => {
+  document.getElementById('loginBox').classList.add('visible');
+});
+document.getElementById('loginSubmit').addEventListener('click', async () => {
+  const password = document.getElementById('loginPassword').value;
+  document.getElementById('loginError').classList.remove('visible');
+  try {
+    const res = await fetch('/api/admin/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password }),
+    });
+    if (!res.ok) { showLoginError('Wrong password.'); return; }
+    isAdmin = true;
+    document.getElementById('loginPassword').value = '';
+    updateAdminUI();
+  } catch (e) {
+    showLoginError(e.message);
+  }
+});
+document.getElementById('logoutBtn').addEventListener('click', async () => {
+  await fetch('/api/admin/logout', { method: 'POST' });
+  isAdmin = false;
+  updateAdminUI();
+});
+
+renderHeader();
+checkAdminSession();
+loadItems().then(() => { renderTypeFilter(); applyAndRender(); });
+detectCurrentLeague();
+</script>
+
+</body>
+</html>
