@@ -183,7 +183,11 @@
       text-align: left;
       white-space: normal;
       word-break: break-word;
+      cursor: pointer;
+      transition: background-color 0.4s;
     }
+    tbody td:nth-child(1):hover { text-decoration: underline; }
+    tbody td:nth-child(1).copied { background-color: #d4e8c8; transition: none; }
     tbody tr:hover { background: #f8f0e0; }
 
     .empty-row td { text-align: center; color: #8a6840; padding: 3rem; }
@@ -407,6 +411,15 @@ function formatEfficiency(n) {
   return n.toFixed(2);
 }
 
+function copyNameToClipboard(name, td) {
+  navigator.clipboard.writeText(name).then(() => {
+    td.classList.add('copied');
+    setTimeout(() => td.classList.remove('copied'), 500);
+  }).catch(() => {
+    alert('Could not copy to clipboard.');
+  });
+}
+
 function defaultTypeFor(item) {
   return item.type || TYPE_LABELS[item._category] || '';
 }
@@ -479,7 +492,11 @@ function renderRows(items) {
     const tr = document.createElement('tr');
     for (const col of COLUMNS) {
       const td = document.createElement('td');
-      if (col.key === 'name') td.textContent = item.name;
+      if (col.key === 'name') {
+        td.textContent = item.name;
+        td.title = 'Click to copy';
+        td.addEventListener('click', () => copyNameToClipboard(item.name, td));
+      }
       else if (col.key === 'chaosValue') td.textContent = formatNumber(item.chaosValue);
       else if (col.key.startsWith('eff')) td.textContent = formatEfficiency(item[col.key]);
       else td.textContent = formatNumber(item[col.key]);
