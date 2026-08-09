@@ -3,4 +3,5 @@ WORKDIR /app
 COPY server.js package.json ./
 COPY lib ./lib
 COPY public ./public
+COPY scripts ./scripts
 CMD ["node", "server.js"]

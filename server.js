@@ -7,6 +7,7 @@ const db = require('./lib/db');
 const auth = require('./lib/auth');
 const priceCache = require('./lib/priceCache');
 const poeNinja = require('./lib/poeNinja');
+const importItems = require('./scripts/import-items');
 
 const CACHE_TTL = 60 * 60 * 1000;
 
@@ -168,6 +169,18 @@ if (require.main === module) {
   const dataDir = path.join(__dirname, 'data');
   fs.mkdirSync(dataDir, { recursive: true });
   const dbPath = process.env.POE_DUST_DB_PATH || path.join(dataDir, 'poe-dust.db');
+  const seedCsvPath = path.join(__dirname, 'scripts', 'seed.csv');
+
+  // Re-seed from scripts/seed.csv on every boot so the app never depends on
+  // data/poe-dust.db surviving a restart — admin edits made in the running
+  // instance are session-scoped, not guaranteed to persist past a redeploy.
+  try {
+    const count = importItems.run(seedCsvPath, dbPath);
+    console.log(`Seeded ${count} items from ${seedCsvPath}`);
+  } catch (e) {
+    console.warn(`Startup seed import skipped: ${e.message}`);
+  }
+
   const dbConn = db.openDb(dbPath);
   const cacheDir = path.join(__dirname, 'cache');
   const server = createServer({ dbConn, cacheDir });
