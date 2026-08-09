@@ -205,3 +205,23 @@ test('a malformed percent-encoded Cookie header degrades to "no session" instead
   });
   dbConn.close();
 });
+
+test('PUT /api/admin/items/:name with a malformed percent-encoded name segment returns 400 instead of crashing the server', async () => {
+  const dbConn = setupDb();
+  const cacheDir = tempDir('poe-dust-cache-');
+  await withServer({ dbConn, cacheDir, adminPassword: 'secret' }, async (base) => {
+    const login = await fetch(`${base}/api/admin/login`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: 'secret' }),
+    });
+    const cookie = login.headers.get('set-cookie').split(';')[0];
+
+    const res = await fetch(`${base}/api/admin/items/%E0%A4%A`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json', Cookie: cookie },
+      body: JSON.stringify({ dust83: 100 }),
+    });
+    assert.strictEqual(res.status, 400);
+  });
+  dbConn.close();
+});

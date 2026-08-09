@@ -132,7 +132,12 @@ function createServer({
     const itemMatch = pathname.match(/^\/api\/admin\/items\/(.+)$/);
     if (itemMatch && req.method === 'PUT') {
       if (!auth.isValidSession(getSessionToken(req))) return sendJson(res, 401, { error: 'not authenticated' });
-      const name = decodeURIComponent(itemMatch[1]);
+      let name;
+      try {
+        name = decodeURIComponent(itemMatch[1]);
+      } catch (e) {
+        return sendJson(res, 400, { error: 'invalid item name' });
+      }
       readJsonBody(req)
         .then(body => {
           const changed = db.updateItem(dbConn, name, body);
