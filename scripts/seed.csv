@@ -1,1020 +1,1104 @@
-name,baseType,dustVal,dustValIlvl84,dustValIlvl84Q20,dustPerSlot,w,h,slots,link
-Original Sin,Amethyst Ring,1128.890000,2257780,2709336,2257780,1,1,1,https://poedb.tw/us/Original_Sin
-Headhunter,Leather Belt,891.160000,1782320,2138784,891160,2,1,2,https://poedb.tw/us/Headhunter
-Mageblood,Heavy Belt,891.160000,1782320,2138784,891160,2,1,2,https://poedb.tw/us/Mageblood
-Defiance of Destiny,Paua Amulet,891.160000,1782320,2138784,1782320,1,1,1,https://poedb.tw/us/Defiance_of_Destiny
-Reefbane,Fishing Rod,851.240000,1702480,2042976,425620,1,4,4,https://poedb.tw/us/Reefbane
-Replica Shroud of the Lightless,Carnal Armour,791.780000,1583560,1900272,263926,2,3,6,https://poedb.tw/us/Replica_Shroud_of_the_Lightless
-Stasis Prison,Carnal Armour,791.780000,1583560,1900272,263926,2,3,6,https://poedb.tw/us/Stasis_Prison
-The Squire,Elegant Round Shield,768.720000,1537440,1844928,256240,2,3,6,https://poedb.tw/us/The_Squire
-Rakiata's Dance,Engraved Greatsword,768.720000,1537440,1844928,192180,2,4,8,https://poedb.tw/us/Rakiatas_Dance
-Angler's Plait,Unset Ring,734.290000,1468580,1762296,1468580,1,1,1,https://poedb.tw/us/Anglers_Plait
-Starforge,Infernal Sword,703.490000,1406980,1688376,175872,2,4,8,https://poedb.tw/us/Starforge
-Voidforge,Infernal Sword,703.490000,1406980,1688376,175872,2,4,8,https://poedb.tw/us/Voidforge
-Replica Kongor's Undying Rage,Terror Maul,703.490000,1406980,1688376,175872,2,4,8,https://poedb.tw/us/Replica_Kongors_Undying_Rage
-Echoforge,Infernal Sword,703.490000,1406980,1688376,175872,2,4,8,https://poedb.tw/us/Echoforge
-Lioneye's Glare,Imperial Bow,683.000000,1366000,1639200,170750,2,4,8,https://poedb.tw/us/Lioneyes_Glare
-Divinarius,Imperial Skean,683.000000,1366000,1639200,455333,1,3,3,https://poedb.tw/us/Divinarius
-Essentia Sanguis,Vaal Claw,683.000000,1366000,1639200,341500,2,2,4,https://poedb.tw/us/Essentia_Sanguis
-Kingmaker,Despot Axe,683.000000,1366000,1639200,170750,2,4,8,https://poedb.tw/us/Kingmaker
-Soul Taker,Siege Axe,663.110000,1326220,1591464,221036,2,3,6,https://poedb.tw/us/Soul_Taker
-Voltaxic Rift,Spine Bow,643.790000,1287580,1545096,160947,2,4,8,https://poedb.tw/us/Voltaxic_Rift
-Atziri's Disfavour,Vaal Axe,643.790000,1287580,1545096,160947,2,4,8,https://poedb.tw/us/Atziris_Disfavour
-Replica Duskdawn,Maelström Staff,643.790000,1287580,1545096,160947,2,4,8,https://poedb.tw/us/Replica_Duskdawn
-Bloodseeker,Hellion's Paw,606.840000,1213680,1456416,303420,2,2,4,https://poedb.tw/us/Bloodseeker
-The Saviour,Legion Sword,606.840000,1213680,1456416,202280,2,3,6,https://poedb.tw/us/The_Saviour
-Replica Tukohama's Fortress,Ebony Tower Shield,589.160000,1178320,1413984,147290,2,4,8,https://poedb.tw/us/Replica_Tukohamas_Fortress
-Kalandra's Touch,Ring,572.000000,1144000,1372800,1144000,1,1,1,https://poedb.tw/us/Kalandras_Touch
-Bino's Kitchen Knife,Slaughter Knife,539.170000,1078340,1294008,359446,1,3,3,https://poedb.tw/us/Binos_Kitchen_Knife
-Marohi Erqi,Karui Maul,523.460000,1046920,1256304,130865,2,4,8,https://poedb.tw/us/Marohi_Erqi
-The Winds of Fate,Foul Staff,493.410000,986820,1184184,123352,2,4,8,https://poedb.tw/us/The_Winds_of_Fate
-Hateforge,Ancient Gauntlets,389.500000,779000,934800,194750,2,2,4,https://poedb.tw/us/Hateforge
-Uul-Netol's Vow,Unset Amulet,367.150000,734300,881160,734300,1,1,1,https://poedb.tw/us/Uul-Netols_Vow
-Soul Ascension,Carnal Mitts,317.640000,635280,762336,158820,2,2,4,https://poedb.tw/us/Soul_Ascension
-Nimis,Topaz Ring,317.640000,635280,762336,635280,1,1,1,https://poedb.tw/us/Nimis
-Replica Headhunter,Leather Belt,316.700000,633400,760080,316700,2,1,2,https://poedb.tw/us/Replica_Headhunter
-Yoke of Suffering,Onyx Amulet,236.360000,472720,567264,472720,1,1,1,https://poedb.tw/us/Yoke_of_Suffering
-Manastorm,Lacewood Spirit Shield,210.000000,420000,504000,105000,2,2,4,https://poedb.tw/us/Manastorm
-Replica Bated Breath,Chain Belt,206.000000,412000,494400,206000,2,1,2,https://poedb.tw/us/Replica_Bated_Breath
-Stranglegasp,Onyx Amulet,203.280000,406560,487872,406560,1,1,1,https://poedb.tw/us/Stranglegasp
-Replica Farrul's Fur,Triumphant Lamellar,186.580000,373160,447792,62193,2,3,6,https://poedb.tw/us/Replica_Farruls_Fur
-Kitava's Feast,Void Axe,181.150000,362300,434760,45287,2,4,8,https://poedb.tw/us/Kitavas_Feast
-Replica Nebulis,Void Sceptre,181.150000,362300,434760,60383,2,3,6,https://poedb.tw/us/Replica_Nebulis
-Malachai's Mark,Murder Mitts,175.870000,351740,422088,87935,2,2,4,https://poedb.tw/us/Malachais_Mark
-Replica Windripper,Imperial Bow,170.750000,341500,409800,42687,2,4,8,https://poedb.tw/us/Replica_Windripper
-Tidebreaker,Imperial Maul,165.780000,331560,397872,41445,2,4,8,https://poedb.tw/us/Tidebreaker
-Replica Eternity Shroud,Blood Raiment,165.780000,331560,397872,55260,2,3,6,https://poedb.tw/us/Replica_Eternity_Shroud
-Annihilation's Approach,Dragonscale Boots,165.780000,331560,397872,82890,2,2,4,https://poedb.tw/us/Annihilations_Approach
-Eternal Damnation,Agate Amulet,165.780000,331560,397872,331560,1,1,1,https://poedb.tw/us/Eternal_Damnation
-Duskdawn,Maelström Staff,160.950000,321900,386280,40237,2,4,8,https://poedb.tw/us/Duskdawn
-The Brine Crown,Prophet Crown,156.260000,312520,375024,78130,2,2,4,https://poedb.tw/us/The_Brine_Crown
-Replica Atziri's Acuity,Vaal Gauntlets,156.260000,312520,375024,78130,2,2,4,https://poedb.tw/us/Replica_Atziris_Acuity
-Garukhan's Flight,Stealth Boots,151.710000,303420,364104,75855,2,2,4,https://poedb.tw/us/Garukhans_Flight
-Tukohama's Fortress,Ebony Tower Shield,147.290000,294580,353496,36822,2,4,8,https://poedb.tw/us/Tukohamas_Fortress
-Entropic Devastation,Assassin's Mitts,134.790000,269580,323496,67395,2,2,4,https://poedb.tw/us/Entropic_Devastation
-Cloak of Tawm'r Isley,Savant's Robe,127.050000,254100,304920,42350,2,3,6,https://poedb.tw/us/Cloak_of_Tawmr_Isley
-Arakaali's Fang,Fiend Dagger,116.270000,232540,279048,77513,1,3,3,https://poedb.tw/us/Arakaalis_Fang
-Martyr of Innocence,Highborn Staff,112.890000,225780,270936,28222,2,4,8,https://poedb.tw/us/Martyr_of_Innocence
-Song of the Sirens,Fishing Rod,111.950000,223900,268680,55975,1,4,4,https://poedb.tw/us/Song_of_the_Sirens
-Replica Alberon's Warpath,Soldier Boots,103.310000,206620,247944,51655,2,2,4,https://poedb.tw/us/Replica_Alberons_Warpath
-Replica Maloney's Mechanism,Ornate Quiver,91.790000,183580,220296,30596,2,3,6,https://poedb.tw/us/Replica_Maloneys_Mechanism
-Replica Trypanon,Great Mallet,79.180000,158360,190032,19795,2,4,8,https://poedb.tw/us/Replica_Trypanon
-Gruthkul's Pelt,Wyrmscale Doublet,74.630000,149260,179112,24876,2,3,6,https://poedb.tw/us/Gruthkuls_Pelt
-Dialla's Malefaction,Sage's Robe,72.460000,144920,173904,24153,2,3,6,https://poedb.tw/us/Diallas_Malefaction
-Ralakesh's Impatience,Riveted Boots,70.350000,140700,168840,35175,2,2,4,https://poedb.tw/us/Ralakeshs_Impatience
-Skyforth,Sorcerer Boots,69.770000,139540,167448,34885,2,2,4,https://poedb.tw/us/Skyforth
-Wraithlord,Bone Circlet,66.310000,132620,159144,33155,2,2,4,https://poedb.tw/us/Wraithlord
-Eyes of the Greatwolf,Greatwolf Talisman,65.760000,131520,157824,131520,1,1,1,https://poedb.tw/us/Eyes_of_the_Greatwolf
-The Dark Seer,Shadow Sceptre,62.500000,125000,150000,20833,2,3,6,https://poedb.tw/us/The_Dark_Seer
-Ryslatha's Coil,Studded Belt,62.500000,125000,150000,62500,2,1,2,https://poedb.tw/us/Ryslathas_Coil
-Shade of Solaris,Sage Wand,58.910000,117820,141384,39273,1,3,3,https://poedb.tw/us/Shade_of_Solaris
-Void Battery,Prophecy Wand,56.730000,113460,136152,37820,1,3,3,https://poedb.tw/us/Void_Battery
-Rigwald's Quills,Two-Point Arrow Quiver,56.730000,113460,136152,18910,2,3,6,https://poedb.tw/us/Rigwalds_Quills
-The Brass Dome,Gladiator Plate,56.730000,113460,136152,18910,2,3,6,https://poedb.tw/us/The_Brass_Dome
-Light of Lunaris,Jingling Spirit Shield,55.530000,111060,133272,27765,2,2,4,https://poedb.tw/us/Light_of_Lunaris
-Seven-League Step,Rawhide Boots,53.470000,106940,128328,26735,2,2,4,https://poedb.tw/us/Seven-League_Step
-Warrior's Legacy,Ruby Ring,53.470000,106940,128328,106940,1,1,1,https://poedb.tw/us/Warriors_Legacy
-Astral Projector,Topaz Ring,53.470000,106940,128328,106940,1,1,1,https://poedb.tw/us/Astral_Projector
-Aegis Aurora,Champion Kite Shield,50.400000,100800,120960,16800,2,3,6,https://poedb.tw/us/Aegis_Aurora
-Atziri's Splendour,Sacrificial Garb,48.930000,97860,117432,16310,2,3,6,https://poedb.tw/us/Atziris_Splendour
-Shroud of the Lightless,Carnal Armour,47.510000,95020,114024,15836,2,3,6,https://poedb.tw/us/Shroud_of_the_Lightless
-Voll's Devotion,Agate Amulet,46.120000,92240,110688,92240,1,1,1,https://poedb.tw/us/Volls_Devotion
-Shavronne's Revelation,Moonstone Ring,46.120000,92240,110688,92240,1,1,1,https://poedb.tw/us/Shavronnes_Revelation
-Windripper,Imperial Bow,46.120000,92240,110688,11530,2,4,8,https://poedb.tw/us/Windripper
-Magna Eclipsis,Pinnacle Tower Shield,46.120000,92240,110688,11530,2,4,8,https://poedb.tw/us/Magna_Eclipsis
-Doryani's Fist,Vaal Gauntlets,44.780000,89560,107472,22390,2,2,4,https://poedb.tw/us/Doryanis_Fist
-Indigon,Hubris Circlet,44.780000,89560,107472,22390,2,2,4,https://poedb.tw/us/Indigon
-Farrul's Fur,Triumphant Lamellar,44.780000,89560,107472,14926,2,3,6,https://poedb.tw/us/Farruls_Fur
-Farrul's Chase,Slink Boots,44.780000,89560,107472,22390,2,2,4,https://poedb.tw/us/Farruls_Chase
-Kaom's Heart,Glorious Plate,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/Kaoms_Heart
-Rathpith Globe,Titanium Spirit Shield,43.480000,86960,104352,21740,2,2,4,https://poedb.tw/us/Rathpith_Globe
-Prism Guardian,Archon Kite Shield,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/Prism_Guardian
-Broken Faith,Archon Kite Shield,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/Broken_Faith
-Cospri's Malice,Jewelled Foil,43.480000,86960,104352,21740,1,4,4,https://poedb.tw/us/Cospris_Malice
-Inpulsa's Broken Heart,Sadist Garb,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/Inpulsas_Broken_Heart
-Hand of Wisdom and Action,Imperial Claw,43.480000,86960,104352,21740,2,2,4,https://poedb.tw/us/Hand_of_Wisdom_and_Action
-The Red Trail,Titan Greaves,43.480000,86960,104352,21740,2,2,4,https://poedb.tw/us/The_Red_Trail
-Doryani's Delusion,Sorcerer Boots,43.480000,86960,104352,21740,2,2,4,https://poedb.tw/us/Doryanis_Delusion
-The Queen's Hunger,Vaal Regalia,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/The_Queens_Hunger
-Maloney's Mechanism,Ornate Quiver,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/Maloneys_Mechanism
-Badge of the Brotherhood,Turquoise Amulet,43.480000,86960,104352,86960,1,1,1,https://poedb.tw/us/Badge_of_the_Brotherhood
-The Immortal Will,Archon Kite Shield,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/The_Immortal_Will
-Replica Kaom's Heart,Glorious Plate,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/Replica_Kaoms_Heart
-Replica Red Trail,Titan Greaves,43.480000,86960,104352,21740,2,2,4,https://poedb.tw/us/Replica_Red_Trail
-Viridi's Veil,Praetor Crown,43.480000,86960,104352,21740,2,2,4,https://poedb.tw/us/Viridis_Veil
-Doppelgänger Guise,Sadist Garb,43.480000,86960,104352,14493,2,3,6,https://poedb.tw/us/Doppelg%C3%A4nger_Guise
-Thunderfist,Murder Mitts,42.210000,84420,101304,21105,2,2,4,https://poedb.tw/us/Thunderfist
-Steppan Eard,Sorcerer Boots,42.210000,84420,101304,21105,2,2,4,https://poedb.tw/us/Steppan_Eard
-Heretic's Veil,Deicide Mask,42.210000,84420,101304,21105,2,2,4,https://poedb.tw/us/Heretics_Veil
-Machina Mitts,Murder Mitts,42.210000,84420,101304,21105,2,2,4,https://poedb.tw/us/Machina_Mitts
-Sporeguard,Saint's Hauberk,42.210000,84420,101304,14070,2,3,6,https://poedb.tw/us/Sporeguard
-Doryani's Prototype,Saint's Hauberk,42.210000,84420,101304,14070,2,3,6,https://poedb.tw/us/Doryanis_Prototype
-Paradoxica,Vaal Rapier,40.980000,81960,98352,20490,1,4,4,https://poedb.tw/us/Paradoxica
-The Yielding Mortality,Imperial Staff,40.980000,81960,98352,10245,2,4,8,https://poedb.tw/us/The_Yielding_Mortality
-Replica Paradoxica,Vaal Rapier,40.980000,81960,98352,20490,1,4,4,https://poedb.tw/us/Replica_Paradoxica
-Replica Allure,Vaal Claw,40.980000,81960,98352,20490,2,2,4,https://poedb.tw/us/Replica_Allure
-Hyrri's Ire,Zodiac Leather,39.790000,79580,95496,13263,2,3,6,https://poedb.tw/us/Hyrris_Ire
-The Formless Inferno,Royal Burgonet,39.790000,79580,95496,19895,2,2,4,https://poedb.tw/us/The_Formless_Inferno
-The Perfect Form,Zodiac Leather,39.790000,79580,95496,13263,2,3,6,https://poedb.tw/us/The_Perfect_Form
-Doedre's Skin,Widowsilk Robe,39.790000,79580,95496,13263,2,3,6,https://poedb.tw/us/Doedres_Skin
-The Eternity Shroud,Blood Raiment,39.790000,79580,95496,13263,2,3,6,https://poedb.tw/us/The_Eternity_Shroud
-Replica Perfect Form,Zodiac Leather,39.790000,79580,95496,13263,2,3,6,https://poedb.tw/us/Replica_Perfect_Form
-Replica Hyrri's Ire,Zodiac Leather,39.790000,79580,95496,13263,2,3,6,https://poedb.tw/us/Replica_Hyrris_Ire
-Varunastra,Vaal Blade,38.630000,77260,92712,12876,2,3,6,https://poedb.tw/us/Varunastra
-Uul-Netol's Embrace,Vaal Axe,38.630000,77260,92712,9657,2,4,8,https://poedb.tw/us/Uul-Netols_Embrace
-The Surrender,Ezomyte Tower Shield,38.630000,77260,92712,9657,2,4,8,https://poedb.tw/us/The_Surrender
-Disintegrator,Maelström Staff,38.630000,77260,92712,9657,2,4,8,https://poedb.tw/us/Disintegrator
-Loreweave,Elegant Ringmail,38.630000,77260,92712,12876,2,3,6,https://poedb.tw/us/Loreweave
-Replica Loreweave,Elegant Ringmail,38.630000,77260,92712,12876,2,3,6,https://poedb.tw/us/Replica_Loreweave
-Yaomac's Accord,Vaal Sceptre,38.630000,77260,92712,12876,2,3,6,https://poedb.tw/us/Yaomacs_Accord
-Replica Stampede,Assassin's Boots,37.500000,75000,90000,18750,2,2,4,https://poedb.tw/us/Replica_Stampede
-Shavronne's Wrappings,Occultist's Vestment,36.410000,72820,87384,12136,2,3,6,https://poedb.tw/us/Shavronnes_Wrappings
-Darkscorn,Assassin Bow,36.410000,72820,87384,9102,2,4,8,https://poedb.tw/us/Darkscorn
-Kintsugi,Exquisite Leather,36.410000,72820,87384,12136,2,3,6,https://poedb.tw/us/Kintsugi
-Tulfall,Opal Wand,36.410000,72820,87384,24273,1,3,3,https://poedb.tw/us/Tulfall
-Esh's Visage,Vaal Spirit Shield,36.410000,72820,87384,18205,2,2,4,https://poedb.tw/us/Eshs_Visage
-Arborix,Assassin Bow,36.410000,72820,87384,9102,2,4,8,https://poedb.tw/us/Arborix
-Apep's Supremacy,Vaal Spirit Shield,36.410000,72820,87384,18205,2,2,4,https://poedb.tw/us/Apeps_Supremacy
-The Surging Thoughts,Legion Sword,36.410000,72820,87384,12136,2,3,6,https://poedb.tw/us/The_Surging_Thoughts
-The Admiral,Varnished Coat,36.410000,72820,87384,12136,2,3,6,https://poedb.tw/us/The_Admiral
-Replica Cold Iron Point,Ezomyte Dagger,36.410000,72820,87384,24273,1,3,3,https://poedb.tw/us/Replica_Cold_Iron_Point
-Replica Tulfall,Opal Wand,36.410000,72820,87384,24273,1,3,3,https://poedb.tw/us/Replica_Tulfall
-Abberath's Hooves,Goathide Boots,34.610000,69220,83064,17305,2,2,4,https://poedb.tw/us/Abberaths_Hooves
-Mjölner,Gavel,34.320000,68640,82368,11440,2,3,6,https://poedb.tw/us/Mj%C3%B6lner
-Replica Abyssus,Ezomyte Burgonet,34.320000,68640,82368,17160,2,2,4,https://poedb.tw/us/Replica_Abyssus
-Replica Mistwall,Lacquered Buckler,34.320000,68640,82368,17160,2,2,4,https://poedb.tw/us/Replica_Mistwall
-The Iron Fortress,Crusader Plate,33.320000,66640,79968,11106,2,3,6,https://poedb.tw/us/The_Iron_Fortress
-Farrul's Pounce,Hydrascale Gauntlets,33.320000,66640,79968,16660,2,2,4,https://poedb.tw/us/Farruls_Pounce
-Fleshcrafter,Necromancer Silks,33.320000,66640,79968,11106,2,3,6,https://poedb.tw/us/Fleshcrafter
-Gravebind,Hydrascale Gauntlets,33.320000,66640,79968,16660,2,2,4,https://poedb.tw/us/Gravebind
-Xoph's Nurture,Citadel Bow,32.350000,64700,77640,8087,2,4,8,https://poedb.tw/us/Xophs_Nurture
-Crown of the Tyrant,Magistrate Crown,32.350000,64700,77640,16175,2,2,4,https://poedb.tw/us/Crown_of_the_Tyrant
-Crest of Desire,Fluted Bascinet,32.350000,64700,77640,16175,2,2,4,https://poedb.tw/us/Crest_of_Desire
-Farrul's Bite,Harlequin Mask,31.410000,62820,75384,15705,2,2,4,https://poedb.tw/us/Farruls_Bite
-Offering to the Serpent,Legion Gloves,31.410000,62820,75384,15705,2,2,4,https://poedb.tw/us/Offering_to_the_Serpent
-Garb of the Ephemeral,Savant's Robe,30.490000,60980,73176,10163,2,3,6,https://poedb.tw/us/Garb_of_the_Ephemeral
-Maata's Teaching,Karui Sceptre,30.490000,60980,73176,10163,2,3,6,https://poedb.tw/us/Maatas_Teaching
-Corpsewalker,Carnal Boots,29.600000,59200,71040,14800,2,2,4,https://poedb.tw/us/Corpsewalker
-The Fourth Vow,Devout Chainmail,29.600000,59200,71040,9866,2,3,6,https://poedb.tw/us/The_Fourth_Vow
-The Devouring Diadem,Necromancer Circlet,28.740000,57480,68976,14370,2,2,4,https://poedb.tw/us/The_Devouring_Diadem
-Qotra's Regulator,Sovereign Spiked Shield,28.740000,57480,68976,14370,2,2,4,https://poedb.tw/us/Qotras_Regulator
-Atziri's Reflection,Golden Buckler,28.740000,57480,68976,14370,2,2,4,https://poedb.tw/us/Atziris_Reflection
-Sandstorm Visage,Necromancer Circlet,28.740000,57480,68976,14370,2,2,4,https://poedb.tw/us/Sandstorm_Visage
-Utula's Hunger,Majestic Plate,27.910000,55820,66984,9303,2,3,6,https://poedb.tw/us/Utulas_Hunger
-Cloak of Defiance,Lacquered Garb,27.090000,54180,65016,9030,2,3,6,https://poedb.tw/us/Cloak_of_Defiance
-Skin of the Lords,Simple Robe,26.520000,53040,63648,8840,2,3,6,https://poedb.tw/us/Skin_of_the_Lords
-Zerphi's Heart,Paua Amulet,26.520000,53040,63648,53040,1,1,1,https://poedb.tw/us/Zerphis_Heart
-Replica Frostbreath,Ornate Mace,25.540000,51080,61296,8513,2,3,6,https://poedb.tw/us/Replica_Frostbreath
-The Covenant,Spidersilk Robe,24.790000,49580,59496,8263,2,3,6,https://poedb.tw/us/The_Covenant
-Anathema,Moonstone Ring,24.790000,49580,59496,49580,1,1,1,https://poedb.tw/us/Anathema
-Replica Covenant,Spidersilk Robe,24.790000,49580,59496,8263,2,3,6,https://poedb.tw/us/Replica_Covenant
-Winds of Change,Ancient Gauntlets,23.370000,46740,56088,11685,2,2,4,https://poedb.tw/us/Winds_of_Change
-Death Rush,Amethyst Ring,22.690000,45380,54456,45380,1,1,1,https://poedb.tw/us/Death_Rush
-Emperor's Vigilance,Steel Kite Shield,22.690000,45380,54456,7563,2,3,6,https://poedb.tw/us/Emperors_Vigilance
-Mahuxotl's Machination,Steel Kite Shield,22.690000,45380,54456,7563,2,3,6,https://poedb.tw/us/Mahuxotls_Machination
-The Pariah,Unset Ring,22.030000,44060,52872,44060,1,1,1,https://poedb.tw/us/The_Pariah
-Abhorrent Interrogation,Ambush Mitts,22.030000,44060,52872,11015,2,2,4,https://poedb.tw/us/Abhorrent_Interrogation
-The Tempest's Liberation,Callous Mask,22.030000,44060,52872,11015,2,2,4,https://poedb.tw/us/The_Tempests_Liberation
-Perfidy,Glorious Plate,21.920000,43840,52608,7306,2,3,6,https://poedb.tw/us/Perfidy
-Hand of the Fervent,Zealot Gloves,20.760000,41520,49824,10380,2,2,4,https://poedb.tw/us/Hand_of_the_Fervent
-Impresence,Onyx Amulet,20.660000,41320,49584,41320,1,1,1,https://poedb.tw/us/Impresence
-Assailum,Sinner Tricorne,20.660000,41320,49584,10330,2,2,4,https://poedb.tw/us/Assailum
-Mark of the Elder,Steel Ring,19.480000,38960,46752,38960,1,1,1,https://poedb.tw/us/Mark_of_the_Elder
-Mark of the Shaper,Opal Ring,19.480000,38960,46752,38960,1,1,1,https://poedb.tw/us/Mark_of_the_Shaper
-Polaric Devastation,Opal Ring,19.480000,38960,46752,38960,1,1,1,https://poedb.tw/us/Polaric_Devastation
-Replica Soul Strike,Spike-Point Arrow Quiver,19.000000,38000,45600,6333,2,3,6,https://poedb.tw/us/Replica_Soul_Strike
-Replica Midnight Bargain,Engraved Wand,19.000000,38000,45600,12666,1,3,3,https://poedb.tw/us/Replica_Midnight_Bargain
-Brain Rattler,Meatgrinder,18.910000,37820,45384,4727,2,4,8,https://poedb.tw/us/Brain_Rattler
-Razor of the Seventh Sun,Midnight Blade,18.910000,37820,45384,6303,2,3,6,https://poedb.tw/us/Razor_of_the_Seventh_Sun
-Snakepit,Sapphire Ring,18.910000,37820,45384,37820,1,1,1,https://poedb.tw/us/Snakepit
-The Scourge,Terror Claw,18.910000,37820,45384,9455,2,2,4,https://poedb.tw/us/The_Scourge
-Memory Vault,Praetor Crown,18.910000,37820,45384,9455,2,2,4,https://poedb.tw/us/Memory_Vault
-Grelwood Shank,Eternal Sword,18.910000,37820,45384,6303,2,3,6,https://poedb.tw/us/Grelwood_Shank
-Beltimber Blade,Eternal Sword,18.910000,37820,45384,6303,2,3,6,https://poedb.tw/us/Beltimber_Blade
-Vulconus,Demon Dagger,18.910000,37820,45384,12606,1,3,3,https://poedb.tw/us/Vulconus
-Augyre,Void Sceptre,18.910000,37820,45384,6303,2,3,6,https://poedb.tw/us/Augyre
-Gloomfang,Blue Pearl Amulet,18.910000,37820,45384,37820,1,1,1,https://poedb.tw/us/Gloomfang
-The Gull,Raven Mask,17.910000,35820,42984,8955,2,2,4,https://poedb.tw/us/The_Gull
-Severed in Sleep,Cutlass,17.910000,35820,42984,11940,1,3,3,https://poedb.tw/us/Severed_in_Sleep
-United in Dream,Cutlass,17.910000,35820,42984,11940,1,3,3,https://poedb.tw/us/United_in_Dream
-Blackflame,Amethyst Ring,17.910000,35820,42984,35820,1,1,1,https://poedb.tw/us/Blackflame
-Maligaro's Virtuosity,Deerskin Gloves,17.820000,35640,42768,8910,2,2,4,https://poedb.tw/us/Maligaros_Virtuosity
-Asenath's Gentle Touch,Silk Gloves,17.820000,35640,42768,8910,2,2,4,https://poedb.tw/us/Asenaths_Gentle_Touch
-Perandus Signet,Paua Ring,17.820000,35640,42768,35640,1,1,1,https://poedb.tw/us/Perandus_Signet
-Nebuloch,Nightmare Mace,17.820000,35640,42768,5940,2,3,6,https://poedb.tw/us/Nebuloch
-Hopeshredder,Ranger Bow,17.820000,35640,42768,4455,2,4,8,https://poedb.tw/us/Hopeshredder
-Shimmeron,Tornado Wand,17.820000,35640,42768,11880,1,3,3,https://poedb.tw/us/Shimmeron
-Beacon of Madness,Two-Toned Boots,17.820000,35640,42768,8910,2,2,4,https://poedb.tw/us/Beacon_of_Madness
-Sunblast,Cloth Belt,17.390000,34780,41736,17390,2,1,2,https://poedb.tw/us/Sunblast
-Doon Cuebiyari,Vaal Sceptre,17.300000,34600,41520,5766,2,3,6,https://poedb.tw/us/Doon_Cuebiyari
-Death's Door,Crusader Boots,17.300000,34600,41520,8650,2,2,4,https://poedb.tw/us/Deaths_Door
-Auxium,Crystal Belt,16.800000,33600,40320,16800,2,1,2,https://poedb.tw/us/Auxium
-Flamesight,Solaris Circlet,16.800000,33600,40320,8400,2,2,4,https://poedb.tw/us/Flamesight
-Galesight,Solaris Circlet,16.800000,33600,40320,8400,2,2,4,https://poedb.tw/us/Galesight
-Thundersight,Solaris Circlet,16.800000,33600,40320,8400,2,2,4,https://poedb.tw/us/Thundersight
-The Ivory Tower,Saint's Hauberk,16.800000,33600,40320,5600,2,3,6,https://poedb.tw/us/The_Ivory_Tower
-Leash of Oblation,Leather Belt,16.800000,33600,40320,16800,2,1,2,https://poedb.tw/us/Leash_of_Oblation
-Mistwall,Lacquered Buckler,16.800000,33600,40320,8400,2,2,4,https://poedb.tw/us/Mistwall
-Maw of Mischief,Bone Helmet,16.800000,33600,40320,8400,2,2,4,https://poedb.tw/us/Maw_of_Mischief
-The Burden of Truth,Crystal Belt,16.800000,33600,40320,16800,2,1,2,https://poedb.tw/us/The_Burden_of_Truth
-Shadowstitch,Sacrificial Garb,16.310000,32620,39144,5436,2,3,6,https://poedb.tw/us/Shadowstitch
-Hegemony's Era,Judgement Staff,15.840000,31680,38016,3960,2,4,8,https://poedb.tw/us/Hegemonys_Era
-Replica Restless Ward,Carnal Armour,15.840000,31680,38016,5280,2,3,6,https://poedb.tw/us/Replica_Restless_Ward
-Lioneye's Remorse,Pinnacle Tower Shield,15.370000,30740,36888,3842,2,4,8,https://poedb.tw/us/Lioneyes_Remorse
-Incandescent Heart,Saintly Chainmail,15.370000,30740,36888,5123,2,3,6,https://poedb.tw/us/Incandescent_Heart
-The Hungry Loop,Unset Ring,15.370000,30740,36888,30740,1,1,1,https://poedb.tw/us/The_Hungry_Loop
-Chains of Command,Saintly Chainmail,15.370000,30740,36888,5123,2,3,6,https://poedb.tw/us/Chains_of_Command
-Black Zenith,Fingerless Silk Gloves,15.370000,30740,36888,7685,2,2,4,https://poedb.tw/us/Black_Zenith
-Crown of Eyes,Hubris Circlet,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Crown_of_Eyes
-Ylfeban's Trickery,Hubris Circlet,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Ylfebans_Trickery
-Voidwalker,Murder Boots,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Voidwalker
-Bubonic Trail,Murder Boots,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Bubonic_Trail
-Craiceann's Pincers,Titan Gauntlets,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Craiceanns_Pincers
-Usurper's Penance,Eternal Burgonet,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Usurpers_Penance
-Replica Voidwalker,Murder Boots,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Replica_Voidwalker
-Vorana's March,Runic Sabatons,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Voranas_March
-Kaom's Spirit,Titan Gauntlets,14.930000,29860,35832,7465,2,2,4,https://poedb.tw/us/Kaoms_Spirit
-The Shattered Divinity,Blunt Arrow Quiver,14.560000,29120,34944,4853,2,3,6,https://poedb.tw/us/The_Shattered_Divinity
-Mon'tregul's Grasp,Void Sceptre,14.490000,28980,34776,4830,2,3,6,https://poedb.tw/us/Montreguls_Grasp
-Pledge of Hands,Judgement Staff,14.490000,28980,34776,3622,2,4,8,https://poedb.tw/us/Pledge_of_Hands
-Kaom's Roots,Titan Greaves,14.490000,28980,34776,7245,2,2,4,https://poedb.tw/us/Kaoms_Roots
-Voll's Vision,Praetor Crown,14.490000,28980,34776,7245,2,2,4,https://poedb.tw/us/Volls_Vision
-Malachai's Vision,Praetor Crown,14.490000,28980,34776,7245,2,2,4,https://poedb.tw/us/Malachais_Vision
-Cospri's Will,Assassin's Garb,14.490000,28980,34776,4830,2,3,6,https://poedb.tw/us/Cospris_Will
-Tinkerskin,Sadist Garb,14.490000,28980,34776,4830,2,3,6,https://poedb.tw/us/Tinkerskin
-Hand of Thought and Motion,Imperial Claw,14.490000,28980,34776,7245,2,2,4,https://poedb.tw/us/Hand_of_Thought_and_Motion
-The Infinite Pursuit,Titan Greaves,14.490000,28980,34776,7245,2,2,4,https://poedb.tw/us/The_Infinite_Pursuit
-The Unshattered Will,Archon Kite Shield,14.490000,28980,34776,4830,2,3,6,https://poedb.tw/us/The_Unshattered_Will
-Invictus Solaris,Archon Kite Shield,14.490000,28980,34776,4830,2,3,6,https://poedb.tw/us/Invictus_Solaris
-Cyclopean Coil,Leather Belt,14.490000,28980,34776,14490,2,1,2,https://poedb.tw/us/Cyclopean_Coil
-Blasphemer's Grasp,Assassin's Mitts,14.490000,28980,34776,7245,2,2,4,https://poedb.tw/us/Blasphemers_Grasp
-The Grey Spire,Judgement Staff,14.490000,28980,34776,3622,2,4,8,https://poedb.tw/us/The_Grey_Spire
-Bitterbind Point,Titanium Spirit Shield,14.490000,28980,34776,7245,2,2,4,https://poedb.tw/us/Bitterbind_Point
-Nebulis,Void Sceptre,14.490000,28980,34776,4830,2,3,6,https://poedb.tw/us/Nebulis
-Atziri's Rule,Judgement Staff,14.490000,28980,34776,3622,2,4,8,https://poedb.tw/us/Atziris_Rule
-Cadigan's Crown,Runic Crown,14.490000,28980,34776,7245,2,2,4,https://poedb.tw/us/Cadigans_Crown
-The Taming,Prismatic Ring,14.140000,28280,33936,28280,1,1,1,https://poedb.tw/us/The_Taming
-The Bringer of Rain,Nightmare Bascinet,14.070000,28140,33768,7035,2,2,4,https://poedb.tw/us/The_Bringer_of_Rain
-Replica Oro's Sacrifice,Infernal Sword,14.070000,28140,33768,3517,2,4,8,https://poedb.tw/us/Replica_Oros_Sacrifice
-Dawnbreaker,Colossal Tower Shield,14.070000,28140,33768,3517,2,4,8,https://poedb.tw/us/Dawnbreaker
-Dreamfeather,Eternal Sword,13.660000,27320,32784,4553,2,3,6,https://poedb.tw/us/Dreamfeather
-Repentance,Crusader Gloves,13.660000,27320,32784,6830,2,2,4,https://poedb.tw/us/Repentance
-Shaper's Touch,Crusader Gloves,13.660000,27320,32784,6830,2,2,4,https://poedb.tw/us/Shapers_Touch
-The Enmity Divine,Imperial Staff,13.660000,27320,32784,3415,2,4,8,https://poedb.tw/us/The_Enmity_Divine
-Vix Lunaris,Cardinal Round Shield,13.660000,27320,32784,4553,2,3,6,https://poedb.tw/us/Vix_Lunaris
-Voidfletcher,Primal Arrow Quiver,13.660000,27320,32784,4553,2,3,6,https://poedb.tw/us/Voidfletcher
-Hands of the High Templar,Crusader Gloves,13.660000,27320,32784,6830,2,2,4,https://poedb.tw/us/Hands_of_the_High_Templar
-Font of Thunder,Mirrored Spiked Shield,13.660000,27320,32784,6830,2,2,4,https://poedb.tw/us/Font_of_Thunder
-Replica Dreamfeather,Eternal Sword,13.660000,27320,32784,4553,2,3,6,https://poedb.tw/us/Replica_Dreamfeather
-The Goddess Scorned,Elegant Sword,13.330000,26660,31992,4443,2,3,6,https://poedb.tw/us/The_Goddess_Scorned
-Rime Gaze,Mind Cage,13.260000,26520,31824,6630,2,2,4,https://poedb.tw/us/Rime_Gaze
-Infernal Mantle,Widowsilk Robe,13.260000,26520,31824,4420,2,3,6,https://poedb.tw/us/Infernal_Mantle
-Ming's Heart,Amethyst Ring,13.260000,26520,31824,26520,1,1,1,https://poedb.tw/us/Mings_Heart
-"Jack, the Axe",Vaal Hatchet,13.260000,26520,31824,4420,2,3,6,https://poedb.tw/us/Jack%2C_the_Axe
-Doomsower,Lion Sword,13.260000,26520,31824,3315,2,4,8,https://poedb.tw/us/Doomsower
-Scold's Bridle,Mind Cage,13.260000,26520,31824,6630,2,2,4,https://poedb.tw/us/Scolds_Bridle
-The Formless Flame,Royal Burgonet,13.260000,26520,31824,6630,2,2,4,https://poedb.tw/us/The_Formless_Flame
-The Snowblind Grace,Zodiac Leather,13.260000,26520,31824,4420,2,3,6,https://poedb.tw/us/The_Snowblind_Grace
-Saqawal's Nest,Blood Raiment,13.260000,26520,31824,4420,2,3,6,https://poedb.tw/us/Saqawals_Nest
-Fenumus' Shroud,Widowsilk Robe,13.260000,26520,31824,4420,2,3,6,https://poedb.tw/us/Fenumus_Shroud
-Hale Negator,Mind Cage,13.260000,26520,31824,6630,2,2,4,https://poedb.tw/us/Hale_Negator
-Echoes of Creation,Royal Burgonet,13.260000,26520,31824,6630,2,2,4,https://poedb.tw/us/Echoes_of_Creation
-Taryn's Shiver,Maelström Staff,12.880000,25760,30912,3220,2,4,8,https://poedb.tw/us/Taryns_Shiver
-Alpha's Howl,Sinner Tricorne,12.880000,25760,30912,6440,2,2,4,https://poedb.tw/us/Alphas_Howl
-Rebuke of the Vaal,Vaal Blade,12.880000,25760,30912,4293,2,3,6,https://poedb.tw/us/Rebuke_of_the_Vaal
-Hezmana's Bloodlust,Vaal Axe,12.880000,25760,30912,3220,2,4,8,https://poedb.tw/us/Hezmanas_Bloodlust
-Reach of the Council,Spine Bow,12.880000,25760,30912,3220,2,4,8,https://poedb.tw/us/Reach_of_the_Council
-Uul-Netol's Kiss,Vaal Axe,12.880000,25760,30912,3220,2,4,8,https://poedb.tw/us/Uul-Netols_Kiss
-The Anticipation,Ezomyte Tower Shield,12.880000,25760,30912,3220,2,4,8,https://poedb.tw/us/The_Anticipation
-Replica Alpha's Howl,Sinner Tricorne,12.880000,25760,30912,6440,2,2,4,https://poedb.tw/us/Replica_Alphas_Howl
-Daresso's Defiance,Full Dragonscale,12.500000,25000,30000,4166,2,3,6,https://poedb.tw/us/Daressos_Defiance
-Atziri's Acuity,Vaal Gauntlets,12.500000,25000,30000,6250,2,2,4,https://poedb.tw/us/Atziris_Acuity
-Fenumus' Spinnerets,Assassin's Boots,12.500000,25000,30000,6250,2,2,4,https://poedb.tw/us/Fenumus_Spinnerets
-Crown of the Inward Eye,Prophet Crown,12.500000,25000,30000,6250,2,2,4,https://poedb.tw/us/Crown_of_the_Inward_Eye
-Astramentis,Onyx Amulet,12.200000,24400,29280,24400,1,1,1,https://poedb.tw/us/Astramentis
-Presence of Chayula,Onyx Amulet,12.200000,24400,29280,24400,1,1,1,https://poedb.tw/us/Presence_of_Chayula
-Aul's Uprising,Onyx Amulet,12.200000,24400,29280,24400,1,1,1,https://poedb.tw/us/Auls_Uprising
-Solstice Vigil,Onyx Amulet,12.200000,24400,29280,24400,1,1,1,https://poedb.tw/us/Solstice_Vigil
-Leadership's Price,Onyx Amulet,12.200000,24400,29280,24400,1,1,1,https://poedb.tw/us/Leaderships_Price
-Crystallised Omniscience,Onyx Amulet,12.200000,24400,29280,24400,1,1,1,https://poedb.tw/us/Crystallised_Omniscience
-Ashes of the Stars,Onyx Amulet,12.200000,24400,29280,24400,1,1,1,https://poedb.tw/us/Ashes_of_the_Stars
-Stormfire,Opal Ring,12.170000,24340,29208,24340,1,1,1,https://poedb.tw/us/Stormfire
-The Searing Touch,Lathi,12.140000,24280,29136,3035,2,4,8,https://poedb.tw/us/The_Searing_Touch
-Carcass Jack,Varnished Coat,12.140000,24280,29136,4046,2,3,6,https://poedb.tw/us/Carcass_Jack
-Death's Oath,Astral Plate,12.140000,24280,29136,4046,2,3,6,https://poedb.tw/us/Deaths_Oath
-The Vertex,Vaal Mask,12.140000,24280,29136,6070,2,2,4,https://poedb.tw/us/The_Vertex
-Tulborn,Opal Wand,12.140000,24280,29136,8093,1,3,3,https://poedb.tw/us/Tulborn
-Esh's Mirror,Vaal Spirit Shield,12.140000,24280,29136,6070,2,2,4,https://poedb.tw/us/Eshs_Mirror
-Yriel's Fostering,Exquisite Leather,12.140000,24280,29136,4046,2,3,6,https://poedb.tw/us/Yriels_Fostering
-The Rippling Thoughts,Legion Sword,12.140000,24280,29136,4046,2,3,6,https://poedb.tw/us/The_Rippling_Thoughts
-Perepiteia,Ezomyte Spiked Shield,12.140000,24280,29136,6070,2,2,4,https://poedb.tw/us/Perepiteia
-Fractal Thoughts,Vaal Mask,12.140000,24280,29136,6070,2,2,4,https://poedb.tw/us/Fractal_Thoughts
-Cold Iron Point,Ezomyte Dagger,12.140000,24280,29136,8093,1,3,3,https://poedb.tw/us/Cold_Iron_Point
-Law of the Wilds,Hellion's Paw,12.140000,24280,29136,6070,2,2,4,https://poedb.tw/us/Law_of_the_Wilds
-Blunderbore,Astral Plate,12.140000,24280,29136,4046,2,3,6,https://poedb.tw/us/Blunderbore
-Replica Wings of Entropy,Ezomyte Axe,12.140000,24280,29136,3035,2,4,8,https://poedb.tw/us/Replica_Wings_of_Entropy
-Glimpse of Chaos,Vaal Mask,12.140000,24280,29136,6070,2,2,4,https://poedb.tw/us/Glimpse_of_Chaos
-Dawnstrider,Vaal Greaves,12.140000,24280,29136,6070,2,2,4,https://poedb.tw/us/Dawnstrider
-Rigwald's Savagery,Royal Axe,11.820000,23640,28368,3940,2,3,6,https://poedb.tw/us/Rigwalds_Savagery
-Rigwald's Command,Midnight Blade,11.820000,23640,28368,3940,2,3,6,https://poedb.tw/us/Rigwalds_Command
-Slivertongue,Harbinger Bow,11.820000,23640,28368,2955,2,4,8,https://poedb.tw/us/Slivertongue
-Obscurantis,Lion Pelt,11.820000,23640,28368,5910,2,2,4,https://poedb.tw/us/Obscurantis
-Inya's Epiphany,Arcanist Slippers,11.780000,23560,28272,5890,2,2,4,https://poedb.tw/us/Inyas_Epiphany
-Replica Inya's Epiphany,Arcanist Slippers,11.780000,23560,28272,5890,2,2,4,https://poedb.tw/us/Replica_Inyas_Epiphany
-Abyssus,Ezomyte Burgonet,11.440000,22880,27456,5720,2,2,4,https://poedb.tw/us/Abyssus
-Lightning Coil,Desert Brigandine,11.440000,22880,27456,3813,2,3,6,https://poedb.tw/us/Lightning_Coil
-Null's Inclination,Ranger Bow,11.440000,22880,27456,2860,2,4,8,https://poedb.tw/us/Nulls_Inclination
-Dyadian Dawn,Heavy Belt,11.440000,22880,27456,11440,2,1,2,https://poedb.tw/us/Dyadian_Dawn
-Rigwald's Curse,Wereclaw Talisman,11.440000,22880,27456,22880,1,1,1,https://poedb.tw/us/Rigwalds_Curse
-Grip of the Council,Arcanist Gloves,11.440000,22880,27456,5720,2,2,4,https://poedb.tw/us/Grip_of_the_Council
-Saqawal's Flock,Silken Hood,11.440000,22880,27456,5720,2,2,4,https://poedb.tw/us/Saqawals_Flock
-The Iron Mass,Gladius,11.440000,22880,27456,3813,2,3,6,https://poedb.tw/us/The_Iron_Mass
-The Hidden Blade,Ambusher,11.440000,22880,27456,7626,1,3,3,https://poedb.tw/us/The_Hidden_Blade
-The Fulcrum,Ezomyte Staff,11.440000,22880,27456,2860,2,4,8,https://poedb.tw/us/The_Fulcrum
-Replica Grip of the Council,Arcanist Gloves,11.440000,22880,27456,5720,2,2,4,https://poedb.tw/us/Replica_Grip_of_the_Council
-Cameria's Avarice,Gavel,11.440000,22880,27456,3813,2,3,6,https://poedb.tw/us/Camerias_Avarice
-Contract: The Twins,Vengeful Contract,11.290000,22580,27096,22580,1,1,1,https://poedb.tw/us/Contract%3A_The_Twins
-Algor Mortis,Carnal Mitts,11.140000,22280,26736,5570,2,2,4,https://poedb.tw/us/Algor_Mortis
-Saffell's Frame,Branded Kite Shield,11.110000,22220,26664,3703,2,3,6,https://poedb.tw/us/Saffells_Frame
-Queen of the Forest,Destiny Leather,11.110000,22220,26664,3703,2,3,6,https://poedb.tw/us/Queen_of_the_Forest
-Saqawal's Talons,Hydrascale Boots,11.110000,22220,26664,5555,2,2,4,https://poedb.tw/us/Saqawals_Talons
-Breathstealer,Hydrascale Gauntlets,11.110000,22220,26664,5555,2,2,4,https://poedb.tw/us/Breathstealer
-Expedition's End,Sentinel Jacket,11.110000,22220,26664,3703,2,3,6,https://poedb.tw/us/Expeditions_End
-Wilma's Requital,Solaris Circlet,11.110000,22220,26664,5555,2,2,4,https://poedb.tw/us/Wilmas_Requital
-Gamblesprint,Hydrascale Boots,11.110000,22220,26664,5555,2,2,4,https://poedb.tw/us/Gamblesprint
-First Piece of Focus,Archon Kite Shield Piece,10.960000,21920,26304,10960,1,2,2,https://poedb.tw/us/First_Piece_of_Focus
-Second Piece of Focus,Archon Kite Shield Piece,10.960000,21920,26304,10960,1,2,2,https://poedb.tw/us/Second_Piece_of_Focus
-Third Piece of Focus,Archon Kite Shield Piece,10.960000,21920,26304,21920,1,1,1,https://poedb.tw/us/Third_Piece_of_Focus
-Fourth Piece of Focus,Archon Kite Shield Piece,10.960000,21920,26304,21920,1,1,1,https://poedb.tw/us/Fourth_Piece_of_Focus
-First Piece of Storms,Callous Mask Piece,10.960000,21920,26304,21920,1,1,1,https://poedb.tw/us/First_Piece_of_Storms
-Second Piece of Storms,Callous Mask Piece,10.960000,21920,26304,21920,1,1,1,https://poedb.tw/us/Second_Piece_of_Storms
-Third Piece of Storms,Callous Mask Piece,10.960000,21920,26304,10960,2,1,2,https://poedb.tw/us/Third_Piece_of_Storms
-Contract: Death to Darnaw,Naval Contract,10.960000,21920,26304,21920,1,1,1,https://poedb.tw/us/Contract%3A_Death_to_Darnaw
-Unyielding Flame,Archon Kite Shield,10.820000,21640,25968,3606,2,3,6,https://poedb.tw/us/Unyielding_Flame
-Xoph's Inception,Citadel Bow,10.780000,21560,25872,2695,2,4,8,https://poedb.tw/us/Xophs_Inception
-Craiceann's Chitin,Magistrate Crown,10.780000,21560,25872,5390,2,2,4,https://poedb.tw/us/Craiceanns_Chitin
-Mask of the Stitched Demon,Magistrate Crown,10.780000,21560,25872,5390,2,2,4,https://poedb.tw/us/Mask_of_the_Stitched_Demon
-Storm's Gift,Assassin's Mitts,10.780000,21560,25872,5390,2,2,4,https://poedb.tw/us/Storms_Gift
-Mask of the Tribunal,Magistrate Crown,10.780000,21560,25872,5390,2,2,4,https://poedb.tw/us/Mask_of_the_Tribunal
-Contract: Heart of Glory,Familial Contract,10.640000,21280,25536,21280,1,1,1,https://poedb.tw/us/Contract%3A_Heart_of_Glory
-The Magnate,Studded Belt,10.520000,21040,25248,10520,2,1,2,https://poedb.tw/us/The_Magnate
-The Torrent's Reclamation,Cloth Belt,10.520000,21040,25248,10520,2,1,2,https://poedb.tw/us/The_Torrents_Reclamation
-Replica Soul Tether,Cloth Belt,10.520000,21040,25248,10520,2,1,2,https://poedb.tw/us/Replica_Soul_Tether
-Replica Ungil's Gauche,Boot Knife,10.520000,21040,25248,7013,1,3,3,https://poedb.tw/us/Replica_Ungils_Gauche
-Replica Badge of the Brotherhood,Turquoise Amulet,10.520000,21040,25248,21040,1,1,1,https://poedb.tw/us/Replica_Badge_of_the_Brotherhood
-Perseverance,Vanguard Belt,10.500000,21000,25200,10500,2,1,2,https://poedb.tw/us/Perseverance
-The Black Cane,Royal Sceptre,10.500000,21000,25200,3500,2,3,6,https://poedb.tw/us/The_Black_Cane
-Willowgift,Jade Amulet,10.500000,21000,25200,21000,1,1,1,https://poedb.tw/us/Willowgift
-Eye of Malice,Callous Mask,10.500000,21000,25200,5250,2,2,4,https://poedb.tw/us/Eye_of_Malice
-Ancient Skull,Bone Helmet,10.500000,21000,25200,5250,2,2,4,https://poedb.tw/us/Ancient_Skull
-Mind of the Council,Harlequin Mask,10.470000,20940,25128,5235,2,2,4,https://poedb.tw/us/Mind_of_the_Council
-The Crimson Storm,Steelwood Bow,10.470000,20940,25128,2617,2,4,8,https://poedb.tw/us/The_Crimson_Storm
-Kaom's Binding,Heavy Belt,10.470000,20940,25128,10470,2,1,2,https://poedb.tw/us/Kaoms_Binding
-Contract: Breaking the Unbreakable,Preventative Contract,10.330000,20660,24792,20660,1,1,1,https://poedb.tw/us/Contract%3A_Breaking_the_Unbreakable
-Contract: The Slaver King,Vigilante Contract,10.330000,20660,24792,20660,1,1,1,https://poedb.tw/us/Contract%3A_The_Slaver_King
-The Rat Cage,Sharkskin Tunic,10.160000,20320,24384,3386,2,3,6,https://poedb.tw/us/The_Rat_Cage
-Craiceann's Carapace,Golden Plate,10.160000,20320,24384,3386,2,3,6,https://poedb.tw/us/Craiceanns_Carapace
-Fate of the Vaal,Gemstone Sword,10.160000,20320,24384,6773,1,3,3,https://poedb.tw/us/Fate_of_the_Vaal
-Replica Dragonfang's Flight,Onyx Amulet,10.160000,20320,24384,20320,1,1,1,https://poedb.tw/us/Replica_Dragonfangs_Flight
-Lioneye's Vision,Crusader Plate,9.900000,19800,23760,3300,2,3,6,https://poedb.tw/us/Lioneyes_Vision
-Brinerot Mark,Unset Ring,9.870000,19740,23688,19740,1,1,1,https://poedb.tw/us/Brinerot_Mark
-Redblade Band,Unset Ring,9.870000,19740,23688,19740,1,1,1,https://poedb.tw/us/Redblade_Band
-Mutewind Seal,Unset Ring,9.870000,19740,23688,19740,1,1,1,https://poedb.tw/us/Mutewind_Seal
-Ngamahu's Flame,Abyssal Axe,9.870000,19740,23688,2467,2,4,8,https://poedb.tw/us/Ngamahus_Flame
-Omeyocan,Carnal Boots,9.870000,19740,23688,4935,2,2,4,https://poedb.tw/us/Omeyocan
-Tavukai,Coral Amulet,9.870000,19740,23688,19740,1,1,1,https://poedb.tw/us/Tavukai
-Replica Three-step Assault,Shagreen Boots,9.870000,19740,23688,4935,2,2,4,https://poedb.tw/us/Replica_Three-step_Assault
-Temptation Step,Shagreen Boots,9.870000,19740,23688,4935,2,2,4,https://poedb.tw/us/Temptation_Step
-Great Old One's Tentacles,Eelskin Gloves,9.610000,19220,23064,4805,2,2,4,https://poedb.tw/us/Great_Old_Ones_Tentacles
-Ceaseless Feast,Spiked Gloves,9.610000,19220,23064,4805,2,2,4,https://poedb.tw/us/Ceaseless_Feast
-Inextricable Fate,Fugitive Boots,9.610000,19220,23064,4805,2,2,4,https://poedb.tw/us/Inextricable_Fate
-Chitus' Apex,Necromancer Circlet,9.580000,19160,22992,4790,2,2,4,https://poedb.tw/us/Chitus_Apex
-Daresso's Courage,Baroque Round Shield,9.580000,19160,22992,3193,2,3,6,https://poedb.tw/us/Daressos_Courage
-Craiceann's Tracks,Goliath Greaves,9.580000,19160,22992,4790,2,2,4,https://poedb.tw/us/Craiceanns_Tracks
-Fenumus' Toxins,Necromancer Circlet,9.580000,19160,22992,4790,2,2,4,https://poedb.tw/us/Fenumus_Toxins
-Eye of Innocence,Citrine Amulet,9.450000,18900,22680,18900,1,1,1,https://poedb.tw/us/Eye_of_Innocence
-First Piece of Brutality,Imperial Staff Piece,9.450000,18900,22680,9450,1,2,2,https://poedb.tw/us/First_Piece_of_Brutality
-Second Piece of Brutality,Imperial Staff Piece,9.450000,18900,22680,9450,1,2,2,https://poedb.tw/us/Second_Piece_of_Brutality
-Third Piece of Brutality,Imperial Staff Piece,9.450000,18900,22680,4725,2,2,4,https://poedb.tw/us/Third_Piece_of_Brutality
-First Piece of Directions,Blunt Arrow Quiver Piece,9.450000,18900,22680,9450,1,2,2,https://poedb.tw/us/First_Piece_of_Directions
-Second Piece of Directions,Blunt Arrow Quiver Piece,9.450000,18900,22680,9450,1,2,2,https://poedb.tw/us/Second_Piece_of_Directions
-Third Piece of Directions,Blunt Arrow Quiver Piece,9.450000,18900,22680,9450,2,1,2,https://poedb.tw/us/Third_Piece_of_Directions
-Leper's Alms,Mirrored Spiked Shield,9.450000,18900,22680,4725,2,2,4,https://poedb.tw/us/Lepers_Alms
-Atziri's Foible,Paua Amulet,9.350000,18700,22440,18700,1,1,1,https://poedb.tw/us/Atziris_Foible
-Ahkeli's Meadow,Ruby Ring,9.350000,18700,22440,18700,1,1,1,https://poedb.tw/us/Ahkelis_Meadow
-Replica Emberwake,Ruby Ring,9.350000,18700,22440,18700,1,1,1,https://poedb.tw/us/Replica_Emberwake
-Dyadus,Infernal Axe,9.330000,18660,22392,3110,2,3,6,https://poedb.tw/us/Dyadus
-Atziri's Step,Slink Boots,9.330000,18660,22392,4665,2,2,4,https://poedb.tw/us/Atziris_Step
-Cherrubim's Maleficence,Triumphant Lamellar,9.330000,18660,22392,3110,2,3,6,https://poedb.tw/us/Cherrubims_Maleficence
-Eber's Unification,Hubris Circlet,9.330000,18660,22392,4665,2,2,4,https://poedb.tw/us/Ebers_Unification
-Medved's Challenge,Runic Gauntlets,9.330000,18660,22392,4665,2,2,4,https://poedb.tw/us/Medveds_Challenge
-Rainbowstride,Conjurer Boots,9.300000,18600,22320,4650,2,2,4,https://poedb.tw/us/Rainbowstride
-Apep's Rage,Omen Wand,9.300000,18600,22320,6200,1,3,3,https://poedb.tw/us/Apeps_Rage
-Lightpoacher,Great Crown,9.300000,18600,22320,4650,2,2,4,https://poedb.tw/us/Lightpoacher
-Forbidden Shako,Great Crown,9.300000,18600,22320,4650,2,2,4,https://poedb.tw/us/Forbidden_Shako
-Replica Infractem,Decimation Bow,9.300000,18600,22320,2325,2,4,8,https://poedb.tw/us/Replica_Infractem
-The Beast Fur Shawl,Vaal Regalia,9.060000,18120,21744,3020,2,3,6,https://poedb.tw/us/The_Beast_Fur_Shawl
-Touch of Anguish,Imperial Claw,9.060000,18120,21744,4530,2,2,4,https://poedb.tw/us/Touch_of_Anguish
-Ahn's Contempt,Praetor Crown,9.060000,18120,21744,4530,2,2,4,https://poedb.tw/us/Ahns_Contempt
-Ahn's Might,Midnight Blade,9.060000,18120,21744,3020,2,3,6,https://poedb.tw/us/Ahns_Might
-Gorgon's Gaze,Regicide Mask,9.030000,18060,21672,4515,2,2,4,https://poedb.tw/us/Gorgons_Gaze
-Profane Proxy,Unset Ring,9.030000,18060,21672,18060,1,1,1,https://poedb.tw/us/Profane_Proxy
-Witchhunter's Judgment,Highborn Staff,9.030000,18060,21672,2257,2,4,8,https://poedb.tw/us/Witchhunters_Judgment
-Akoya's Gaze,Regicide Mask,9.030000,18060,21672,4515,2,2,4,https://poedb.tw/us/Akoyas_Gaze
-The Ephemeral Bond,Lapis Amulet,8.910000,17820,21384,17820,1,1,1,https://poedb.tw/us/The_Ephemeral_Bond
-Kongor's Undying Rage,Terror Maul,8.790000,17580,21096,2197,2,4,8,https://poedb.tw/us/Kongors_Undying_Rage
-Ahn's Heritage,Colossal Tower Shield,8.790000,17580,21096,2197,2,4,8,https://poedb.tw/us/Ahns_Heritage
-Saqawal's Winds,Soldier Gloves,8.770000,17540,21048,4385,2,2,4,https://poedb.tw/us/Saqawals_Winds
-Legacy of Fury,Wyrmscale Boots,8.770000,17540,21048,4385,2,2,4,https://poedb.tw/us/Legacy_of_Fury
-Devoto's Devotion,Nightmare Bascinet,8.650000,17300,20760,4325,2,2,4,https://poedb.tw/us/Devotos_Devotion
-Bloodgrip,Marble Amulet,8.650000,17300,20760,17300,1,1,1,https://poedb.tw/us/Bloodgrip
-Agnerod East,Imperial Staff,8.540000,17080,20496,2135,2,4,8,https://poedb.tw/us/Agnerod_East
-Agnerod North,Imperial Staff,8.540000,17080,20496,2135,2,4,8,https://poedb.tw/us/Agnerod_North
-Agnerod South,Imperial Staff,8.540000,17080,20496,2135,2,4,8,https://poedb.tw/us/Agnerod_South
-Agnerod West,Imperial Staff,8.540000,17080,20496,2135,2,4,8,https://poedb.tw/us/Agnerod_West
-Breath of the Council,Carnal Sceptre,8.540000,17080,20496,2846,2,3,6,https://poedb.tw/us/Breath_of_the_Council
-The Poised Prism,Primal Arrow Quiver,8.540000,17080,20496,2846,2,3,6,https://poedb.tw/us/The_Poised_Prism
-Andvarius,Gold Ring,8.510000,17020,20424,17020,1,1,1,https://poedb.tw/us/Andvarius
-Star of Wraeclast,Ruby Amulet,8.510000,17020,20424,17020,1,1,1,https://poedb.tw/us/Star_of_Wraeclast
-Fenumus' Weave,Carnal Mitts,8.510000,17020,20424,4255,2,2,4,https://poedb.tw/us/Fenumus_Weave
-Replica Victario's Charity,Laminated Kite Shield,8.510000,17020,20424,2836,2,3,6,https://poedb.tw/us/Replica_Victarios_Charity
-Replica Heartbreaker,Royal Skean,8.510000,17020,20424,5673,1,3,3,https://poedb.tw/us/Replica_Heartbreaker
-Worldcarver,Dragonscale Gauntlets,8.400000,16800,20160,4200,2,2,4,https://poedb.tw/us/Worldcarver
-Painseeker,Shagreen Gloves,8.400000,16800,20160,4200,2,2,4,https://poedb.tw/us/Painseeker
-The Poet's Pen,Carved Wand,8.310000,16620,19944,5540,1,3,3,https://poedb.tw/us/The_Poets_Pen
-Putembo's Mountain,Topaz Ring,8.310000,16620,19944,16620,1,1,1,https://poedb.tw/us/Putembos_Mountain
-Rise of the Phoenix,Mosaic Kite Shield,8.290000,16580,19896,2763,2,3,6,https://poedb.tw/us/Rise_of_the_Phoenix
-Darkray Vectors,Dragonscale Boots,8.290000,16580,19896,4145,2,2,4,https://poedb.tw/us/Darkray_Vectors
-Vis Mortis,Necromancer Silks,8.290000,16580,19896,2763,2,3,6,https://poedb.tw/us/Vis_Mortis
-Ventor's Gamble,Gold Ring,8.290000,16580,19896,16580,1,1,1,https://poedb.tw/us/Ventors_Gamble
-Malachai's Loop,Harmonic Spirit Shield,8.290000,16580,19896,4145,2,2,4,https://poedb.tw/us/Malachais_Loop
-Cane of Kulemak,Serpentine Staff,8.260000,16520,19824,2065,2,4,8,https://poedb.tw/us/Cane_of_Kulemak
-The Scales of Justice,Chiming Spirit Shield,8.260000,16520,19824,4130,2,2,4,https://poedb.tw/us/The_Scales_of_Justice
-Bound Fate,Cloth Belt,8.260000,16520,19824,8260,2,1,2,https://poedb.tw/us/Bound_Fate
-Death's Hand,Karui Sceptre,8.160000,16320,19584,2720,2,3,6,https://poedb.tw/us/Deaths_Hand
-Doryani's Catalyst,Vaal Sceptre,8.050000,16100,19320,2683,2,3,6,https://poedb.tw/us/Doryanis_Catalyst
-Soul Strike,Spike-Point Arrow Quiver,8.050000,16100,19320,2683,2,3,6,https://poedb.tw/us/Soul_Strike
-Geofri's Sanctuary,Elegant Ringmail,8.050000,16100,19320,2683,2,3,6,https://poedb.tw/us/Geofris_Sanctuary
-Hyrri's Truth,Jade Amulet,8.050000,16100,19320,16100,1,1,1,https://poedb.tw/us/Hyrris_Truth
-Rashkaldor's Patience,Jade Amulet,8.020000,16040,19248,16040,1,1,1,https://poedb.tw/us/Rashkaldors_Patience
-Maw of Conquest,Steel Circlet,8.020000,16040,19248,4010,2,2,4,https://poedb.tw/us/Maw_of_Conquest
-The Jinxed Juju,Citrine Amulet,8.020000,16040,19248,16040,1,1,1,https://poedb.tw/us/The_Jinxed_Juju
-The Restless Ward,Carnal Armour,7.920000,15840,19008,2640,2,3,6,https://poedb.tw/us/The_Restless_Ward
-Replica Siegebreaker,Heavy Belt,7.830000,15660,18792,7830,2,1,2,https://poedb.tw/us/Replica_Siegebreaker
-Speaker's Wreath,Prophet Crown,7.810000,15620,18744,3905,2,2,4,https://poedb.tw/us/Speakers_Wreath
-The Stampede,Assassin's Boots,7.810000,15620,18744,3905,2,2,4,https://poedb.tw/us/The_Stampede
-Actum,Butcher Axe,7.810000,15620,18744,2603,2,3,6,https://poedb.tw/us/Actum
-Cerberus Limb,Blood Sceptre,7.790000,15580,18696,2596,2,3,6,https://poedb.tw/us/Cerberus_Limb
-Replica Kalisa's Grace,Samite Gloves,7.790000,15580,18696,3895,2,2,4,https://poedb.tw/us/Replica_Kalisas_Grace
-Replica Innsbury Edge,Elder Sword,7.790000,15580,18696,2596,2,3,6,https://poedb.tw/us/Replica_Innsbury_Edge
-Jaws of Agony,Supreme Spiked Shield,7.690000,15380,18456,3845,2,2,4,https://poedb.tw/us/Jaws_of_Agony
-Rive,Terror Claw,7.690000,15380,18456,3845,2,2,4,https://poedb.tw/us/Rive
-Mercenary's Lot,Slink Gloves,7.690000,15380,18456,3845,2,2,4,https://poedb.tw/us/Mercenarys_Lot
-The Oppressor,Elegant Round Shield,7.690000,15380,18456,2563,2,3,6,https://poedb.tw/us/The_Oppressor
-Hyaon's Fury,Legion Sword,7.590000,15180,18216,2530,2,3,6,https://poedb.tw/us/Hyaons_Fury
-Singularity,Platinum Sceptre,7.590000,15180,18216,2530,2,3,6,https://poedb.tw/us/Singularity
-Apep's Slumber,Vaal Spirit Shield,7.590000,15180,18216,3795,2,2,4,https://poedb.tw/us/Apeps_Slumber
-Belly of the Beast,Full Wyrmscale,7.560000,15120,18144,2520,2,3,6,https://poedb.tw/us/Belly_of_the_Beast
-Redblade Tramplers,Ancient Greaves,7.560000,15120,18144,3780,2,2,4,https://poedb.tw/us/Redblade_Tramplers
-Veruso's Battering Rams,Titan Gauntlets,7.460000,14920,17904,3730,2,2,4,https://poedb.tw/us/Verusos_Battering_Rams
-Asenath's Mark,Iron Circlet,7.380000,14760,17712,3690,2,2,4,https://poedb.tw/us/Asenaths_Mark
-Uzaza's Valley,Sapphire Ring,7.380000,14760,17712,14760,1,1,1,https://poedb.tw/us/Uzazas_Valley
-Scorpion's Call,Heavy Arrow Quiver,7.360000,14720,17664,2453,2,3,6,https://poedb.tw/us/Scorpions_Call
-Soulthirst,Cloth Belt,7.340000,14680,17616,7340,2,1,2,https://poedb.tw/us/Soulthirst
-The Tempest's Binding,Callous Mask,7.340000,14680,17616,3670,2,2,4,https://poedb.tw/us/The_Tempests_Binding
-Slavedriver's Hand,Ambush Mitts,7.340000,14680,17616,3670,2,2,4,https://poedb.tw/us/Slavedrivers_Hand
-Vivinsect,Unset Ring,7.340000,14680,17616,14680,1,1,1,https://poedb.tw/us/Vivinsect
-Replica Malachai's Artifice,Unset Ring,7.340000,14680,17616,14680,1,1,1,https://poedb.tw/us/Replica_Malachais_Artifice
-Replica Voideye,Unset Ring,7.340000,14680,17616,14680,1,1,1,https://poedb.tw/us/Replica_Voideye
-Rotblood Promise,Unset Ring,7.340000,14680,17616,14680,1,1,1,https://poedb.tw/us/Rotblood_Promise
-Triumvirate Authority,Unset Ring,7.340000,14680,17616,14680,1,1,1,https://poedb.tw/us/Triumvirate_Authority
-Izaro's Dilemma,Imperial Claw,7.250000,14500,17400,3625,2,2,4,https://poedb.tw/us/Izaros_Dilemma
-Nuro's Harp,Harbinger Bow,7.250000,14500,17400,1812,2,4,8,https://poedb.tw/us/Nuros_Harp
-Xoph's Blood,Amber Amulet,7.160000,14320,17184,14320,1,1,1,https://poedb.tw/us/Xophs_Blood
-The Pandemonius,Jade Amulet,7.160000,14320,17184,14320,1,1,1,https://poedb.tw/us/The_Pandemonius
-Choir of the Storm,Lapis Amulet,7.160000,14320,17184,14320,1,1,1,https://poedb.tw/us/Choir_of_the_Storm
-Replica Hyrri's Truth,Jade Amulet,7.160000,14320,17184,14320,1,1,1,https://poedb.tw/us/Replica_Hyrris_Truth
-Starkonja's Head,Silken Hood,7.150000,14300,17160,3575,2,2,4,https://poedb.tw/us/Starkonjas_Head
-Romira's Banquet,Diamond Ring,7.150000,14300,17160,14300,1,1,1,https://poedb.tw/us/Romiras_Banquet
-Scaeva,Gladius,7.150000,14300,17160,2383,2,3,6,https://poedb.tw/us/Scaeva
-Cane of Unravelling,Ezomyte Staff,7.150000,14300,17160,1787,2,4,8,https://poedb.tw/us/Cane_of_Unravelling
-Soulwrest,Ezomyte Staff,7.150000,14300,17160,1787,2,4,8,https://poedb.tw/us/Soulwrest
-Cowl of the Thermophile,Ezomyte Burgonet,7.150000,14300,17160,3575,2,2,4,https://poedb.tw/us/Cowl_of_the_Thermophile
-Cowl of the Cryophile,Silken Hood,7.150000,14300,17160,3575,2,2,4,https://poedb.tw/us/Cowl_of_the_Cryophile
-The Blood Dance,Sharkskin Boots,7.130000,14260,17112,3565,2,2,4,https://poedb.tw/us/The_Blood_Dance
-Hinekora's Sight,Onyx Amulet,7.130000,14260,17112,14260,1,1,1,https://poedb.tw/us/Hinekoras_Sight
-Replica Hinekora's Sight,Onyx Amulet,7.130000,14260,17112,14260,1,1,1,https://poedb.tw/us/Replica_Hinekoras_Sight
-Oro's Sacrifice,Infernal Sword,7.030000,14060,16872,1757,2,4,8,https://poedb.tw/us/Oros_Sacrifice
-Surgebinders,Dragonscale Gauntlets,7.030000,14060,16872,3515,2,2,4,https://poedb.tw/us/Surgebinders
-Piscator's Vigil,Imbued Wand,6.940000,13880,16656,4626,1,3,3,https://poedb.tw/us/Piscators_Vigil
-The Dancing Dervish,Reaver Sword,6.940000,13880,16656,1735,2,4,8,https://poedb.tw/us/The_Dancing_Dervish
-Hiltless,Reaver Sword,6.940000,13880,16656,1735,2,4,8,https://poedb.tw/us/Hiltless
-Dendrobate,Sentinel Jacket,6.940000,13880,16656,2313,2,3,6,https://poedb.tw/us/Dendrobate
-Cowl of the Ceraunophile,Solaris Circlet,6.940000,13880,16656,3470,2,2,4,https://poedb.tw/us/Cowl_of_the_Ceraunophile
-Haemophilia,Serpentscale Gauntlets,6.920000,13840,16608,3460,2,2,4,https://poedb.tw/us/Haemophilia
-Volkuur's Guidance,Zealot Gloves,6.920000,13840,16608,3460,2,2,4,https://poedb.tw/us/Volkuurs_Guidance
-Replica Volkuur's Guidance,Zealot Gloves,6.920000,13840,16608,3460,2,2,4,https://poedb.tw/us/Replica_Volkuurs_Guidance
-Callinellus Malleus,Auric Mace,6.830000,13660,16392,2276,2,3,6,https://poedb.tw/us/Callinellus_Malleus
-The Goddess Unleashed,Eternal Sword,6.830000,13660,16392,2276,2,3,6,https://poedb.tw/us/The_Goddess_Unleashed
-Allure,Vaal Claw,6.830000,13660,16392,3415,2,2,4,https://poedb.tw/us/Allure
-Debeon's Dirge,Despot Axe,6.830000,13660,16392,1707,2,4,8,https://poedb.tw/us/Debeons_Dirge
-White Wind,Imperial Skean,6.830000,13660,16392,4553,1,3,3,https://poedb.tw/us/White_Wind
-Kaom's Primacy,Karui Chopper,6.740000,13480,16176,1685,2,4,8,https://poedb.tw/us/Kaoms_Primacy
-Snakebite,Assassin's Mitts,6.740000,13480,16176,3370,2,2,4,https://poedb.tw/us/Snakebite
-Ichimonji,Corsair Sword,6.740000,13480,16176,4493,1,3,3,https://poedb.tw/us/Ichimonji
-Mask of the Spirit Drinker,Magistrate Crown,6.740000,13480,16176,3370,2,2,4,https://poedb.tw/us/Mask_of_the_Spirit_Drinker
-The Ghastly Theatre,Teak Round Shield,6.740000,13480,16176,2246,2,3,6,https://poedb.tw/us/The_Ghastly_Theatre
-The Gluttonous Tide,Citadel Bow,6.740000,13480,16176,1685,2,4,8,https://poedb.tw/us/The_Gluttonous_Tide
-Mutewind Pennant,Enameled Buckler,6.720000,13440,16128,3360,2,2,4,https://poedb.tw/us/Mutewind_Pennant
-Mutewind Whispersteps,Serpentscale Boots,6.720000,13440,16128,3360,2,2,4,https://poedb.tw/us/Mutewind_Whispersteps
-Tainted Pact,Coral Amulet,6.720000,13440,16128,13440,1,1,1,https://poedb.tw/us/Tainted_Pact
-Null and Void,Legion Gloves,6.540000,13080,15696,3270,2,2,4,https://poedb.tw/us/Null_and_Void
-Kiloava's Bluster,Ironwood Buckler,6.540000,13080,15696,3270,2,2,4,https://poedb.tw/us/Kiloavas_Bluster
-The Supreme Truth,Crystal Sceptre,6.520000,13040,15648,2173,2,3,6,https://poedb.tw/us/The_Supreme_Truth
-Nycta's Lantern,Crystal Sceptre,6.520000,13040,15648,2173,2,3,6,https://poedb.tw/us/Nyctas_Lantern
-Tremor Rod,Military Staff,6.520000,13040,15648,1630,2,4,8,https://poedb.tw/us/Tremor_Rod
-Brinerot Whalers,Trapper Boots,6.520000,13040,15648,3260,2,2,4,https://poedb.tw/us/Brinerot_Whalers
-Allelopathy,Satin Gloves,6.520000,13040,15648,3260,2,2,4,https://poedb.tw/us/Allelopathy
-Replica Allelopathy,Satin Gloves,6.520000,13040,15648,3260,2,2,4,https://poedb.tw/us/Replica_Allelopathy
-Mark of the Doubting Knight,Platinum Kris,6.440000,12880,15456,4293,1,3,3,https://poedb.tw/us/Mark_of_the_Doubting_Knight
-Skin of the Loyal,Simple Robe,6.370000,12740,15288,2123,2,3,6,https://poedb.tw/us/Skin_of_the_Loyal
-Replica Atziri's Foible,Paua Amulet,6.370000,12740,15288,12740,1,1,1,https://poedb.tw/us/Replica_Atziris_Foible
-Greed's Embrace,Golden Plate,6.350000,12700,15240,2116,2,3,6,https://poedb.tw/us/Greeds_Embrace
-Story of the Vaal,Gemstone Sword,6.350000,12700,15240,4233,1,3,3,https://poedb.tw/us/Story_of_the_Vaal
-Storm Secret,Topaz Ring,6.350000,12700,15240,12700,1,1,1,https://poedb.tw/us/Storm_Secret
-Ahuana's Bite,Sharktooth Arrow Quiver,6.350000,12700,15240,2116,2,3,6,https://poedb.tw/us/Ahuanas_Bite
-Marylene's Fallacy,Lapis Amulet,6.330000,12660,15192,12660,1,1,1,https://poedb.tw/us/Marylenes_Fallacy
-Call of the Brotherhood,Two-Stone Ring,6.330000,12660,15192,12660,1,1,1,https://poedb.tw/us/Call_of_the_Brotherhood
-Emberwake,Ruby Ring,6.330000,12660,15192,12660,1,1,1,https://poedb.tw/us/Emberwake
-Trypanon,Great Mallet,6.330000,12660,15192,1582,2,4,8,https://poedb.tw/us/Trypanon
-Voice of the Storm,Lapis Amulet,6.330000,12660,15192,12660,1,1,1,https://poedb.tw/us/Voice_of_the_Storm
-Fury Valve,Turquoise Amulet,6.330000,12660,15192,12660,1,1,1,https://poedb.tw/us/Fury_Valve
-Mother's Embrace,Heavy Belt,6.330000,12660,15192,6330,2,1,2,https://poedb.tw/us/Mothers_Embrace
-Blood Price,Reaver Helmet,6.330000,12660,15192,3165,2,2,4,https://poedb.tw/us/Blood_Price
-Thousand Teeth Temu,Vaal Buckler,6.250000,12500,15000,3125,2,2,4,https://poedb.tw/us/Thousand_Teeth_Temu
-The Broken Crown,Prophet Crown,6.250000,12500,15000,3125,2,2,4,https://poedb.tw/us/The_Broken_Crown
-The Retch,Rustic Sash,6.180000,12360,14832,6180,2,1,2,https://poedb.tw/us/The_Retch
-Voidbringer,Conjurer Gloves,6.170000,12340,14808,3085,2,2,4,https://poedb.tw/us/Voidbringer
-Dance of the Offered,Carnal Boots,6.170000,12340,14808,3085,2,2,4,https://poedb.tw/us/Dance_of_the_Offered
-Sin Trek,Stealth Boots,6.070000,12140,14568,3035,2,2,4,https://poedb.tw/us/Sin_Trek
-Chin Sol,Assassin Bow,6.070000,12140,14568,1517,2,4,8,https://poedb.tw/us/Chin_Sol
-Wings of Entropy,Ezomyte Axe,6.070000,12140,14568,1517,2,4,8,https://poedb.tw/us/Wings_of_Entropy
-Sinvicta's Mettle,Ezomyte Axe,6.070000,12140,14568,1517,2,4,8,https://poedb.tw/us/Sinvictas_Mettle
-Voidhome,Dread Maul,5.990000,11980,14376,1497,2,4,8,https://poedb.tw/us/Voidhome
-Pyroshock Clasp,Leather Belt,5.990000,11980,14376,5990,2,1,2,https://poedb.tw/us/Pyroshock_Clasp
-Circle of Nostalgia,Amethyst Ring,5.970000,11940,14328,11940,1,1,1,https://poedb.tw/us/Circle_of_Nostalgia
-Chernobog's Pillar,Ebony Tower Shield,5.890000,11780,14136,1472,2,4,8,https://poedb.tw/us/Chernobogs_Pillar
-Kingsguard,Conquest Chainmail,5.890000,11780,14136,1963,2,3,6,https://poedb.tw/us/Kingsguard
-Kondo's Pride,Ezomyte Blade,5.890000,11780,14136,1472,2,4,8,https://poedb.tw/us/Kondos_Pride
-Geofri's Crest,Great Crown,5.810000,11620,13944,2905,2,2,4,https://poedb.tw/us/Geofris_Crest
-Bronn's Lithe,Cutthroat's Garb,5.810000,11620,13944,1936,2,3,6,https://poedb.tw/us/Bronns_Lithe
-The Consuming Dark,Fiend Dagger,5.810000,11620,13944,3873,1,3,3,https://poedb.tw/us/The_Consuming_Dark
-The Coming Calamity,Destroyer Regalia,5.810000,11620,13944,1936,2,3,6,https://poedb.tw/us/The_Coming_Calamity
-Command of the Pit,Riveted Gloves,5.800000,11600,13920,2900,2,2,4,https://poedb.tw/us/Command_of_the_Pit
-Replica Harvest,Jasper Chopper,5.800000,11600,13920,1450,2,4,8,https://poedb.tw/us/Replica_Harvest
-Cameria's Maul,Gavel,5.720000,11440,13728,1906,2,3,6,https://poedb.tw/us/Camerias_Maul
-Balefire,Opal Sceptre,5.720000,11440,13728,1906,2,3,6,https://poedb.tw/us/Balefire
-The Wasp Nest,Throat Stabber,5.720000,11440,13728,2860,2,2,4,https://poedb.tw/us/The_Wasp_Nest
-Taproot,Ambusher,5.720000,11440,13728,3813,1,3,3,https://poedb.tw/us/Taproot
-The Druggery,Cloth Belt,5.720000,11440,13728,5720,2,1,2,https://poedb.tw/us/The_Druggery
-Goblinedge,Ambusher,5.720000,11440,13728,3813,1,3,3,https://poedb.tw/us/Goblinedge
-The Redblade,Gladius,5.720000,11440,13728,1906,2,3,6,https://poedb.tw/us/The_Redblade
-Victario's Influence,Lacquered Garb,5.640000,11280,13536,1880,2,3,6,https://poedb.tw/us/Victarios_Influence
-Crown of the Pale King,Regicide Mask,5.640000,11280,13536,2820,2,2,4,https://poedb.tw/us/Crown_of_the_Pale_King
-Oskarm,Nubuck Gloves,5.640000,11280,13536,2820,2,2,4,https://poedb.tw/us/Oskarm
-Aurseize,Steelscale Gauntlets,5.630000,11260,13512,2815,2,2,4,https://poedb.tw/us/Aurseize
-Tombfist,Steelscale Gauntlets,5.630000,11260,13512,2815,2,2,4,https://poedb.tw/us/Tombfist
-Vixen's Entrapment,Embroidered Gloves,5.630000,11260,13512,2815,2,2,4,https://poedb.tw/us/Vixens_Entrapment
-Moonsorrow,Imbued Wand,5.550000,11100,13320,3700,1,3,3,https://poedb.tw/us/Moonsorrow
-Obliteration,Imbued Wand,5.550000,11100,13320,3700,1,3,3,https://poedb.tw/us/Obliteration
-Replica Soul Taker,Siege Axe,5.550000,11100,13320,1850,2,3,6,https://poedb.tw/us/Replica_Soul_Taker
-The Dancing Duo,Reaver Sword,5.550000,11100,13320,1387,2,4,8,https://poedb.tw/us/The_Dancing_Duo
-The Fledgling,Lacquered Helmet,5.480000,10960,13152,2740,2,2,4,https://poedb.tw/us/The_Fledgling
-Voll's Protector,Holy Chainmail,5.460000,10920,13104,1820,2,3,6,https://poedb.tw/us/Volls_Protector
-Meginord's Vise,Steel Gauntlets,5.460000,10920,13104,2730,2,2,4,https://poedb.tw/us/Meginords_Vise
-Redblade Banner,Painted Tower Shield,5.460000,10920,13104,1365,2,4,8,https://poedb.tw/us/Redblade_Banner
-Xoph's Heart,Amber Amulet,5.460000,10920,13104,10920,1,1,1,https://poedb.tw/us/Xophs_Heart
-The Halcyon,Jade Amulet,5.460000,10920,13104,10920,1,1,1,https://poedb.tw/us/The_Halcyon
-Replica Earendel's Embrace,Grinning Fetish,5.460000,10920,13104,1820,2,3,6,https://poedb.tw/us/Replica_Earendels_Embrace
-Gang's Momentum,Legion Boots,5.390000,10780,12936,2695,2,2,4,https://poedb.tw/us/Gangs_Momentum
-Femurs of the Saints,Primordial Staff,5.390000,10780,12936,1347,2,4,8,https://poedb.tw/us/Femurs_of_the_Saints
-March of the Legion,Legion Boots,5.390000,10780,12936,2695,2,2,4,https://poedb.tw/us/March_of_the_Legion
-Sign of the Sin Eater,Tyrant's Sekhem,5.390000,10780,12936,1796,2,3,6,https://poedb.tw/us/Sign_of_the_Sin_Eater
-Rotting Legion,Loricated Ringmail,5.390000,10780,12936,1796,2,3,6,https://poedb.tw/us/Rotting_Legion
-The Burden of Shadows,Primordial Staff,5.390000,10780,12936,1347,2,4,8,https://poedb.tw/us/The_Burden_of_Shadows
-Warped Timepiece,Turquoise Amulet,5.320000,10640,12768,10640,1,1,1,https://poedb.tw/us/Warped_Timepiece
-Heartbound Loop,Moonstone Ring,5.320000,10640,12768,10640,1,1,1,https://poedb.tw/us/Heartbound_Loop
-Frostbreath,Ornate Mace,5.320000,10640,12768,1773,2,3,6,https://poedb.tw/us/Frostbreath
-Darkness Enthroned,Stygian Vise,5.320000,10640,12768,5320,2,1,2,https://poedb.tw/us/Darkness_Enthroned
-Perquil's Toe,Gold Amulet,5.320000,10640,12768,10640,1,1,1,https://poedb.tw/us/Perquils_Toe
-Nametaker,Graceful Sword,5.320000,10640,12768,1773,2,3,6,https://poedb.tw/us/Nametaker
-Soul Mantle,Spidersilk Robe,5.170000,10340,12408,1723,2,3,6,https://poedb.tw/us/Soul_Mantle
-Alberon's Warpath,Soldier Boots,5.170000,10340,12408,2585,2,2,4,https://poedb.tw/us/Alberons_Warpath
-Sire of Shards,Serpentine Staff,5.170000,10340,12408,1292,2,4,8,https://poedb.tw/us/Sire_of_Shards
-Wyrmsign,Wyrmscale Gauntlets,5.170000,10340,12408,2585,2,2,4,https://poedb.tw/us/Wyrmsign
-Venopuncture,Iron Ring,5.170000,10340,12408,10340,1,1,1,https://poedb.tw/us/Venopuncture
-Icefang Orbit,Iron Ring,5.170000,10340,12408,10340,1,1,1,https://poedb.tw/us/Icefang_Orbit
-Shattershard,Crimson Round Shield,5.170000,10340,12408,1723,2,3,6,https://poedb.tw/us/Shattershard
-Steelworm,Broadhead Arrow Quiver,5.170000,10340,12408,1723,2,3,6,https://poedb.tw/us/Steelworm
-Tanu Ahi,Wyrmscale Gauntlets,5.170000,10340,12408,2585,2,2,4,https://poedb.tw/us/Tanu_Ahi
-Bloodsoaked Medallion,Amber Amulet,5.170000,10340,12408,10340,1,1,1,https://poedb.tw/us/Bloodsoaked_Medallion
-Windscream,Reinforced Greaves,5.150000,10300,12360,2575,2,2,4,https://poedb.tw/us/Windscream
-Deidbell,Gilded Sallet,5.150000,10300,12360,2575,2,2,4,https://poedb.tw/us/Deidbell
-The Whispering Ice,Vile Staff,5.150000,10300,12360,1287,2,4,8,https://poedb.tw/us/The_Whispering_Ice
-Gluttony,Leather Belt,5.010000,10020,12024,5010,2,1,2,https://poedb.tw/us/Gluttony
-Nightgrip,Runic Gages,5.010000,10020,12024,2505,2,2,4,https://poedb.tw/us/Nightgrip
-Olroth's Charge,Runic Sollerets,5.010000,10020,12024,2505,2,2,4,https://poedb.tw/us/Olroths_Charge
-Sudden Dawn,Steel Circlet,5.010000,10020,12024,2505,2,2,4,https://poedb.tw/us/Sudden_Dawn
-Ephemeral Edge,Dusk Blade,5.000000,10000,12000,1666,2,3,6,https://poedb.tw/us/Ephemeral_Edge
-Death's Harp,Death Bow,5.000000,10000,12000,1250,2,4,8,https://poedb.tw/us/Deaths_Harp
-Bitterdream,Shadow Sceptre,5.000000,10000,12000,1666,2,3,6,https://poedb.tw/us/Bitterdream
-Replica Iron Commander,Death Bow,5.000000,10000,12000,1250,2,4,8,https://poedb.tw/us/Replica_Iron_Commander
-Hrimnor's Resolve,Samnite Helmet,4.930000,9860,11832,2465,2,2,4,https://poedb.tw/us/Hrimnors_Resolve
-Rat's Nest,Ursine Pelt,4.930000,9860,11832,2465,2,2,4,https://poedb.tw/us/Rats_Nest
-Maloney's Nightfall,Vile Arrow Quiver,4.930000,9860,11832,1643,2,3,6,https://poedb.tw/us/Maloneys_Nightfall
-Three-step Assault,Shagreen Boots,4.930000,9860,11832,2465,2,2,4,https://poedb.tw/us/Three-step_Assault
-The Ascetic,Gold Amulet,4.930000,9860,11832,9860,1,1,1,https://poedb.tw/us/The_Ascetic
-The Highwayman,Gold Ring,4.930000,9860,11832,9860,1,1,1,https://poedb.tw/us/The_Highwayman
-Innsbury Edge,Elder Sword,4.870000,9740,11688,1623,2,3,6,https://poedb.tw/us/Innsbury_Edge
-The Fracturing Spinner,Blunt Arrow Quiver,4.850000,9700,11640,1616,2,3,6,https://poedb.tw/us/The_Fracturing_Spinner
-Atziri's Mirror,Golden Buckler,4.790000,9580,11496,2395,2,2,4,https://poedb.tw/us/Atziris_Mirror
-Great Old One's Ward,Corrugated Buckler,4.730000,9460,11352,2365,2,2,4,https://poedb.tw/us/Great_Old_Ones_Ward
-Replica Advancing Fortress,Gut Ripper,4.730000,9460,11352,2365,2,2,4,https://poedb.tw/us/Replica_Advancing_Fortress
-Kahuturoa's Certainty,Ancient Greaves,4.730000,9460,11352,2365,2,2,4,https://poedb.tw/us/Kahuturoas_Certainty
-Umbilicus Immortalis,Leather Belt,4.710000,9420,11304,4710,2,1,2,https://poedb.tw/us/Umbilicus_Immortalis
-Xirgil's Crank,Coiled Staff,4.710000,9420,11304,1177,2,4,8,https://poedb.tw/us/Xirgils_Crank
-Bisco's Collar,Gold Amulet,4.710000,9420,11304,9420,1,1,1,https://poedb.tw/us/Biscos_Collar
-Bisco's Leash,Heavy Belt,4.710000,9420,11304,4710,2,1,2,https://poedb.tw/us/Biscos_Leash
-Replica Lioneye's Paws,Bronzescale Boots,4.710000,9420,11304,2355,2,2,4,https://poedb.tw/us/Replica_Lioneyes_Paws
-Relic of the Pact,Sage Wand,4.710000,9420,11304,3140,1,3,3,https://poedb.tw/us/Relic_of_the_Pact
-Infractem,Decimation Bow,4.650000,9300,11160,1162,2,4,8,https://poedb.tw/us/Infractem
-Prismatic Eclipse,Twilight Blade,4.650000,9300,11160,1550,2,3,6,https://poedb.tw/us/Prismatic_Eclipse
-Empire's Grasp,Goliath Gauntlets,4.650000,9300,11160,2325,2,2,4,https://poedb.tw/us/Empires_Grasp
-Replica Forbidden Shako,Great Crown,4.650000,9300,11160,2325,2,2,4,https://poedb.tw/us/Replica_Forbidden_Shako
-Geofri's Legacy,Great Crown,4.650000,9300,11160,2325,2,2,4,https://poedb.tw/us/Geofris_Legacy
-Voideye,Unset Ring,4.590000,9180,11016,9180,1,1,1,https://poedb.tw/us/Voideye
-Malachai's Artifice,Unset Ring,4.590000,9180,11016,9180,1,1,1,https://poedb.tw/us/Malachais_Artifice
-Kongming's Stratagem,Ancient Spirit Shield,4.590000,9180,11016,2295,2,2,4,https://poedb.tw/us/Kongmings_Stratagem
-Essence Worm,Unset Ring,4.590000,9180,11016,9180,1,1,1,https://poedb.tw/us/Essence_Worm
-Architect's Hand,Ambush Mitts,4.590000,9180,11016,2295,2,2,4,https://poedb.tw/us/Architects_Hand
-The Annihilating Light,Quarterstaff,4.590000,9180,11016,1147,2,4,8,https://poedb.tw/us/The_Annihilating_Light
-Stormseeker,Ambush Mitts,4.590000,9180,11016,2295,2,2,4,https://poedb.tw/us/Stormseeker
-The Geomantic Gyre,Highborn Staff,4.520000,9040,10848,1130,2,4,8,https://poedb.tw/us/The_Geomantic_Gyre
-Maligaro's Restraint,Chain Belt,4.460000,8920,10704,4460,2,1,2,https://poedb.tw/us/Maligaros_Restraint
-Jorrhast's Blacksteel,Steelhead,4.460000,8920,10704,1115,2,4,8,https://poedb.tw/us/Jorrhasts_Blacksteel
-Natural Hierarchy,Rotfeather Talisman,4.460000,8920,10704,8920,1,1,1,https://poedb.tw/us/Natural_Hierarchy
-Ascent From Flesh,Chain Belt,4.460000,8920,10704,4460,2,1,2,https://poedb.tw/us/Ascent_From_Flesh
-Kitava's Thirst,Zealot Helmet,4.460000,8920,10704,2230,2,2,4,https://poedb.tw/us/Kitavas_Thirst
-Soulbound,Paua Ring,4.460000,8920,10704,8920,1,1,1,https://poedb.tw/us/Soulbound
-Doomfletch,Royal Bow,4.440000,8880,10656,1110,2,4,8,https://poedb.tw/us/Doomfletch
-Brutus' Lead Sprinkler,Ritual Sceptre,4.440000,8880,10656,1480,2,3,6,https://poedb.tw/us/Brutus_Lead_Sprinkler
-Terminus Est,Tiger Sword,4.380000,8760,10512,1095,2,4,8,https://poedb.tw/us/Terminus_Est
-Black Sun Crest,Lacquered Helmet,4.380000,8760,10512,2190,2,2,4,https://poedb.tw/us/Black_Sun_Crest
-Southbound,Soldier Gloves,4.380000,8760,10512,2190,2,2,4,https://poedb.tw/us/Southbound
-Ambu's Charge,Crusader Chainmail,4.330000,8660,10392,1443,2,3,6,https://poedb.tw/us/Ambus_Charge
-Replica Ambu's Charge,Crusader Chainmail,4.330000,8660,10392,1443,2,3,6,https://poedb.tw/us/Replica_Ambus_Charge
-Vaal Caress,Bronzescale Gauntlets,4.310000,8620,10344,2155,2,2,4,https://poedb.tw/us/Vaal_Caress
-Heartbreaker,Royal Skean,4.260000,8520,10224,2840,1,3,3,https://poedb.tw/us/Heartbreaker
-Immortal Flesh,Leather Belt,4.260000,8520,10224,4260,2,1,2,https://poedb.tw/us/Immortal_Flesh
-Victario's Charity,Laminated Kite Shield,4.260000,8520,10224,1420,2,3,6,https://poedb.tw/us/Victarios_Charity
-The Embalmer,Carnal Mitts,4.260000,8520,10224,2130,2,2,4,https://poedb.tw/us/The_Embalmer
-Zeel's Amplifier,Polished Spiked Shield,4.130000,8260,9912,2065,2,2,4,https://poedb.tw/us/Zeels_Amplifier
-The Eternal Apple,Chiming Spirit Shield,4.130000,8260,9912,2065,2,2,4,https://poedb.tw/us/The_Eternal_Apple
-Pragmatism,Colosseum Plate,4.130000,8260,9912,1376,2,3,6,https://poedb.tw/us/Pragmatism
-Demon Stitcher,Satin Gloves,4.080000,8160,9792,2040,2,2,4,https://poedb.tw/us/Demon_Stitcher
-Eye of Chayula,Onyx Amulet,4.070000,8140,9768,8140,1,1,1,https://poedb.tw/us/Eye_of_Chayula
-The Eternal Struggle,Onyx Amulet,4.070000,8140,9768,8140,1,1,1,https://poedb.tw/us/The_Eternal_Struggle
-Midnight Bargain,Engraved Wand,3.960000,7920,9504,2640,1,3,3,https://poedb.tw/us/Midnight_Bargain
-Ceinture of Benevolence,Cloth Belt,3.960000,7920,9504,3960,2,1,2,https://poedb.tw/us/Ceinture_of_Benevolence
-Dream Fragments,Sapphire Ring,3.950000,7900,9480,7900,1,1,1,https://poedb.tw/us/Dream_Fragments
-Reverberation Rod,Spiraled Wand,3.950000,7900,9480,2633,1,3,3,https://poedb.tw/us/Reverberation_Rod
-Winterweave,Coral Ring,3.950000,7900,9480,7900,1,1,1,https://poedb.tw/us/Winterweave
-Doedre's Tongue,Lapis Amulet,3.950000,7900,9480,7900,1,1,1,https://poedb.tw/us/Doedres_Tongue
-Kalisa's Grace,Samite Gloves,3.900000,7800,9360,1950,2,2,4,https://poedb.tw/us/Kalisas_Grace
-Lightbane Raiment,Ornate Ringmail,3.900000,7800,9360,1300,2,3,6,https://poedb.tw/us/Lightbane_Raiment
-Doedre's Scorn,Lunaris Circlet,3.840000,7680,9216,1920,2,2,4,https://poedb.tw/us/Doedres_Scorn
-Moonbender's Wing,Tomahawk,3.840000,7680,9216,1280,2,3,6,https://poedb.tw/us/Moonbenders_Wing
-The Flawed Refuge,Maple Round Shield,3.840000,7680,9216,1280,2,3,6,https://poedb.tw/us/The_Flawed_Refuge
-Ungil's Harmony,Turquoise Amulet,3.830000,7660,9192,7660,1,1,1,https://poedb.tw/us/Ungils_Harmony
-Brinerot Flag,Tarnished Spirit Shield,3.830000,7660,9192,1915,2,2,4,https://poedb.tw/us/Brinerot_Flag
-Ornament of the East,Gut Ripper,3.780000,7560,9072,1890,2,2,4,https://poedb.tw/us/Ornament_of_the_East
-Advancing Fortress,Gut Ripper,3.780000,7560,9072,1890,2,2,4,https://poedb.tw/us/Advancing_Fortress
-Valako's Sign,Topaz Ring,3.730000,7460,8952,7460,1,1,1,https://poedb.tw/us/Valakos_Sign
-Replica Bones of Ullr,Silk Slippers,3.720000,7440,8928,1860,2,2,4,https://poedb.tw/us/Replica_Bones_of_Ullr
-The Blood Reaper,Headsman Axe,3.670000,7340,8808,917,2,4,8,https://poedb.tw/us/The_Blood_Reaper
-Sibyl's Lament,Coral Ring,3.670000,7340,8808,7340,1,1,1,https://poedb.tw/us/Sibyls_Lament
-The Anvil,Amber Amulet,3.670000,7340,8808,7340,1,1,1,https://poedb.tw/us/The_Anvil
-Maligaro's Lens,Compound Spiked Shield,3.670000,7340,8808,1835,2,2,4,https://poedb.tw/us/Maligaros_Lens
-Mark of Submission,Unset Ring,3.670000,7340,8808,7340,1,1,1,https://poedb.tw/us/Mark_of_Submission
-The Signal Fire,Blazing Arrow Quiver,3.670000,7340,8808,1223,2,3,6,https://poedb.tw/us/The_Signal_Fire
-Corona Solaris,Crystal Wand,3.670000,7340,8808,2446,1,3,3,https://poedb.tw/us/Corona_Solaris
-The Harvest,Jasper Chopper,3.620000,7240,8688,905,2,4,8,https://poedb.tw/us/The_Harvest
-Rigwald's Charge,Highland Blade,3.560000,7120,8544,890,2,4,8,https://poedb.tw/us/Rigwalds_Charge
-Widowmaker,Boot Blade,3.560000,7120,8544,2373,1,3,3,https://poedb.tw/us/Widowmaker
-Siegebreaker,Heavy Belt,3.560000,7120,8544,3560,2,1,2,https://poedb.tw/us/Siegebreaker
-Tawhanuku's Timing,Moonstone Ring,3.560000,7120,8544,7120,1,1,1,https://poedb.tw/us/Tawhanukus_Timing
-Heatshiver,Leather Hood,3.510000,7020,8424,1755,2,2,4,https://poedb.tw/us/Heatshiver
-Berek's Respite,Two-Stone Ring,3.510000,7020,8424,7020,1,1,1,https://poedb.tw/us/Bereks_Respite
-Rigwald's Crest,Two-Stone Ring,3.510000,7020,8424,7020,1,1,1,https://poedb.tw/us/Rigwalds_Crest
-The Flow Untethered,Cloth Belt,3.510000,7020,8424,3510,2,1,2,https://poedb.tw/us/The_Flow_Untethered
-Replica Tempestuous Steel,War Sword,3.510000,7020,8424,1170,2,3,6,https://poedb.tw/us/Replica_Tempestuous_Steel
-Arn's Anguish,Cloth Belt,3.510000,7020,8424,3510,2,1,2,https://poedb.tw/us/Arns_Anguish
-Olesya's Delight,Cloth Belt,3.510000,7020,8424,3510,2,1,2,https://poedb.tw/us/Olesyas_Delight
-Graven's Secret,Cloth Belt,3.510000,7020,8424,3510,2,1,2,https://poedb.tw/us/Gravens_Secret
-Ixchel's Temptation,Gold Ring,3.510000,7020,8424,7020,1,1,1,https://poedb.tw/us/Ixchels_Temptation
-Replica Heatshiver,Leather Hood,3.510000,7020,8424,1755,2,2,4,https://poedb.tw/us/Replica_Heatshiver
-Daresso's Passion,Estoc,3.460000,6920,8304,1730,1,4,4,https://poedb.tw/us/Daressos_Passion
-El'Abin's Visage,Fencer Helm,3.460000,6920,8304,1730,2,2,4,https://poedb.tw/us/ElAbins_Visage
-Bloodbond,Bone Armour,3.410000,6820,8184,1136,2,3,6,https://poedb.tw/us/Bloodbond
-Wurm's Molt,Leather Belt,3.360000,6720,8064,3360,2,1,2,https://poedb.tw/us/Wurms_Molt
-Winterheart,Gold Amulet,3.360000,6720,8064,6720,1,1,1,https://poedb.tw/us/Winterheart
-Goldwyrm,Nubuck Boots,3.320000,6640,7968,1660,2,2,4,https://poedb.tw/us/Goldwyrm
-The Primordial Chain,Coral Amulet,3.320000,6640,7968,6640,1,1,1,https://poedb.tw/us/The_Primordial_Chain
-Plume of Pursuit,Bone Circlet,3.320000,6640,7968,1660,2,2,4,https://poedb.tw/us/Plume_of_Pursuit
-Cloak of Flame,Scholar's Robe,3.310000,6620,7944,1103,2,3,6,https://poedb.tw/us/Cloak_of_Flame
-Clayshaper,Rock Breaker,3.260000,6520,7824,1086,2,3,6,https://poedb.tw/us/Clayshaper
-Sentari's Answer,Brass Spirit Shield,3.220000,6440,7728,1610,2,2,4,https://poedb.tw/us/Sentaris_Answer
-Chober Chaber,Great Mallet,3.170000,6340,7608,792,2,4,8,https://poedb.tw/us/Chober_Chaber
-Eclipse Solaris,Engraved Wand,3.170000,6340,7608,2113,1,3,3,https://poedb.tw/us/Eclipse_Solaris
-Chaber Cairn,Great Mallet,3.170000,6340,7608,792,2,4,8,https://poedb.tw/us/Chaber_Cairn
-The Aylardex,Agate Amulet,3.130000,6260,7512,6260,1,1,1,https://poedb.tw/us/The_Aylardex
-Iron Commander,Death Bow,3.130000,6260,7512,782,2,4,8,https://poedb.tw/us/Iron_Commander
-Replica Bitterdream,Shadow Sceptre,3.130000,6260,7512,1043,2,3,6,https://poedb.tw/us/Replica_Bitterdream
-Ahkeli's Valley,Ruby Ring,3.120000,6240,7488,6240,1,1,1,https://poedb.tw/us/Ahkelis_Valley
-Precursor's Emblem,Ruby Ring,3.120000,6240,7488,6240,1,1,1,https://poedb.tw/us/Precursors_Emblem
-Circle of Anguish,Ruby Ring,3.120000,6240,7488,6240,1,1,1,https://poedb.tw/us/Circle_of_Anguish
-Icetomb,Latticed Ringmail,3.070000,6140,7368,1023,2,3,6,https://poedb.tw/us/Icetomb
-Crystal Vault,Latticed Ringmail,3.070000,6140,7368,1023,2,3,6,https://poedb.tw/us/Crystal_Vault
-Orbala's Stand,Eelskin Boots,3.070000,6140,7368,1535,2,2,4,https://poedb.tw/us/Orbalas_Stand
-Rearguard,Blunt Arrow Quiver,3.030000,6060,7272,1010,2,3,6,https://poedb.tw/us/Rearguard
-Shadows and Dust,Clasped Mitts,3.030000,6060,7272,1515,2,2,4,https://poedb.tw/us/Shadows_and_Dust
-Demigod's Beacon,Golden Flame,3.030000,6060,7272,1010,2,3,6,https://poedb.tw/us/Demigods_Beacon
-Aukuna's Will,Clasped Mitts,3.030000,6060,7272,1515,2,2,4,https://poedb.tw/us/Aukunas_Will
-Replica Winterheart,Gold Amulet,3.030000,6060,7272,6060,1,1,1,https://poedb.tw/us/Replica_Winterheart
-Valyrium,Moonstone Ring,2.990000,5980,7176,5980,1,1,1,https://poedb.tw/us/Valyrium
-Lioneye's Paws,Bronzescale Boots,2.950000,5900,7080,1475,2,2,4,https://poedb.tw/us/Lioneyes_Paws
-Thief's Torment,Prismatic Ring,2.950000,5900,7080,5900,1,1,1,https://poedb.tw/us/Thiefs_Torment
-Lori's Lantern,Prismatic Ring,2.950000,5900,7080,5900,1,1,1,https://poedb.tw/us/Loris_Lantern
-Replica Twyzel,Sage Wand,2.950000,5900,7080,1966,1,3,3,https://poedb.tw/us/Replica_Twyzel
-Zahndethus' Cassock,Sage's Robe,2.900000,5800,6960,966,2,3,6,https://poedb.tw/us/Zahndethus_Cassock
-Mindspiral,Aventail Helmet,2.900000,5800,6960,1450,2,2,4,https://poedb.tw/us/Mindspiral
-Cybil's Paw,Thresher Claw,2.900000,5800,6960,1450,2,2,4,https://poedb.tw/us/Cybils_Paw
-Torchoak Step,Antique Greaves,2.900000,5800,6960,1450,2,2,4,https://poedb.tw/us/Torchoak_Step
-Chalice of Horrors,War Buckler,2.860000,5720,6864,1430,2,2,4,https://poedb.tw/us/Chalice_of_Horrors
-Ngamahu's Sign,Ruby Ring,2.860000,5720,6864,5720,1,1,1,https://poedb.tw/us/Ngamahus_Sign
-Skullhead,Secutor Helm,2.810000,5620,6744,1405,2,2,4,https://poedb.tw/us/Skullhead
-Skirmish,Two-Point Arrow Quiver,2.810000,5620,6744,936,2,3,6,https://poedb.tw/us/Skirmish
-Gifts from Above,Diamond Ring,2.780000,5560,6672,5560,1,1,1,https://poedb.tw/us/Gifts_from_Above
-Blightwell,Clutching Talisman,2.780000,5560,6672,5560,1,1,1,https://poedb.tw/us/Blightwell
-Replica Leer Cast,Festival Mask,2.780000,5560,6672,1390,2,2,4,https://poedb.tw/us/Replica_Leer_Cast
-Putembo's Meadow,Topaz Ring,2.770000,5540,6648,5540,1,1,1,https://poedb.tw/us/Putembos_Meadow
-Circle of Regret,Topaz Ring,2.770000,5540,6648,5540,1,1,1,https://poedb.tw/us/Circle_of_Regret
-The Three Dragons,Golden Mask,2.730000,5460,6552,1365,2,2,4,https://poedb.tw/us/The_Three_Dragons
-Earendel's Embrace,Grinning Fetish,2.730000,5460,6552,910,2,3,6,https://poedb.tw/us/Earendels_Embrace
-Willclash,Golden Mask,2.730000,5460,6552,1365,2,2,4,https://poedb.tw/us/Willclash
-Lycosidae,Rawhide Tower Shield,2.690000,5380,6456,672,2,4,8,https://poedb.tw/us/Lycosidae
-Mortem Morsu,Fright Claw,2.650000,5300,6360,1325,2,2,4,https://poedb.tw/us/Mortem_Morsu
-Al Dhih,Timeworn Claw,2.620000,5240,6288,1310,2,2,4,https://poedb.tw/us/Al_Dhih
-The Baron,Close Helmet,2.620000,5240,6288,1310,2,2,4,https://poedb.tw/us/The_Baron
-Fairgraves' Tricorne,Tricorne,2.610000,5220,6264,1305,2,2,4,https://poedb.tw/us/Fairgraves_Tricorne
-Hyperboreus,Leather Belt,2.610000,5220,6264,2610,2,1,2,https://poedb.tw/us/Hyperboreus
-Survivor's Guilt,Heavy Belt,2.610000,5220,6264,2610,2,1,2,https://poedb.tw/us/Survivors_Guilt
-Reaper's Pursuit,Shadow Axe,2.580000,5160,6192,645,2,4,8,https://poedb.tw/us/Reapers_Pursuit
-Deidbellow,Gilded Sallet,2.580000,5160,6192,1290,2,2,4,https://poedb.tw/us/Deidbellow
-Windshriek,Reinforced Greaves,2.580000,5160,6192,1290,2,2,4,https://poedb.tw/us/Windshriek
-Drillneck,Penetrating Arrow Quiver,2.540000,5080,6096,846,2,3,6,https://poedb.tw/us/Drillneck
-Timeclasp,Moonstone Ring,2.540000,5080,6096,5080,1,1,1,https://poedb.tw/us/Timeclasp
-Faithguard,Runic Helm,2.540000,5080,6096,1270,2,2,4,https://poedb.tw/us/Faithguard
-Shavronne's Pace,Scholar Boots,2.500000,5000,6000,1250,2,2,4,https://poedb.tw/us/Shavronnes_Pace
-Briskwrap,Sun Leather,2.500000,5000,6000,833,2,3,6,https://poedb.tw/us/Briskwrap
-Flesh-Eater,Dream Mace,2.500000,5000,6000,833,2,3,6,https://poedb.tw/us/Flesh-Eater
-Triad Grip,Mesh Gloves,2.500000,5000,6000,1250,2,2,4,https://poedb.tw/us/Triad_Grip
-Shavronne's Gambit,Scholar Boots,2.500000,5000,6000,1250,2,2,4,https://poedb.tw/us/Shavronnes_Gambit
-Death's Opus,Death Bow,2.500000,5000,6000,625,2,4,8,https://poedb.tw/us/Deaths_Opus
-Le Heup of All,Iron Ring,2.470000,4940,5928,4940,1,1,1,https://poedb.tw/us/Le_Heup_of_All
-Pyre,Sapphire Ring,2.460000,4920,5904,4920,1,1,1,https://poedb.tw/us/Pyre
-Uzaza's Mountain,Sapphire Ring,2.460000,4920,5904,4920,1,1,1,https://poedb.tw/us/Uzazas_Mountain
-Circle of Fear,Sapphire Ring,2.460000,4920,5904,4920,1,1,1,https://poedb.tw/us/Circle_of_Fear
-Replica Tasalio's Sign,Sapphire Ring,2.460000,4920,5904,4920,1,1,1,https://poedb.tw/us/Replica_Tasalios_Sign
-Call of the Void,Sapphire Ring,2.460000,4920,5904,4920,1,1,1,https://poedb.tw/us/Call_of_the_Void
-Ikiaho's Promise,Coral Amulet,2.430000,4860,5832,4860,1,1,1,https://poedb.tw/us/Ikiahos_Promise
-Matua Tupuna,Tarnished Spirit Shield,2.400000,4800,5760,1200,2,2,4,https://poedb.tw/us/Matua_Tupuna
-The Trickster's Smile,Visored Sallet,2.400000,4800,5760,1200,2,2,4,https://poedb.tw/us/The_Tricksters_Smile
-Blood of Corruption,Amber Amulet,2.390000,4780,5736,4780,1,1,1,https://poedb.tw/us/Blood_of_Corruption
-Replica Karui Ward,Jade Amulet,2.390000,4780,5736,4780,1,1,1,https://poedb.tw/us/Replica_Karui_Ward
-Mightflay,Flaying Knife,2.360000,4720,5664,1573,1,3,3,https://poedb.tw/us/Mightflay
-Titucius' Span,Reinforced Tower Shield,2.360000,4720,5664,590,2,4,8,https://poedb.tw/us/Titucius_Span
-Twyzel,Sage Wand,2.360000,4720,5664,1573,1,3,3,https://poedb.tw/us/Twyzel
-Chitus' Needle,Elegant Foil,2.360000,4720,5664,1180,1,4,4,https://poedb.tw/us/Chitus_Needle
-The Warden's Brand,Iron Ring,2.360000,4720,5664,4720,1,1,1,https://poedb.tw/us/The_Wardens_Brand
-Retaliation Charm,Citrine Amulet,2.360000,4720,5664,4720,1,1,1,https://poedb.tw/us/Retaliation_Charm
-Elevore,Wolf Pelt,2.360000,4720,5664,1180,2,2,4,https://poedb.tw/us/Elevore
-Veil of the Night,Great Helmet,2.330000,4660,5592,1165,2,2,4,https://poedb.tw/us/Veil_of_the_Night
-Edge of Madness,Etched Greatsword,2.330000,4660,5592,582,2,4,8,https://poedb.tw/us/Edge_of_Madness
-Replica Veil of the Night,Great Helmet,2.330000,4660,5592,1165,2,2,4,https://poedb.tw/us/Replica_Veil_of_the_Night
-Relentless Fury,Decorative Axe,2.290000,4580,5496,763,2,3,6,https://poedb.tw/us/Relentless_Fury
-Thirst for Horrors,War Buckler,2.290000,4580,5496,1145,2,2,4,https://poedb.tw/us/Thirst_for_Horrors
-Fated End,Paua Ring,2.250000,4500,5400,4500,1,1,1,https://poedb.tw/us/Fated_End
-Replica Doedre's Damning,Paua Ring,2.250000,4500,5400,4500,1,1,1,https://poedb.tw/us/Replica_Doedres_Damning
-Wake of Destruction,Mesh Boots,2.220000,4440,5328,1110,2,2,4,https://poedb.tw/us/Wake_of_Destruction
-Leer Cast,Festival Mask,2.220000,4440,5328,1110,2,2,4,https://poedb.tw/us/Leer_Cast
-Lakishu's Blade,Elegant Sword,2.220000,4440,5328,740,2,3,6,https://poedb.tw/us/Lakishus_Blade
-The Stormheart,Royal Staff,2.220000,4440,5328,555,2,4,8,https://poedb.tw/us/The_Stormheart
-Viper's Scales,Full Scale Armour,2.220000,4440,5328,740,2,3,6,https://poedb.tw/us/Vipers_Scales
-Doomfletch's Prism,Royal Bow,2.220000,4440,5328,555,2,4,8,https://poedb.tw/us/Doomfletchs_Prism
-The Stormwall,Royal Staff,2.220000,4440,5328,555,2,4,8,https://poedb.tw/us/The_Stormwall
-Meginord's Girdle,Heavy Belt,2.190000,4380,5256,2190,2,1,2,https://poedb.tw/us/Meginords_Girdle
-Berek's Pass,Two-Stone Ring,2.190000,4380,5256,4380,1,1,1,https://poedb.tw/us/Bereks_Pass
-Berek's Grip,Two-Stone Ring,2.190000,4380,5256,4380,1,1,1,https://poedb.tw/us/Bereks_Grip
-Kikazaru,Topaz Ring,2.190000,4380,5256,4380,1,1,1,https://poedb.tw/us/Kikazaru
-Belt of the Deceiver,Heavy Belt,2.190000,4380,5256,2190,2,1,2,https://poedb.tw/us/Belt_of_the_Deceiver
-Tasalio's Sign,Sapphire Ring,2.190000,4380,5256,4380,1,1,1,https://poedb.tw/us/Tasalios_Sign
-Maligaro's Cruelty,Turquoise Amulet,2.190000,4380,5256,4380,1,1,1,https://poedb.tw/us/Maligaros_Cruelty
-Curtain Call,Plague Mask,2.190000,4380,5256,1095,2,2,4,https://poedb.tw/us/Curtain_Call
-The Felbog Fang,Citrine Amulet,2.190000,4380,5256,4380,1,1,1,https://poedb.tw/us/The_Felbog_Fang
-Honoured Alliance,Coral Ring,2.190000,4380,5256,4380,1,1,1,https://poedb.tw/us/Honoured_Alliance
-Geofri's Baptism,Brass Maul,2.160000,4320,5184,540,2,4,8,https://poedb.tw/us/Geofris_Baptism
-Sundance,Clasped Boots,2.160000,4320,5184,1080,2,2,4,https://poedb.tw/us/Sundance
-Slitherpinch,Bronzescale Gauntlets,2.160000,4320,5184,1080,2,2,4,https://poedb.tw/us/Slitherpinch
-Queen's Decree,Ornate Sword,2.160000,4320,5184,540,2,4,8,https://poedb.tw/us/Queens_Decree
-Glitterdisc,Burnished Spiked Shield,2.160000,4320,5184,1080,2,2,4,https://poedb.tw/us/Glitterdisc
-Queen's Escape,Ornate Sword,2.160000,4320,5184,540,2,4,8,https://poedb.tw/us/Queens_Escape
-Sunspite,Clasped Boots,2.160000,4320,5184,1080,2,2,4,https://poedb.tw/us/Sunspite
-Geofri's Devotion,Brass Maul,2.160000,4320,5184,540,2,4,8,https://poedb.tw/us/Geofris_Devotion
-Thousand Ribbons,Simple Robe,2.120000,4240,5088,706,2,3,6,https://poedb.tw/us/Thousand_Ribbons
-Tabula Rasa,Simple Robe,2.120000,4240,5088,706,2,3,6,https://poedb.tw/us/Tabula_Rasa
-Ewar's Mirage,Antique Rapier,2.090000,4180,5016,1045,1,4,4,https://poedb.tw/us/Ewars_Mirage
-Mark of the Red Covenant,Tribal Circlet,2.090000,4180,5016,1045,2,2,4,https://poedb.tw/us/Mark_of_the_Red_Covenant
-Coward's Legacy,Chain Belt,2.060000,4120,4944,2060,2,1,2,https://poedb.tw/us/Cowards_Legacy
-Circle of Guilt,Iron Ring,2.060000,4120,4944,4120,1,1,1,https://poedb.tw/us/Circle_of_Guilt
-Chains of Emancipation,Chain Belt,2.060000,4120,4944,2060,2,1,2,https://poedb.tw/us/Chains_of_Emancipation
-Carnage Heart,Onyx Amulet,2.030000,4060,4872,4060,1,1,1,https://poedb.tw/us/Carnage_Heart
-Foxshade,Wild Leather,2.030000,4060,4872,676,2,3,6,https://poedb.tw/us/Foxshade
-Prismweave,Rustic Sash,2.030000,4060,4872,2030,2,1,2,https://poedb.tw/us/Prismweave
-Duskwing,Saqawine Vulture,2.030000,4060,4872,4060,1,1,1,https://poedb.tw/us/Duskwing
-Timetwist,Moonstone Ring,2.030000,4060,4872,4060,1,1,1,https://poedb.tw/us/Timetwist
-Fox's Fortune,Wild Leather,2.030000,4060,4872,676,2,3,6,https://poedb.tw/us/Foxs_Fortune
-Malachai's Simula,Iron Mask,2.010000,4020,4824,1005,2,2,4,https://poedb.tw/us/Malachais_Simula
-Ashrend,Buckskin Tunic,2.010000,4020,4824,670,2,3,6,https://poedb.tw/us/Ashrend
-Solaris Lorica,Copper Plate,2.010000,4020,4824,670,2,3,6,https://poedb.tw/us/Solaris_Lorica
-Trolltimber Spire,Cedar Tower Shield,2.010000,4020,4824,502,2,4,8,https://poedb.tw/us/Trolltimber_Spire
-Widowhail,Crude Bow,2.000000,4000,4800,666,2,3,6,https://poedb.tw/us/Widowhail
-Storm Prison,Spiraled Wand,1.970000,3940,4728,1313,1,3,3,https://poedb.tw/us/Storm_Prison
-Amplification Rod,Spiraled Wand,1.970000,3940,4728,1313,1,3,3,https://poedb.tw/us/Amplification_Rod
-Facebreaker,Strapped Mitts,1.950000,3900,4680,975,2,2,4,https://poedb.tw/us/Facebreaker
-Mokou's Embrace,Ruby Ring,1.950000,3900,4680,3900,1,1,1,https://poedb.tw/us/Mokous_Embrace
-Ahkeli's Mountain,Ruby Ring,1.950000,3900,4680,3900,1,1,1,https://poedb.tw/us/Ahkelis_Mountain
-The Peregrine,Visored Sallet,1.920000,3840,4608,960,2,2,4,https://poedb.tw/us/The_Peregrine
-Stormcharger,Plated Greaves,1.920000,3840,4608,960,2,2,4,https://poedb.tw/us/Stormcharger
-Giantsbane,Bronze Gauntlets,1.920000,3840,4608,960,2,2,4,https://poedb.tw/us/Giantsbane
-Whakatutuki o Matua,Tarnished Spirit Shield,1.920000,3840,4608,960,2,2,4,https://poedb.tw/us/Whakatutuki_o_Matua
-Flesh and Spirit,Ironscale Gauntlets,1.890000,3780,4536,945,2,2,4,https://poedb.tw/us/Flesh_and_Spirit
-Replica Bloodplay,Stiletto,1.890000,3780,4536,1260,1,3,3,https://poedb.tw/us/Replica_Bloodplay
-Bones of Ullr,Silk Slippers,1.860000,3720,4464,930,2,2,4,https://poedb.tw/us/Bones_of_Ullr
-Quecholli,Jagged Maul,1.860000,3720,4464,465,2,4,8,https://poedb.tw/us/Quecholli
-Deerstalker,Deerskin Boots,1.860000,3720,4464,930,2,2,4,https://poedb.tw/us/Deerstalker
-Fidelitas' Spike,Jagged Foil,1.860000,3720,4464,930,1,4,4,https://poedb.tw/us/Fidelitas_Spike
-Bated Breath,Chain Belt,1.860000,3720,4464,1860,2,1,2,https://poedb.tw/us/Bated_Breath
-Praxis,Paua Ring,1.860000,3720,4464,3720,1,1,1,https://poedb.tw/us/Praxis
-Panquetzaliztli,Jagged Maul,1.860000,3720,4464,465,2,4,8,https://poedb.tw/us/Panquetzaliztli
-Perandus Blazon,Cloth Belt,1.750000,3500,4200,1750,2,1,2,https://poedb.tw/us/Perandus_Blazon
-Ungil's Gauche,Boot Knife,1.750000,3500,4200,1166,1,3,3,https://poedb.tw/us/Ungils_Gauche
-Brightbeak,War Hammer,1.750000,3500,4200,583,2,3,6,https://poedb.tw/us/Brightbeak
-Daresso's Salute,Citrine Amulet,1.750000,3500,4200,3500,1,1,1,https://poedb.tw/us/Daressos_Salute
-Victario's Acuity,Turquoise Amulet,1.750000,3500,4200,3500,1,1,1,https://poedb.tw/us/Victarios_Acuity
-Asphyxia's Wrath,Feathered Arrow Quiver,1.750000,3500,4200,583,2,3,6,https://poedb.tw/us/Asphyxias_Wrath
-Shaper's Seed,Agate Amulet,1.750000,3500,4200,3500,1,1,1,https://poedb.tw/us/Shapers_Seed
-The Deep One's Hide,Studded Round Shield,1.750000,3500,4200,583,2,3,6,https://poedb.tw/us/The_Deep_Ones_Hide
-Lavianga's Wisdom,War Hammer,1.750000,3500,4200,583,2,3,6,https://poedb.tw/us/Laviangas_Wisdom
-Spine of the First Claimant,Iron Sceptre,1.750000,3500,4200,583,2,3,6,https://poedb.tw/us/Spine_of_the_First_Claimant
-Extractor Mentis,Agate Amulet,1.750000,3500,4200,3500,1,1,1,https://poedb.tw/us/Extractor_Mentis
-Demigod's Dominance,Golden Mantle,1.750000,3500,4200,583,2,3,6,https://poedb.tw/us/Demigods_Dominance
-The Tempestuous Steel,War Sword,1.750000,3500,4200,583,2,3,6,https://poedb.tw/us/The_Tempestuous_Steel
-Saemus' Gift,Feathered Arrow Quiver,1.750000,3500,4200,583,2,3,6,https://poedb.tw/us/Saemus_Gift
-Frostferno,Leather Hood,1.750000,3500,4200,875,2,2,4,https://poedb.tw/us/Frostferno
-The Tactician,Studded Belt,1.750000,3500,4200,1750,2,1,2,https://poedb.tw/us/The_Tactician
-The Nomad,Studded Belt,1.750000,3500,4200,1750,2,1,2,https://poedb.tw/us/The_Nomad
-Victario's Flight,Goathide Boots,1.730000,3460,4152,865,2,2,4,https://poedb.tw/us/Victarios_Flight
-Ashcaller,Carved Wand,1.730000,3460,4152,1153,1,3,3,https://poedb.tw/us/Ashcaller
-Putembo's Valley,Topaz Ring,1.730000,3460,4152,3460,1,1,1,https://poedb.tw/us/Putembos_Valley
-Ghostwrithe,Silken Vest,1.680000,3360,4032,560,2,3,6,https://poedb.tw/us/Ghostwrithe
-Dusktoe,Ironscale Boots,1.650000,3300,3960,825,2,2,4,https://poedb.tw/us/Dusktoe
-Wideswing,Poleaxe,1.650000,3300,3960,412,2,4,8,https://poedb.tw/us/Wideswing
-Faminebind,Rustic Sash,1.650000,3300,3960,1650,2,1,2,https://poedb.tw/us/Faminebind
-Roth's Reach,Recurve Bow,1.650000,3300,3960,412,2,4,8,https://poedb.tw/us/Roths_Reach
-Duskblight,Ironscale Boots,1.650000,3300,3960,825,2,2,4,https://poedb.tw/us/Duskblight
-Thrillsteel,Barbute Helmet,1.650000,3300,3960,825,2,2,4,https://poedb.tw/us/Thrillsteel
-Doryani's Invitation,Heavy Belt,1.630000,3260,3912,1630,2,1,2,https://poedb.tw/us/Doryanis_Invitation
-Night's Hold,Black Maw Talisman,1.630000,3260,3912,3260,1,1,1,https://poedb.tw/us/Nights_Hold
-String of Servitude,Heavy Belt,1.630000,3260,3912,1630,2,1,2,https://poedb.tw/us/String_of_Servitude
-Bear's Girdle,Leather Belt,1.630000,3260,3912,1630,2,1,2,https://poedb.tw/us/Bears_Girdle
-Hrimnor's Hymn,Sledgehammer,1.600000,3200,3840,400,2,4,8,https://poedb.tw/us/Hrimnors_Hymn
-Aurumvorax,Basket Rapier,1.600000,3200,3840,800,1,4,4,https://poedb.tw/us/Aurumvorax
-Hrimnor's Dirge,Sledgehammer,1.600000,3200,3840,400,2,4,8,https://poedb.tw/us/Hrimnors_Dirge
-Malachai's Awakening,Iron Mask,1.600000,3200,3840,800,2,2,4,https://poedb.tw/us/Malachais_Awakening
-Kaltenhalt,Painted Buckler,1.560000,3120,3744,780,2,2,4,https://poedb.tw/us/Kaltenhalt
-Nomic's Storm,Strapped Boots,1.560000,3120,3744,780,2,2,4,https://poedb.tw/us/Nomics_Storm
-Dreadarc,Cleaver,1.560000,3120,3744,520,2,3,6,https://poedb.tw/us/Dreadarc
-Kaltensoul,Painted Buckler,1.560000,3120,3744,780,2,2,4,https://poedb.tw/us/Kaltensoul
-Dreadsurge,Cleaver,1.560000,3120,3744,520,2,3,6,https://poedb.tw/us/Dreadsurge
-Uzaza's Meadow,Sapphire Ring,1.540000,3080,3696,3080,1,1,1,https://poedb.tw/us/Uzazas_Meadow
-Wreath of Phrecia,Iron Circlet,1.540000,3080,3696,770,2,2,4,https://poedb.tw/us/Wreath_of_Phrecia
-Demigod's Presence,Gold Amulet,1.510000,3020,3624,3020,1,1,1,https://poedb.tw/us/Demigods_Presence
-The Ignomon,Gold Amulet,1.510000,3020,3624,3020,1,1,1,https://poedb.tw/us/The_Ignomon
-Bloodplay,Stiletto,1.510000,3020,3624,1006,1,3,3,https://poedb.tw/us/Bloodplay
-The Effigon,Gold Amulet,1.510000,3020,3624,3020,1,1,1,https://poedb.tw/us/The_Effigon
-The Untouched Soul,Gold Amulet,1.510000,3020,3624,3020,1,1,1,https://poedb.tw/us/The_Untouched_Soul
-The Goddess Bound,Whalebone Rapier,1.490000,2980,3576,745,1,4,4,https://poedb.tw/us/The_Goddess_Bound
-Shackles of the Wretched,Chain Gloves,1.490000,2980,3576,745,2,2,4,https://poedb.tw/us/Shackles_of_the_Wretched
-Hyrri's Bite,Sharktooth Arrow Quiver,1.470000,2940,3528,490,2,3,6,https://poedb.tw/us/Hyrris_Bite
-Hyrri's Demise,Sharktooth Arrow Quiver,1.470000,2940,3528,490,2,3,6,https://poedb.tw/us/Hyrris_Demise
-Chain of Endurance,Chain Belt,1.470000,2940,3528,1470,2,1,2,https://poedb.tw/us/Chain_of_Endurance
-Limbsplit,Woodsplitter,1.430000,2860,3432,357,2,4,8,https://poedb.tw/us/Limbsplit
-Pillar of the Caged God,Iron Staff,1.430000,2860,3432,357,2,4,8,https://poedb.tw/us/Pillar_of_the_Caged_God
-Dying Breath,Iron Staff,1.430000,2860,3432,357,2,4,8,https://poedb.tw/us/Dying_Breath
-Realmshaper,Iron Staff,1.430000,2860,3432,357,2,4,8,https://poedb.tw/us/Realmshaper
-The Cauteriser,Woodsplitter,1.430000,2860,3432,357,2,4,8,https://poedb.tw/us/The_Cauteriser
-Realm Ender,Iron Staff,1.430000,2860,3432,357,2,4,8,https://poedb.tw/us/Realm_Ender
-Doedre's Damning,Paua Ring,1.410000,2820,3384,2820,1,1,1,https://poedb.tw/us/Doedres_Damning
-Quill Rain,Short Bow,1.410000,2820,3384,470,2,3,6,https://poedb.tw/us/Quill_Rain
-Replica Quill Rain,Short Bow,1.410000,2820,3384,470,2,3,6,https://poedb.tw/us/Replica_Quill_Rain
-Shiversting,Bastard Sword,1.380000,2760,3312,345,2,4,8,https://poedb.tw/us/Shiversting
-Honourhome,Soldier Helmet,1.380000,2760,3312,690,2,2,4,https://poedb.tw/us/Honourhome
-Doedre's Tenure,Velvet Gloves,1.380000,2760,3312,690,2,2,4,https://poedb.tw/us/Doedres_Tenure
-Demigod's Triumph,Golden Wreath,1.380000,2760,3312,690,2,2,4,https://poedb.tw/us/Demigods_Triumph
-Demigod's Stride,Golden Caligae,1.380000,2760,3312,690,2,2,4,https://poedb.tw/us/Demigods_Stride
-Demigod's Touch,Golden Bracers,1.380000,2760,3312,690,2,2,4,https://poedb.tw/us/Demigods_Touch
-Demigod's Bounty,Golden Obi,1.380000,2760,3312,1380,2,1,2,https://poedb.tw/us/Demigods_Bounty
-Demigod's Eye,Golden Hoop,1.380000,2760,3312,2760,1,1,1,https://poedb.tw/us/Demigods_Eye
-Wildslash,Awl,1.380000,2760,3312,690,2,2,4,https://poedb.tw/us/Wildslash
-Demigod's Immortality,Golden Visage,1.380000,2760,3312,690,2,2,4,https://poedb.tw/us/Demigods_Immortality
-Doedre's Malevolence,Velvet Gloves,1.380000,2760,3312,690,2,2,4,https://poedb.tw/us/Doedres_Malevolence
-Kaom's Sign,Coral Ring,1.370000,2740,3288,2740,1,1,1,https://poedb.tw/us/Kaoms_Sign
-Replica Blood Thorn,Gnarled Branch,1.370000,2740,3288,685,1,4,4,https://poedb.tw/us/Replica_Blood_Thorn
-Replica Fencoil,Gnarled Branch,1.370000,2740,3288,685,1,4,4,https://poedb.tw/us/Replica_Fencoil
-Feastbind,Rustic Sash,1.340000,2680,3216,1340,2,1,2,https://poedb.tw/us/Feastbind
-Sadima's Touch,Wool Gloves,1.330000,2660,3192,665,2,2,4,https://poedb.tw/us/Sadimas_Touch
-Goldrim,Leather Cap,1.330000,2660,3192,665,2,2,4,https://poedb.tw/us/Goldrim
-Sacrificial Heart,Paua Amulet,1.330000,2660,3192,2660,1,1,1,https://poedb.tw/us/Sacrificial_Heart
-Replica Last Resort,Nailed Fist,1.330000,2660,3192,665,2,2,4,https://poedb.tw/us/Replica_Last_Resort
-The Princess,Sabre,1.300000,2600,3120,866,1,3,3,https://poedb.tw/us/The_Princess
-Gorebreaker,Spiked Club,1.300000,2600,3120,866,1,3,3,https://poedb.tw/us/Gorebreaker
-Axiom Perpetuum,Bronze Sceptre,1.300000,2600,3120,433,2,3,6,https://poedb.tw/us/Axiom_Perpetuum
-Coward's Chains,Chain Belt,1.290000,2580,3096,1290,2,1,2,https://poedb.tw/us/Cowards_Chains
-Replica Prismweave,Rustic Sash,1.290000,2580,3096,1290,2,1,2,https://poedb.tw/us/Replica_Prismweave
-Wondertrap,Velvet Slippers,1.270000,2540,3048,635,2,2,4,https://poedb.tw/us/Wondertrap
-Hrimsorrow,Goathide Gloves,1.270000,2540,3048,635,2,2,4,https://poedb.tw/us/Hrimsorrow
-Storm Cloud,Long Bow,1.270000,2540,3048,317,2,4,8,https://poedb.tw/us/Storm_Cloud
-Hrimburn,Goathide Gloves,1.270000,2540,3048,635,2,2,4,https://poedb.tw/us/Hrimburn
-Greedtrap,Velvet Slippers,1.270000,2540,3048,635,2,2,4,https://poedb.tw/us/Greedtrap
-Wildwrap,Strapped Leather,1.270000,2540,3048,423,2,3,6,https://poedb.tw/us/Wildwrap
-Bramblejack,Plate Vest,1.250000,2500,3000,416,2,3,6,https://poedb.tw/us/Bramblejack
-Crest of Perandus,Pine Buckler,1.230000,2460,2952,615,2,2,4,https://poedb.tw/us/Crest_of_Perandus
-Asenath's Chant,Iron Circlet,1.230000,2460,2952,615,2,2,4,https://poedb.tw/us/Asenaths_Chant
-Stone of Lazhwar,Lapis Amulet,1.190000,2380,2856,2380,1,1,1,https://poedb.tw/us/Stone_of_Lazhwar
-Karui Ward,Jade Amulet,1.190000,2380,2856,2380,1,1,1,https://poedb.tw/us/Karui_Ward
-Springleaf,Plank Kite Shield,1.190000,2380,2856,396,2,3,6,https://poedb.tw/us/Springleaf
-Tear of Purity,Lapis Amulet,1.190000,2380,2856,2380,1,1,1,https://poedb.tw/us/Tear_of_Purity
-Karui Charge,Jade Amulet,1.190000,2380,2856,2380,1,1,1,https://poedb.tw/us/Karui_Charge
-The Oak,Plank Kite Shield,1.190000,2380,2856,396,2,3,6,https://poedb.tw/us/The_Oak
-The Screaming Eagle,Jade Hatchet,1.160000,2320,2784,386,2,3,6,https://poedb.tw/us/The_Screaming_Eagle
-Abberath's Horn,Goat's Horn,1.160000,2320,2784,773,1,3,3,https://poedb.tw/us/Abberaths_Horn
-The Gryphon,Jade Hatchet,1.160000,2320,2784,386,2,3,6,https://poedb.tw/us/The_Gryphon
-Ondar's Clasp,Wrapped Mitts,1.130000,2260,2712,565,2,2,4,https://poedb.tw/us/Ondars_Clasp
-Wheel of the Stormsail,Rotted Round Shield,1.130000,2260,2712,376,2,3,6,https://poedb.tw/us/Wheel_of_the_Stormsail
-Goredrill,Skinning Knife,1.130000,2260,2712,753,1,3,3,https://poedb.tw/us/Goredrill
-Sanguine Gambol,Skinning Knife,1.130000,2260,2712,753,1,3,3,https://poedb.tw/us/Sanguine_Gambol
-The Megalomaniac,Bronze Stalker Sentinel,1.130000,2260,2712,565,2,2,4,https://poedb.tw/us/The_Megalomaniac
-Fencoil,Gnarled Branch,1.090000,2180,2616,545,1,4,4,https://poedb.tw/us/Fencoil
-Craghead,Serrated Arrow Quiver,1.090000,2180,2616,363,2,3,6,https://poedb.tw/us/Craghead
-The Blood Thorn,Gnarled Branch,1.090000,2180,2616,545,1,4,4,https://poedb.tw/us/The_Blood_Thorn
-Kaom's Way,Coral Ring,1.090000,2180,2616,2180,1,1,1,https://poedb.tw/us/Kaoms_Way
-Cragfall,Serrated Arrow Quiver,1.090000,2180,2616,363,2,3,6,https://poedb.tw/us/Cragfall
-Mirebough,Gnarled Branch,1.090000,2180,2616,545,1,4,4,https://poedb.tw/us/Mirebough
-Sidhebreath,Paua Amulet,1.060000,2120,2544,2120,1,1,1,https://poedb.tw/us/Sidhebreath
-Crown of Thorns,Vine Circlet,1.060000,2120,2544,530,2,2,4,https://poedb.tw/us/Crown_of_Thorns
-Araku Tiki,Coral Amulet,1.060000,2120,2544,2120,1,1,1,https://poedb.tw/us/Araku_Tiki
-Wanderlust,Wool Shoes,1.060000,2120,2544,530,2,2,4,https://poedb.tw/us/Wanderlust
-Last Resort,Nailed Fist,1.060000,2120,2544,530,2,2,4,https://poedb.tw/us/Last_Resort
-Ngamahu Tiki,Coral Amulet,1.060000,2120,2544,2120,1,1,1,https://poedb.tw/us/Ngamahu_Tiki
-Martyr's Crown,Vine Circlet,1.060000,2120,2544,530,2,2,4,https://poedb.tw/us/Martyrs_Crown
-Blackheart,Iron Ring,1.030000,2060,2472,2060,1,1,1,https://poedb.tw/us/Blackheart
-Blackgleam,Blazing Arrow Quiver,1.030000,2060,2472,343,2,3,6,https://poedb.tw/us/Blackgleam
-Voidheart,Iron Ring,1.030000,2060,2472,2060,1,1,1,https://poedb.tw/us/Voidheart
-Oni-Goroshi,Charan's Sword,1.030000,2060,2472,343,2,3,6,https://poedb.tw/us/Oni-Goroshi
-Redbeak,Rusted Sword,1.000000,2000,2400,666,1,3,3,https://poedb.tw/us/Redbeak
-Silverbranch,Crude Bow,1.000000,2000,2400,333,2,3,6,https://poedb.tw/us/Silverbranch
-Ezomyte Peak,Iron Hat,1.000000,2000,2400,500,2,2,4,https://poedb.tw/us/Ezomyte_Peak
-Lochtonial Caress,Iron Gauntlets,1.000000,2000,2400,500,2,2,4,https://poedb.tw/us/Lochtonial_Caress
-Lifesprig,Driftwood Wand,1.000000,2000,2400,666,1,3,3,https://poedb.tw/us/Lifesprig
-Talisman of the Victor,Jet Amulet,1.000000,2000,2400,2000,1,1,1,https://poedb.tw/us/Talisman_of_the_Victor
-First Piece of the Arcane,Legion Sword Piece,1.000000,2000,2400,1000,1,2,2,https://poedb.tw/us/First_Piece_of_the_Arcane
-Second Piece of the Arcane,Legion Sword Piece,1.000000,2000,2400,1000,1,2,2,https://poedb.tw/us/Second_Piece_of_the_Arcane
-Third Piece of the Arcane,Legion Sword Piece,1.000000,2000,2400,1000,2,1,2,https://poedb.tw/us/Third_Piece_of_the_Arcane
-First Piece of Time,Cloth Belt Piece,1.000000,2000,2400,2000,1,1,1,https://poedb.tw/us/First_Piece_of_Time
-Second Piece of Time,Cloth Belt Piece,1.000000,2000,2400,2000,1,1,1,https://poedb.tw/us/Second_Piece_of_Time
-Demigod's Authority,Golden Blade,1.000000,2000,2400,333,2,3,6,https://poedb.tw/us/Demigods_Authority
-Wall of Brambles,Plate Vest,1.000000,2000,2400,333,2,3,6,https://poedb.tw/us/Wall_of_Brambles
-Ezomyte Hold,Iron Hat,1.000000,2000,2400,500,2,2,4,https://poedb.tw/us/Ezomyte_Hold
-Silverbough,Crude Bow,1.000000,2000,2400,333,2,3,6,https://poedb.tw/us/Silverbough
-Dreadbeak,Rusted Sword,1.000000,2000,2400,666,1,3,3,https://poedb.tw/us/Dreadbeak
+name,baseType,dustValIlvl84,dustValIlvl84Q20,slots
+Original Sin,Amethyst Ring,2822225,3951115,1
+Headhunter,Leather Belt,2227900,3119060,2
+Mageblood,Heavy Belt,2227900,3119060,2
+Defiance of Destiny,Paua Amulet,2227900,3119060,1
+Reefbane,Fishing Rod,2128100,2979340,4
+Replica Shroud of the Lightless,Carnal Armour,1979450,2771230,6
+Stasis Prison,Carnal Armour,1979450,2771230,6
+The Squire,Elegant Round Shield,1921800,2690520,6
+Rakiata's Dance,Engraved Greatsword,1921800,2690520,8
+Angler's Plait,Unset Ring,1835725,2570015,1
+Starforge,Infernal Sword,2638088,3341578,8
+Voidforge,Infernal Sword,3517450,4220940,8
+Replica Kongor's Undying Rage,Terror Maul,1758725,2462215,8
+Echoforge,Infernal Sword,1758725,2462215,8
+Lioneye's Glare,Imperial Bow,1707500,2390500,8
+Divinarius,Imperial Skean,1707500,2390500,3
+Essentia Sanguis,Vaal Claw,1707500,2390500,4
+Kingmaker,Despot Axe,1707500,2390500,8
+Soul Taker,Siege Axe,1657775,2320885,6
+Voltaxic Rift,Spine Bow,1609475,2253265,8
+Atziri's Disfavour,Vaal Axe,1609475,2253265,8
+Replica Duskdawn,Maelström Staff,1609475,2253265,8
+Bloodseeker,Hellion's Paw,1517100,2123940,4
+The Saviour,Legion Sword,1517100,2123940,6
+Replica Tukohama's Fortress,Ebony Tower Shield,1472900,2062060,8
+Kalandra's Touch,Ring,1430000,2002000,1
+Bino's Kitchen Knife,Slaughter Knife,1347925,1887095,3
+Marohi Erqi,Karui Maul,1308650,1832110,8
+The Winds of Fate,Foul Staff,1233525,1726935,8
+Hateforge,Ancient Gauntlets,973750,1363250,4
+Uul-Netol's Vow,Unset Amulet,917875,1285025,1
+Soul Ascension,Carnal Mitts,1191150,1508790,4
+Nimis,Topaz Ring,794100,1111740,1
+Replica Headhunter,Leather Belt,791750,1108450,2
+Yoke of Suffering,Onyx Amulet,590900,827260,1
+Manastorm,Lacewood Spirit Shield,525000,735000,4
+Replica Bated Breath,Chain Belt,515000,721000,2
+Stranglegasp,Onyx Amulet,508200,711480,1
+Replica Farrul's Fur,Triumphant Lamellar,466450,653030,6
+Kitava's Feast,Void Axe,452875,634025,8
+Replica Nebulis,Void Sceptre,452875,634025,6
+Malachai's Mark,Murder Mitts,439675,615545,4
+Replica Windripper,Imperial Bow,426875,597625,8
+Tidebreaker,Imperial Maul,414450,580230,8
+Replica Eternity Shroud,Blood Raiment,828900,994680,6
+Annihilation's Approach,Dragonscale Boots,414450,580230,4
+Eternal Damnation,Agate Amulet,414450,580230,1
+Duskdawn,Maelström Staff,402375,563325,8
+The Brine Crown,Prophet Crown,390650,546910,4
+Replica Atziri's Acuity,Vaal Gauntlets,390650,546910,4
+Garukhan's Flight,Stealth Boots,379275,530985,4
+Tukohama's Fortress,Ebony Tower Shield,368225,515515,8
+Entropic Devastation,Assassin's Mitts,505462,640253,4
+Cloak of Tawm'r Isley,Savant's Robe,317625,444675,6
+Arakaali's Fang,Fiend Dagger,290675,406945,3
+Martyr of Innocence,Highborn Staff,282225,395115,8
+Song of the Sirens,Fishing Rod,279875,391825,4
+Replica Alberon's Warpath,Soldier Boots,258275,361585,4
+Replica Maloney's Mechanism,Ornate Quiver,229475,321265,6
+Replica Trypanon,Great Mallet,197950,277130,8
+Gruthkul's Pelt,Wyrmscale Doublet,186575,261205,6
+Dialla's Malefaction,Sage's Robe,181150,253610,6
+Ralakesh's Impatience,Riveted Boots,175875,246225,4
+Skyforth,Sorcerer Boots,174425,244195,4
+Wraithlord,Bone Circlet,165775,232085,4
+Eyes of the Greatwolf,Greatwolf Talisman,685000,959000,1
+The Dark Seer,Shadow Sceptre,156250,218750,6
+Ryslatha's Coil,Studded Belt,156250,218750,2
+Shade of Solaris,Sage Wand,147275,206185,3
+Void Battery,Prophecy Wand,141825,198555,3
+Rigwald's Quills,Two-Point Arrow Quiver,141825,198555,6
+The Brass Dome,Gladiator Plate,141825,198555,6
+Light of Lunaris,Jingling Spirit Shield,138825,194355,4
+Seven-League Step,Rawhide Boots,133675,187145,4
+Warrior's Legacy,Ruby Ring,133675,187145,1
+Astral Projector,Topaz Ring,133675,187145,1
+Aegis Aurora,Champion Kite Shield,126000,176400,6
+Atziri's Splendour,Sacrificial Garb,122325,171255,6
+Shroud of the Lightless,Carnal Armour,118775,166285,6
+Voll's Devotion,Agate Amulet,115300,161420,1
+Shavronne's Revelation,Moonstone Ring,115300,161420,1
+Windripper,Imperial Bow,115300,161420,8
+Magna Eclipsis,Pinnacle Tower Shield,115300,161420,8
+Doryani's Fist,Vaal Gauntlets,111950,156730,4
+Indigon,Hubris Circlet,223900,268680,4
+Farrul's Fur,Triumphant Lamellar,111950,156730,6
+Farrul's Chase,Slink Boots,111950,156730,4
+Kaom's Heart,Glorious Plate,108700,152180,6
+Rathpith Globe,Titanium Spirit Shield,108700,152180,4
+Prism Guardian,Archon Kite Shield,108700,152180,6
+Broken Faith,Archon Kite Shield,108700,152180,6
+Cospri's Malice,Jewelled Foil,108700,152180,4
+Inpulsa's Broken Heart,Sadist Garb,108700,152180,6
+Hand of Wisdom and Action,Imperial Claw,3500,4900,4
+The Red Trail,Titan Greaves,3500,4900,4
+Doryani's Delusion,Sorcerer Boots,108700,152180,4
+The Queen's Hunger,Vaal Regalia,108700,152180,6
+Maloney's Mechanism,Ornate Quiver,108700,152180,6
+Badge of the Brotherhood,Turquoise Amulet,108700,152180,1
+The Immortal Will,Archon Kite Shield,108700,152180,6
+Replica Kaom's Heart,Glorious Plate,108700,152180,6
+Replica Red Trail,Titan Greaves,108700,152180,4
+Viridi's Veil,Praetor Crown,108700,152180,4
+Doppelgänger Guise,Sadist Garb,108700,152180,6
+Thunderfist,Murder Mitts,105525,147735,4
+Steppan Eard,Sorcerer Boots,105525,147735,4
+Heretic's Veil,Deicide Mask,105525,147735,4
+Machina Mitts,Murder Mitts,105525,147735,4
+Sporeguard,Saint's Hauberk,105525,147735,6
+Doryani's Prototype,Saint's Hauberk,105525,147735,6
+Paradoxica,Vaal Rapier,102450,143430,4
+The Yielding Mortality,Imperial Staff,102450,143430,8
+Replica Paradoxica,Vaal Rapier,102450,143430,4
+Replica Allure,Vaal Claw,102450,143430,4
+Hyrri's Ire,Zodiac Leather,99475,139265,6
+The Formless Inferno,Royal Burgonet,17400,24360,4
+The Perfect Form,Zodiac Leather,17400,24360,6
+Doedre's Skin,Widowsilk Robe,99475,139265,6
+The Eternity Shroud,Blood Raiment,198950,238740,6
+Replica Perfect Form,Zodiac Leather,99475,139265,6
+Replica Hyrri's Ire,Zodiac Leather,99475,139265,6
+Varunastra,Vaal Blade,1609475,2253265,6
+Uul-Netol's Embrace,Vaal Axe,16900,23660,8
+The Surrender,Ezomyte Tower Shield,96575,135205,8
+Disintegrator,Maelström Staff,193150,231780,8
+Loreweave,Elegant Ringmail,96575,135205,6
+Replica Loreweave,Elegant Ringmail,96575,135205,6
+Yaomac's Accord,Vaal Sceptre,96575,135205,6
+Replica Stampede,Assassin's Boots,93750,131250,4
+Shavronne's Wrappings,Occultist's Vestment,91025,127435,6
+Darkscorn,Assassin Bow,91025,127435,8
+Kintsugi,Exquisite Leather,91025,127435,6
+Tulfall,Opal Wand,2925,4095,3
+Esh's Visage,Vaal Spirit Shield,15925,22295,4
+Arborix,Assassin Bow,91025,127435,8
+Apep's Supremacy,Vaal Spirit Shield,91025,127435,4
+The Surging Thoughts,Legion Sword,91025,127435,6
+The Admiral,Varnished Coat,91025,127435,6
+Replica Cold Iron Point,Ezomyte Dagger,91025,127435,3
+Replica Tulfall,Opal Wand,91025,127435,3
+Abberath's Hooves,Goathide Boots,86525,121135,4
+Mjölner,Gavel,85800,120120,6
+Replica Abyssus,Ezomyte Burgonet,85800,120120,4
+Replica Mistwall,Lacquered Buckler,85800,120120,4
+The Iron Fortress,Crusader Plate,83300,116620,6
+Iron Heart,Crusader Plate,83300,116620,6
+Farrul's Pounce,Hydrascale Gauntlets,83300,116620,4
+Fleshcrafter,Necromancer Silks,83300,116620,6
+Gravebind,Hydrascale Gauntlets,83300,116620,4
+Xoph's Nurture,Citadel Bow,2600,3640,8
+Crown of the Tyrant,Magistrate Crown,80875,113225,4
+Crest of Desire,Fluted Bascinet,80875,113225,4
+Farrul's Bite,Harlequin Mask,78525,109935,4
+Offering to the Serpent,Legion Gloves,78525,109935,4
+Garb of the Ephemeral,Savant's Robe,76225,106715,6
+Maata's Teaching,Karui Sceptre,76225,106715,6
+Corpsewalker,Carnal Boots,74000,103600,4
+The Fourth Vow,Devout Chainmail,74000,103600,6
+The Devouring Diadem,Necromancer Circlet,71850,100590,4
+Qotra's Regulator,Sovereign Spiked Shield,71850,100590,4
+Atziri's Reflection,Golden Buckler,71850,100590,4
+Sandstorm Visage,Necromancer Circlet,71850,100590,4
+Utula's Hunger,Majestic Plate,69775,97685,6
+Cloak of Defiance,Lacquered Garb,67725,94815,6
+Skin of the Lords,Simple Robe,33150,46410,6
+Zerphi's Heart,Paua Amulet,66300,92820,1
+Replica Frostbreath,Ornate Mace,63850,89390,6
+The Covenant,Spidersilk Robe,61975,86765,6
+Anathema,Moonstone Ring,61975,86765,1
+Replica Covenant,Spidersilk Robe,61975,86765,6
+Winds of Change,Ancient Gauntlets,58425,81795,4
+Death Rush,Amethyst Ring,56725,79415,1
+Emperor's Vigilance,Steel Kite Shield,56725,79415,6
+Mahuxotl's Machination,Steel Kite Shield,56725,79415,6
+The Pariah,Unset Ring,55075,77105,1
+Abhorrent Interrogation,Ambush Mitts,55075,77105,4
+The Tempest's Liberation,Callous Mask,55075,77105,4
+Perfidy,Glorious Plate,54800,76720,6
+Hand of the Fervent,Zealot Gloves,51900,72660,4
+Impresence,Onyx Amulet,77475,98135,1
+Assailum,Sinner Tricorne,51650,72310,4
+Mark of the Elder,Steel Ring,73050,92530,1
+Mark of the Shaper,Opal Ring,73050,92530,1
+Polaric Devastation,Opal Ring,48700,68180,1
+Replica Soul Strike,Spike-Point Arrow Quiver,47500,66500,6
+Replica Midnight Bargain,Engraved Wand,47500,66500,3
+Brain Rattler,Meatgrinder,47275,66185,8
+Razor of the Seventh Sun,Midnight Blade,47275,66185,6
+Snakepit,Sapphire Ring,47275,66185,1
+The Scourge,Terror Claw,47275,66185,4
+Memory Vault,Praetor Crown,47275,66185,4
+Grelwood Shank,Eternal Sword,47275,66185,6
+Beltimber Blade,Eternal Sword,47275,66185,6
+Vulconus,Demon Dagger,47275,66185,3
+Augyre,Void Sceptre,47275,66185,6
+Gloomfang,Blue Pearl Amulet,47275,66185,1
+The Gull,Raven Mask,44775,62685,4
+Severed in Sleep,Cutlass,1450,2030,3
+United in Dream,Cutlass,7825,10955,3
+Blackflame,Amethyst Ring,44775,62685,1
+Maligaro's Virtuosity,Deerskin Gloves,44550,62370,4
+Asenath's Gentle Touch,Silk Gloves,44550,62370,4
+Perandus Signet,Paua Ring,44550,62370,1
+Nebuloch,Nightmare Mace,66825,84645,6
+Hopeshredder,Ranger Bow,66825,84645,8
+Shimmeron,Tornado Wand,66825,84645,3
+Beacon of Madness,Two-Toned Boots,44550,62370,4
+Sunblast,Cloth Belt,43475,60865,2
+Doon Cuebiyari,Vaal Sceptre,43250,60550,6
+Death's Door,Crusader Boots,43250,60550,4
+Auxium,Crystal Belt,42000,58800,2
+Flamesight,Solaris Circlet,42000,58800,4
+Galesight,Solaris Circlet,42000,58800,4
+Thundersight,Solaris Circlet,42000,58800,4
+The Ivory Tower,Saint's Hauberk,42000,58800,6
+Leash of Oblation,Leather Belt,42000,58800,2
+Mistwall,Lacquered Buckler,42000,58800,4
+Maw of Mischief,Bone Helmet,42000,58800,4
+The Burden of Truth,Crystal Belt,42000,58800,2
+Shadowstitch,Sacrificial Garb,40775,57085,6
+Hegemony's Era,Judgement Staff,39600,55440,8
+Replica Restless Ward,Carnal Armour,39600,55440,6
+Lioneye's Remorse,Pinnacle Tower Shield,38425,53795,8
+Incandescent Heart,Saintly Chainmail,38425,53795,6
+The Hungry Loop,Unset Ring,38425,53795,1
+Chains of Command,Saintly Chainmail,38425,53795,6
+Black Zenith,Fingerless Silk Gloves,38425,53795,4
+Crown of Eyes,Hubris Circlet,37325,52255,4
+Ylfeban's Trickery,Hubris Circlet,37325,52255,4
+Voidwalker,Murder Boots,55988,70918,4
+Bubonic Trail,Murder Boots,37325,52255,4
+Craiceann's Pincers,Titan Gauntlets,37325,52255,4
+Usurper's Penance,Eternal Burgonet,37325,52255,4
+Replica Voidwalker,Murder Boots,55988,70918,4
+Vorana's March,Runic Sabatons,37325,52255,4
+Kaom's Spirit,Titan Gauntlets,37325,52255,4
+The Shattered Divinity,Blunt Arrow Quiver,36400,50960,6
+Mon'tregul's Grasp,Void Sceptre,36225,50715,6
+Pledge of Hands,Judgement Staff,36225,50715,8
+Kaom's Roots,Titan Greaves,36225,50715,4
+Voll's Vision,Praetor Crown,36225,50715,4
+Malachai's Vision,Praetor Crown,36225,50715,4
+Cospri's Will,Assassin's Garb,36225,50715,6
+Tinkerskin,Sadist Garb,36225,50715,6
+Hand of Thought and Motion,Imperial Claw,5100,7140,4
+The Infinite Pursuit,Titan Greaves,5100,7140,4
+The Unshattered Will,Archon Kite Shield,36225,50715,6
+Invictus Solaris,Archon Kite Shield,36225,50715,6
+Cyclopean Coil,Leather Belt,54338,68828,2
+Blasphemer's Grasp,Assassin's Mitts,54338,68828,4
+The Grey Spire,Judgement Staff,36225,50715,8
+Bitterbind Point,Titanium Spirit Shield,36225,50715,4
+Nebulis,Void Sceptre,36225,50715,6
+Atziri's Rule,Judgement Staff,36225,50715,8
+Cadigan's Crown,Runic Crown,36225,50715,4
+The Taming,Prismatic Ring,35350,49490,1
+The Bringer of Rain,Nightmare Bascinet,35175,49245,4
+Replica Oro's Sacrifice,Infernal Sword,35175,49245,8
+Dawnbreaker,Colossal Tower Shield,35175,49245,8
+Dreamfeather,Eternal Sword,34150,47810,6
+Repentance,Crusader Gloves,34150,47810,4
+Shaper's Touch,Crusader Gloves,51225,64885,4
+The Enmity Divine,Imperial Staff,34150,47810,8
+Vix Lunaris,Cardinal Round Shield,34150,47810,6
+Voidfletcher,Primal Arrow Quiver,68300,81960,6
+Hands of the High Templar,Crusader Gloves,34150,47810,4
+Font of Thunder,Mirrored Spiked Shield,34150,47810,4
+Replica Dreamfeather,Eternal Sword,34150,47810,6
+The Goddess Scorned,Elegant Sword,33325,46655,6
+Rime Gaze,Mind Cage,33150,46410,4
+Infernal Mantle,Widowsilk Robe,33150,46410,6
+Ming's Heart,Amethyst Ring,33150,46410,1
+"Jack, the Axe",Vaal Hatchet,33150,46410,6
+Doomsower,Lion Sword,33150,46410,8
+Scold's Bridle,Mind Cage,33150,46410,4
+The Formless Flame,Royal Burgonet,6100,8540,4
+The Snowblind Grace,Zodiac Leather,6100,8540,6
+Saqawal's Nest,Blood Raiment,33150,46410,6
+Fenumus' Shroud,Widowsilk Robe,33150,46410,6
+Hale Negator,Mind Cage,33150,46410,4
+Echoes of Creation,Royal Burgonet,49725,62985,4
+Taryn's Shiver,Maelström Staff,32200,45080,8
+Alpha's Howl,Sinner Tricorne,32200,45080,4
+Rebuke of the Vaal,Vaal Blade,32200,45080,6
+Hezmana's Bloodlust,Vaal Axe,32200,45080,8
+Reach of the Council,Spine Bow,32200,45080,8
+Uul-Netol's Kiss,Vaal Axe,5925,8295,8
+The Anticipation,Ezomyte Tower Shield,32200,45080,8
+Replica Alpha's Howl,Sinner Tricorne,32200,45080,4
+Daresso's Defiance,Full Dragonscale,31250,43750,6
+Atziri's Acuity,Vaal Gauntlets,31250,43750,4
+Fenumus' Spinnerets,Assassin's Boots,31250,43750,4
+Crown of the Inward Eye,Prophet Crown,31250,43750,4
+Astramentis,Onyx Amulet,30500,42700,1
+Presence of Chayula,Onyx Amulet,30500,42700,1
+Aul's Uprising,Onyx Amulet,30500,42700,1
+Solstice Vigil,Onyx Amulet,45750,57950,1
+Leadership's Price,Onyx Amulet,30500,42700,1
+Crystallised Omniscience,Onyx Amulet,30500,42700,1
+Ashes of the Stars,Onyx Amulet,30500,42700,1
+Stormfire,Opal Ring,30425,42595,1
+The Searing Touch,Lathi,30350,42490,8
+Carcass Jack,Varnished Coat,30350,42490,6
+Death's Oath,Astral Plate,30350,42490,6
+The Vertex,Vaal Mask,30350,42490,4
+Tulborn,Opal Wand,4275,5985,3
+Esh's Mirror,Vaal Spirit Shield,5600,7840,4
+Yriel's Fostering,Exquisite Leather,30350,42490,6
+The Rippling Thoughts,Legion Sword,30350,42490,6
+Perepiteia,Ezomyte Spiked Shield,30350,42490,4
+Fractal Thoughts,Vaal Mask,30350,42490,4
+Cold Iron Point,Ezomyte Dagger,30350,42490,3
+Law of the Wilds,Hellion's Paw,30350,42490,4
+Blunderbore,Astral Plate,30350,42490,6
+Replica Wings of Entropy,Ezomyte Axe,30350,42490,8
+Glimpse of Chaos,Vaal Mask,30350,42490,4
+Dawnstrider,Vaal Greaves,30350,42490,4
+Rigwald's Savagery,Royal Axe,29550,41370,6
+Rigwald's Command,Midnight Blade,29550,41370,6
+Slivertongue,Harbinger Bow,29550,41370,8
+Obscurantis,Lion Pelt,29550,41370,4
+Inya's Epiphany,Arcanist Slippers,29450,41230,4
+Replica Inya's Epiphany,Arcanist Slippers,29450,41230,4
+Abyssus,Ezomyte Burgonet,28600,40040,4
+Lightning Coil,Desert Brigandine,28600,40040,6
+Null's Inclination,Ranger Bow,28600,40040,8
+Dyadian Dawn,Heavy Belt,28600,40040,2
+Rigwald's Curse,Wereclaw Talisman,28600,40040,1
+Grip of the Council,Arcanist Gloves,28600,40040,4
+Saqawal's Flock,Silken Hood,28600,40040,4
+The Iron Mass,Gladius,28600,40040,6
+The Hidden Blade,Ambusher,28600,40040,3
+The Fulcrum,Ezomyte Staff,28600,40040,8
+Replica Grip of the Council,Arcanist Gloves,28600,40040,4
+Cameria's Avarice,Gavel,28600,40040,6
+Contract: The Twins,Vengeful Contract,28225,39515,1
+Algor Mortis,Carnal Mitts,27850,38990,4
+Saffell's Frame,Branded Kite Shield,27775,38885,6
+Queen of the Forest,Destiny Leather,27775,38885,6
+Saqawal's Talons,Hydrascale Boots,27775,38885,4
+Breathstealer,Hydrascale Gauntlets,27775,38885,4
+Expedition's End,Sentinel Jacket,27775,38885,6
+Wilma's Requital,Solaris Circlet,27775,38885,4
+Gamblesprint,Hydrascale Boots,27775,38885,4
+Contract: Death to Darnaw,Naval Contract,27400,38360,1
+Unyielding Flame,Archon Kite Shield,27050,37870,6
+Xoph's Inception,Citadel Bow,3775,5285,8
+Craiceann's Chitin,Magistrate Crown,26950,37730,4
+Mask of the Stitched Demon,Magistrate Crown,26950,37730,4
+Storm's Gift,Assassin's Mitts,26950,37730,4
+Mask of the Tribunal,Magistrate Crown,26950,37730,4
+Contract: Heart of Glory,Familial Contract,26600,37240,1
+The Magnate,Studded Belt,26300,36820,2
+The Torrent's Reclamation,Cloth Belt,26300,36820,2
+Replica Soul Tether,Cloth Belt,26300,36820,2
+Replica Ungil's Gauche,Boot Knife,26300,36820,3
+Replica Badge of the Brotherhood,Turquoise Amulet,26300,36820,1
+Perseverance,Vanguard Belt,26250,36750,2
+The Black Cane,Royal Sceptre,26250,36750,6
+Willowgift,Jade Amulet,26250,36750,1
+Eye of Malice,Callous Mask,26250,36750,4
+Ancient Skull,Bone Helmet,26250,36750,4
+Mind of the Council,Harlequin Mask,26175,36645,4
+The Crimson Storm,Steelwood Bow,26175,36645,8
+Kaom's Binding,Heavy Belt,26175,36645,2
+Contract: Breaking the Unbreakable,Preventative Contract,25825,36155,1
+Contract: The Slaver King,Vigilante Contract,25825,36155,1
+The Rat Cage,Sharkskin Tunic,25400,35560,6
+Craiceann's Carapace,Golden Plate,25400,35560,6
+Fate of the Vaal,Gemstone Sword,25400,35560,3
+Replica Dragonfang's Flight,Onyx Amulet,25400,35560,1
+Lioneye's Vision,Crusader Plate,24750,34650,6
+Brinerot Mark,Unset Ring,24675,34545,1
+Redblade Band,Unset Ring,24675,34545,1
+Mutewind Seal,Unset Ring,24675,34545,1
+Ngamahu's Flame,Abyssal Axe,24675,34545,8
+Omeyocan,Carnal Boots,24675,34545,4
+Tavukai,Coral Amulet,24675,34545,1
+Replica Three-step Assault,Shagreen Boots,24675,34545,4
+Temptation Step,Shagreen Boots,24675,34545,4
+Great Old One's Tentacles,Eelskin Gloves,24025,33635,4
+Ceaseless Feast,Spiked Gloves,24025,33635,4
+Inextricable Fate,Fugitive Boots,24025,33635,4
+Chitus' Apex,Necromancer Circlet,23950,33530,4
+Daresso's Courage,Baroque Round Shield,23950,33530,6
+Craiceann's Tracks,Goliath Greaves,23950,33530,4
+Fenumus' Toxins,Necromancer Circlet,23950,33530,4
+Eye of Innocence,Citrine Amulet,23625,33075,1
+Leper's Alms,Mirrored Spiked Shield,23625,33075,4
+Atziri's Foible,Paua Amulet,23375,32725,1
+Ahkeli's Meadow,Ruby Ring,23375,32725,1
+Replica Emberwake,Ruby Ring,23375,32725,1
+Dyadus,Infernal Axe,23325,32655,6
+Atziri's Step,Slink Boots,23325,32655,4
+Cherrubim's Maleficence,Triumphant Lamellar,23325,32655,6
+Eber's Unification,Hubris Circlet,23325,32655,4
+Medved's Challenge,Runic Gauntlets,23325,32655,4
+Rainbowstride,Conjurer Boots,23250,32550,4
+Apep's Rage,Omen Wand,23250,32550,3
+Lightpoacher,Great Crown,23250,32550,4
+Forbidden Shako,Great Crown,23250,32550,4
+Replica Infractem,Decimation Bow,23250,32550,8
+The Beast Fur Shawl,Vaal Regalia,22650,31710,6
+Touch of Anguish,Imperial Claw,22650,31710,4
+Ahn's Contempt,Praetor Crown,22650,31710,4
+Ahn's Might,Midnight Blade,22650,31710,6
+Gorgon's Gaze,Regicide Mask,22575,31605,4
+Profane Proxy,Unset Ring,22575,31605,1
+Witchhunter's Judgment,Highborn Staff,22575,31605,8
+Akoya's Gaze,Regicide Mask,22575,31605,4
+The Ephemeral Bond,Lapis Amulet,22275,31185,1
+Kongor's Undying Rage,Terror Maul,21975,30765,8
+Ahn's Heritage,Colossal Tower Shield,21975,30765,8
+Saqawal's Winds,Soldier Gloves,21925,30695,4
+Legacy of Fury,Wyrmscale Boots,21925,30695,4
+Devoto's Devotion,Nightmare Bascinet,21625,30275,4
+Bloodgrip,Marble Amulet,21625,30275,1
+Agnerod East,Imperial Staff,21350,29890,8
+Agnerod North,Imperial Staff,21350,29890,8
+Agnerod South,Imperial Staff,21350,29890,8
+Agnerod West,Imperial Staff,21350,29890,8
+Breath of the Council,Carnal Sceptre,21350,29890,6
+The Poised Prism,Primal Arrow Quiver,21350,29890,6
+Andvarius,Gold Ring,21275,29785,1
+Star of Wraeclast,Ruby Amulet,21275,29785,1
+Fenumus' Weave,Carnal Mitts,21275,29785,4
+Replica Victario's Charity,Laminated Kite Shield,21275,29785,6
+Replica Heartbreaker,Royal Skean,21275,29785,3
+Worldcarver,Dragonscale Gauntlets,21000,29400,4
+Painseeker,Shagreen Gloves,21000,29400,4
+The Poet's Pen,Carved Wand,20775,29085,3
+Putembo's Mountain,Topaz Ring,20775,29085,1
+Rise of the Phoenix,Mosaic Kite Shield,20725,29015,6
+Darkray Vectors,Dragonscale Boots,20725,29015,4
+Vis Mortis,Necromancer Silks,20725,29015,6
+Ventor's Gamble,Gold Ring,20725,29015,1
+Malachai's Loop,Harmonic Spirit Shield,20725,29015,4
+Cane of Kulemak,Serpentine Staff,20650,28910,8
+The Scales of Justice,Chiming Spirit Shield,20650,28910,4
+Bound Fate,Cloth Belt,20650,28910,2
+Death's Hand,Karui Sceptre,20400,28560,6
+Doryani's Catalyst,Vaal Sceptre,20125,28175,6
+Soul Strike,Spike-Point Arrow Quiver,20125,28175,6
+Geofri's Sanctuary,Elegant Ringmail,20125,28175,6
+Hyrri's Truth,Jade Amulet,20125,28175,1
+Rashkaldor's Patience,Jade Amulet,20050,28070,1
+Maw of Conquest,Steel Circlet,20050,28070,4
+The Jinxed Juju,Citrine Amulet,20050,28070,1
+The Restless Ward,Carnal Armour,19800,27720,6
+Replica Siegebreaker,Heavy Belt,19575,27405,2
+Speaker's Wreath,Prophet Crown,19525,27335,4
+The Stampede,Assassin's Boots,19525,27335,4
+Actum,Butcher Axe,19525,27335,6
+Cerberus Limb,Blood Sceptre,19475,27265,6
+Replica Kalisa's Grace,Samite Gloves,19475,27265,4
+Replica Innsbury Edge,Elder Sword,19475,27265,6
+Jaws of Agony,Supreme Spiked Shield,19225,26915,4
+Rive,Terror Claw,19225,26915,4
+Mercenary's Lot,Slink Gloves,19225,26915,4
+The Oppressor,Elegant Round Shield,19225,26915,6
+Hyaon's Fury,Legion Sword,18975,26565,6
+Singularity,Platinum Sceptre,18975,26565,6
+Apep's Slumber,Vaal Spirit Shield,18975,26565,4
+Belly of the Beast,Full Wyrmscale,18900,26460,6
+Redblade Tramplers,Ancient Greaves,18900,26460,4
+Veruso's Battering Rams,Titan Gauntlets,18650,26110,4
+Asenath's Mark,Iron Circlet,18450,25830,4
+Uzaza's Valley,Sapphire Ring,18450,25830,1
+Scorpion's Call,Heavy Arrow Quiver,18400,25760,6
+Soulthirst,Cloth Belt,18350,25690,2
+The Tempest's Binding,Callous Mask,18350,25690,4
+Slavedriver's Hand,Ambush Mitts,18350,25690,4
+Vivinsect,Unset Ring,18350,25690,1
+Replica Malachai's Artifice,Unset Ring,18350,25690,1
+Replica Voideye,Unset Ring,18350,25690,1
+Rotblood Promise,Unset Ring,18350,25690,1
+Triumvirate Authority,Unset Ring,18350,25690,1
+Izaro's Dilemma,Imperial Claw,18125,25375,4
+Nuro's Harp,Harbinger Bow,18125,25375,8
+Xoph's Blood,Amber Amulet,17900,25060,1
+The Pandemonius,Jade Amulet,17900,25060,1
+Choir of the Storm,Lapis Amulet,17900,25060,1
+Replica Hyrri's Truth,Jade Amulet,17900,25060,1
+Starkonja's Head,Silken Hood,17875,25025,4
+Romira's Banquet,Diamond Ring,17875,25025,1
+Scaeva,Gladius,17875,25025,6
+Cane of Unravelling,Ezomyte Staff,17875,25025,8
+Soulwrest,Ezomyte Staff,17875,25025,8
+Cowl of the Thermophile,Ezomyte Burgonet,17875,25025,4
+Cowl of the Cryophile,Silken Hood,17875,25025,4
+The Blood Dance,Sharkskin Boots,17825,24955,4
+Hinekora's Sight,Onyx Amulet,17825,24955,1
+Replica Hinekora's Sight,Onyx Amulet,17825,24955,1
+Oro's Sacrifice,Infernal Sword,17575,24605,8
+Surgebinders,Dragonscale Gauntlets,17575,24605,4
+Piscator's Vigil,Imbued Wand,17350,24290,3
+The Dancing Dervish,Reaver Sword,17350,24290,8
+Hiltless,Reaver Sword,17350,24290,8
+Dendrobate,Sentinel Jacket,17350,24290,6
+Cowl of the Ceraunophile,Solaris Circlet,17350,24290,4
+Haemophilia,Serpentscale Gauntlets,17300,24220,4
+Volkuur's Guidance,Zealot Gloves,17300,24220,4
+Replica Volkuur's Guidance,Zealot Gloves,17300,24220,4
+Callinellus Malleus,Auric Mace,17075,23905,6
+The Goddess Unleashed,Eternal Sword,17075,23905,6
+Allure,Vaal Claw,17075,23905,4
+Debeon's Dirge,Despot Axe,17075,23905,8
+White Wind,Imperial Skean,17075,23905,3
+Kaom's Primacy,Karui Chopper,80875,113225,8
+Snakebite,Assassin's Mitts,16850,23590,4
+Ichimonji,Corsair Sword,16850,23590,3
+Mask of the Spirit Drinker,Magistrate Crown,16850,23590,4
+The Ghastly Theatre,Teak Round Shield,16850,23590,6
+The Gluttonous Tide,Citadel Bow,16850,23590,8
+Mutewind Pennant,Enameled Buckler,16800,23520,4
+Mutewind Whispersteps,Serpentscale Boots,16800,23520,4
+Tainted Pact,Coral Amulet,16800,23520,1
+Null and Void,Legion Gloves,16350,22890,4
+Kiloava's Bluster,Ironwood Buckler,16350,22890,4
+The Supreme Truth,Crystal Sceptre,16300,22820,6
+Nycta's Lantern,Crystal Sceptre,16300,22820,6
+Tremor Rod,Military Staff,16300,22820,8
+Brinerot Whalers,Trapper Boots,16300,22820,4
+Allelopathy,Satin Gloves,16300,22820,4
+Replica Allelopathy,Satin Gloves,16300,22820,4
+Mark of the Doubting Knight,Platinum Kris,16100,22540,3
+Skin of the Loyal,Simple Robe,2775,3885,6
+Replica Atziri's Foible,Paua Amulet,15925,22295,1
+Greed's Embrace,Golden Plate,15875,22225,6
+Story of the Vaal,Gemstone Sword,15875,22225,3
+Storm Secret,Topaz Ring,15875,22225,1
+Ahuana's Bite,Sharktooth Arrow Quiver,15875,22225,6
+Marylene's Fallacy,Lapis Amulet,15825,22155,1
+Call of the Brotherhood,Two-Stone Ring,15825,22155,1
+Emberwake,Ruby Ring,15825,22155,1
+Trypanon,Great Mallet,15825,22155,8
+Voice of the Storm,Lapis Amulet,15825,22155,1
+Fury Valve,Turquoise Amulet,15825,22155,1
+Mother's Embrace,Heavy Belt,15825,22155,2
+Blood Price,Reaver Helmet,15825,22155,4
+Thousand Teeth Temu,Vaal Buckler,15625,21875,4
+The Broken Crown,Prophet Crown,15625,21875,4
+The Retch,Rustic Sash,15450,21630,2
+Voidbringer,Conjurer Gloves,15425,21595,4
+Dance of the Offered,Carnal Boots,15425,21595,4
+Sin Trek,Stealth Boots,15175,21245,4
+Chin Sol,Assassin Bow,15175,21245,8
+Wings of Entropy,Ezomyte Axe,15175,21245,8
+Sinvicta's Mettle,Ezomyte Axe,15175,21245,8
+Voidhome,Dread Maul,14975,20965,8
+Pyroshock Clasp,Leather Belt,14975,20965,2
+Circle of Nostalgia,Amethyst Ring,14925,20895,1
+Chernobog's Pillar,Ebony Tower Shield,14725,20615,8
+Kingsguard,Conquest Chainmail,14725,20615,6
+Kondo's Pride,Ezomyte Blade,14725,20615,8
+Geofri's Crest,Great Crown,14525,20335,4
+Bronn's Lithe,Cutthroat's Garb,14525,20335,6
+The Consuming Dark,Fiend Dagger,14525,20335,3
+The Coming Calamity,Destroyer Regalia,14525,20335,6
+Command of the Pit,Riveted Gloves,14500,20300,4
+Replica Harvest,Jasper Chopper,14500,20300,8
+Cameria's Maul,Gavel,14300,20020,6
+Balefire,Opal Sceptre,14300,20020,6
+The Wasp Nest,Throat Stabber,14300,20020,4
+Taproot,Ambusher,14300,20020,3
+The Druggery,Cloth Belt,14300,20020,2
+Goblinedge,Ambusher,14300,20020,3
+The Redblade,Gladius,14300,20020,6
+Victario's Influence,Lacquered Garb,14100,19740,6
+Crown of the Pale King,Regicide Mask,14100,19740,4
+Oskarm,Nubuck Gloves,14100,19740,4
+Aurseize,Steelscale Gauntlets,14075,19705,4
+Tombfist,Steelscale Gauntlets,14075,19705,4
+Vixen's Entrapment,Embroidered Gloves,14075,19705,4
+Moonsorrow,Imbued Wand,13875,19425,3
+Obliteration,Imbued Wand,13875,19425,3
+Replica Soul Taker,Siege Axe,13875,19425,6
+The Dancing Duo,Reaver Sword,13875,19425,8
+The Fledgling,Lacquered Helmet,13700,19180,4
+Voll's Protector,Holy Chainmail,13650,19110,6
+Meginord's Vise,Steel Gauntlets,13650,19110,4
+Redblade Banner,Painted Tower Shield,13650,19110,8
+Xoph's Heart,Amber Amulet,13650,19110,1
+The Halcyon,Jade Amulet,13650,19110,1
+Replica Earendel's Embrace,Grinning Fetish,13650,19110,6
+Gang's Momentum,Legion Boots,13475,18865,4
+Femurs of the Saints,Primordial Staff,13475,18865,8
+March of the Legion,Legion Boots,13475,18865,4
+Sign of the Sin Eater,Tyrant's Sekhem,13475,18865,6
+Rotting Legion,Loricated Ringmail,13475,18865,6
+The Burden of Shadows,Primordial Staff,13475,18865,8
+Warped Timepiece,Turquoise Amulet,13300,18620,1
+Heartbound Loop,Moonstone Ring,13300,18620,1
+Frostbreath,Ornate Mace,13300,18620,6
+Darkness Enthroned,Stygian Vise,13300,18620,2
+Perquil's Toe,Gold Amulet,13300,18620,1
+Nametaker,Graceful Sword,13300,18620,6
+Soul Mantle,Spidersilk Robe,12925,18095,6
+Alberon's Warpath,Soldier Boots,12925,18095,4
+Sire of Shards,Serpentine Staff,12925,18095,8
+Wyrmsign,Wyrmscale Gauntlets,12925,18095,4
+Venopuncture,Iron Ring,12925,18095,1
+Icefang Orbit,Iron Ring,12925,18095,1
+Shattershard,Crimson Round Shield,12925,18095,6
+Steelworm,Broadhead Arrow Quiver,12925,18095,6
+Tanu Ahi,Wyrmscale Gauntlets,12925,18095,4
+Bloodsoaked Medallion,Amber Amulet,12925,18095,1
+Windscream,Reinforced Greaves,12875,18025,4
+Deidbell,Gilded Sallet,12875,18025,4
+The Whispering Ice,Vile Staff,12875,18025,8
+Gluttony,Leather Belt,12525,17535,2
+Nightgrip,Runic Gages,12525,17535,4
+Olroth's Charge,Runic Sollerets,12525,17535,4
+Sudden Dawn,Steel Circlet,12525,17535,4
+Ephemeral Edge,Dusk Blade,625025,875035,6
+Death's Harp,Death Bow,12500,17500,8
+Bitterdream,Shadow Sceptre,12500,17500,6
+Replica Iron Commander,Death Bow,12500,17500,8
+Hrimnor's Resolve,Samnite Helmet,12325,17255,4
+Rat's Nest,Ursine Pelt,12325,17255,4
+Maloney's Nightfall,Vile Arrow Quiver,12325,17255,6
+Three-step Assault,Shagreen Boots,12325,17255,4
+The Ascetic,Gold Amulet,12325,17255,1
+The Highwayman,Gold Ring,12325,17255,1
+Innsbury Edge,Elder Sword,12175,17045,6
+The Fracturing Spinner,Blunt Arrow Quiver,12125,16975,6
+Atziri's Mirror,Golden Buckler,11975,16765,4
+Great Old One's Ward,Corrugated Buckler,11825,16555,4
+Replica Advancing Fortress,Gut Ripper,11825,16555,4
+Kahuturoa's Certainty,Ancient Greaves,11825,16555,4
+Umbilicus Immortalis,Leather Belt,11775,16485,2
+Xirgil's Crank,Coiled Staff,11775,16485,8
+Bisco's Collar,Gold Amulet,11775,16485,1
+Bisco's Leash,Heavy Belt,11775,16485,2
+Replica Lioneye's Paws,Bronzescale Boots,11775,16485,4
+Relic of the Pact,Sage Wand,11775,16485,3
+Infractem,Decimation Bow,11625,16275,8
+Prismatic Eclipse,Twilight Blade,11625,16275,6
+Empire's Grasp,Goliath Gauntlets,11625,16275,4
+Replica Forbidden Shako,Great Crown,11625,16275,4
+Geofri's Legacy,Great Crown,11625,16275,4
+Voideye,Unset Ring,11475,16065,1
+Malachai's Artifice,Unset Ring,11475,16065,1
+Kongming's Stratagem,Ancient Spirit Shield,11475,16065,4
+Essence Worm,Unset Ring,11475,16065,1
+Architect's Hand,Ambush Mitts,11475,16065,4
+The Annihilating Light,Quarterstaff,11475,16065,8
+Stormseeker,Ambush Mitts,11475,16065,4
+The Geomantic Gyre,Highborn Staff,11300,15820,8
+Maligaro's Restraint,Chain Belt,11150,15610,2
+Jorrhast's Blacksteel,Steelhead,11150,15610,8
+Natural Hierarchy,Rotfeather Talisman,53475,74865,1
+Ascent From Flesh,Chain Belt,11150,15610,2
+Kitava's Thirst,Zealot Helmet,11150,15610,4
+Soulbound,Paua Ring,11150,15610,1
+Doomfletch,Royal Bow,11100,15540,8
+Brutus' Lead Sprinkler,Ritual Sceptre,11100,15540,6
+Terminus Est,Tiger Sword,10950,15330,8
+Black Sun Crest,Lacquered Helmet,10950,15330,4
+Southbound,Soldier Gloves,10950,15330,4
+Ambu's Charge,Crusader Chainmail,10825,15155,6
+Replica Ambu's Charge,Crusader Chainmail,10825,15155,6
+Vaal Caress,Bronzescale Gauntlets,10775,15085,4
+Heartbreaker,Royal Skean,10650,14910,3
+Immortal Flesh,Leather Belt,10650,14910,2
+Victario's Charity,Laminated Kite Shield,10650,14910,6
+The Embalmer,Carnal Mitts,10650,14910,4
+Zeel's Amplifier,Polished Spiked Shield,10325,14455,4
+The Eternal Apple,Chiming Spirit Shield,10325,14455,4
+Pragmatism,Colosseum Plate,10325,14455,6
+Demon Stitcher,Satin Gloves,10200,14280,4
+Eye of Chayula,Onyx Amulet,10175,14245,1
+The Eternal Struggle,Onyx Amulet,10175,14245,1
+Midnight Bargain,Engraved Wand,9900,13860,3
+Ceinture of Benevolence,Cloth Belt,9900,13860,2
+Dream Fragments,Sapphire Ring,9875,13825,1
+Reverberation Rod,Spiraled Wand,9875,13825,3
+Winterweave,Coral Ring,9875,13825,1
+Bloodboil,Coral Ring,9875,13825,1
+Doedre's Tongue,Lapis Amulet,9875,13825,1
+Kalisa's Grace,Samite Gloves,9750,13650,4
+Lightbane Raiment,Ornate Ringmail,9750,13650,6
+Doedre's Scorn,Lunaris Circlet,9600,13440,4
+Moonbender's Wing,Tomahawk,9600,13440,6
+The Flawed Refuge,Maple Round Shield,9600,13440,6
+Ungil's Harmony,Turquoise Amulet,9575,13405,1
+Brinerot Flag,Tarnished Spirit Shield,9575,13405,4
+Ornament of the East,Gut Ripper,9450,13230,4
+Advancing Fortress,Gut Ripper,9450,13230,4
+Valako's Sign,Topaz Ring,9325,13055,1
+Replica Bones of Ullr,Silk Slippers,9300,13020,4
+The Blood Reaper,Headsman Axe,9175,12845,8
+Sibyl's Lament,Coral Ring,9175,12845,1
+The Anvil,Amber Amulet,9175,12845,1
+Maligaro's Lens,Compound Spiked Shield,9175,12845,4
+Mark of Submission,Unset Ring,9175,12845,1
+The Signal Fire,Blazing Arrow Quiver,9175,12845,6
+Corona Solaris,Crystal Wand,9175,12845,3
+The Harvest,Jasper Chopper,9050,12670,8
+Rigwald's Charge,Highland Blade,8900,12460,8
+Widowmaker,Boot Blade,8900,12460,3
+Siegebreaker,Heavy Belt,8900,12460,2
+Tawhanuku's Timing,Moonstone Ring,8900,12460,1
+Heatshiver,Leather Hood,8775,12285,4
+Berek's Respite,Two-Stone Ring,8775,12285,1
+Rigwald's Crest,Two-Stone Ring,8775,12285,1
+The Flow Untethered,Cloth Belt,8775,12285,2
+Replica Tempestuous Steel,War Sword,8775,12285,6
+Arn's Anguish,Cloth Belt,8775,12285,2
+Olesya's Delight,Cloth Belt,8775,12285,2
+Graven's Secret,Cloth Belt,8775,12285,2
+Ixchel's Temptation,Gold Ring,8775,12285,1
+Replica Heatshiver,Leather Hood,8775,12285,4
+Daresso's Passion,Estoc,8650,12110,4
+El'Abin's Visage,Fencer Helm,8650,12110,4
+Bloodbond,Bone Armour,8525,11935,6
+Wurm's Molt,Leather Belt,8400,11760,2
+Winterheart,Gold Amulet,8400,11760,1
+Goldwyrm,Nubuck Boots,8300,11620,4
+The Primordial Chain,Coral Amulet,8300,11620,1
+Plume of Pursuit,Bone Circlet,8300,11620,4
+Cloak of Flame,Scholar's Robe,8275,11585,6
+Clayshaper,Rock Breaker,8150,11410,6
+Sentari's Answer,Brass Spirit Shield,8050,11270,4
+Chober Chaber,Great Mallet,7925,11095,8
+Eclipse Solaris,Engraved Wand,290675,406945,3
+Chaber Cairn,Great Mallet,7925,11095,8
+The Aylardex,Agate Amulet,7825,10955,1
+Iron Commander,Death Bow,7825,10955,8
+Replica Bitterdream,Shadow Sceptre,7825,10955,6
+Ahkeli's Valley,Ruby Ring,7800,10920,1
+Precursor's Emblem,Ruby Ring,7800,10920,1
+Circle of Anguish,Ruby Ring,7800,10920,1
+Icetomb,Latticed Ringmail,7675,10745,6
+Crystal Vault,Latticed Ringmail,7675,10745,6
+Orbala's Stand,Eelskin Boots,7675,10745,4
+Rearguard,Blunt Arrow Quiver,7575,10605,6
+Shadows and Dust,Clasped Mitts,7575,10605,4
+Demigod's Beacon,Golden Flame,7575,10605,6
+Aukuna's Will,Clasped Mitts,7575,10605,4
+Replica Winterheart,Gold Amulet,7575,10605,1
+Valyrium,Moonstone Ring,7475,10465,1
+Lioneye's Paws,Bronzescale Boots,7375,10325,4
+Thief's Torment,Prismatic Ring,7375,10325,1
+Lori's Lantern,Prismatic Ring,7375,10325,1
+Replica Twyzel,Sage Wand,7375,10325,3
+Zahndethus' Cassock,Sage's Robe,7250,10150,6
+Mindspiral,Aventail Helmet,7250,10150,4
+Cybil's Paw,Thresher Claw,7250,10150,4
+Torchoak Step,Antique Greaves,7250,10150,4
+Chalice of Horrors,War Buckler,7150,10010,4
+Ngamahu's Sign,Ruby Ring,7150,10010,1
+Skullhead,Secutor Helm,7025,9835,4
+Skirmish,Two-Point Arrow Quiver,7025,9835,6
+Gifts from Above,Diamond Ring,6950,9730,1
+Blightwell,Clutching Talisman,11100,15540,1
+Replica Leer Cast,Festival Mask,6950,9730,4
+Putembo's Meadow,Topaz Ring,6925,9695,1
+Circle of Regret,Topaz Ring,6925,9695,1
+The Three Dragons,Golden Mask,6825,9555,4
+Earendel's Embrace,Grinning Fetish,6825,9555,6
+Willclash,Golden Mask,6825,9555,4
+Lycosidae,Rawhide Tower Shield,6725,9415,8
+Mortem Morsu,Fright Claw,6625,9275,4
+Al Dhih,Timeworn Claw,6550,9170,4
+The Baron,Close Helmet,6550,9170,4
+Fairgraves' Tricorne,Tricorne,6525,9135,4
+Hyperboreus,Leather Belt,6525,9135,2
+Survivor's Guilt,Heavy Belt,6525,9135,2
+Reaper's Pursuit,Shadow Axe,6450,9030,8
+Deidbellow,Gilded Sallet,6450,9030,4
+Windshriek,Reinforced Greaves,6450,9030,4
+Drillneck,Penetrating Arrow Quiver,6350,8890,6
+Timeclasp,Moonstone Ring,6350,8890,1
+Faithguard,Runic Helm,6350,8890,4
+Shavronne's Pace,Scholar Boots,6250,8750,4
+Briskwrap,Sun Leather,6250,8750,6
+Flesh-Eater,Dream Mace,6250,8750,6
+Triad Grip,Mesh Gloves,6250,8750,4
+Shavronne's Gambit,Scholar Boots,6250,8750,4
+Death's Opus,Death Bow,6250,8750,8
+Le Heup of All,Iron Ring,6175,8645,1
+Pyre,Sapphire Ring,6150,8610,1
+Uzaza's Mountain,Sapphire Ring,6150,8610,1
+Circle of Fear,Sapphire Ring,6150,8610,1
+Replica Tasalio's Sign,Sapphire Ring,6150,8610,1
+Call of the Void,Sapphire Ring,12300,14760,1
+Ikiaho's Promise,Coral Amulet,6075,8505,1
+Matua Tupuna,Tarnished Spirit Shield,6000,8400,4
+The Trickster's Smile,Visored Sallet,6000,8400,4
+Blood of Corruption,Amber Amulet,5975,8365,1
+Replica Karui Ward,Jade Amulet,5975,8365,1
+Mightflay,Flaying Knife,5900,8260,3
+Titucius' Span,Reinforced Tower Shield,5900,8260,8
+Twyzel,Sage Wand,5900,8260,3
+Chitus' Needle,Elegant Foil,5900,8260,4
+The Warden's Brand,Iron Ring,5900,8260,1
+Retaliation Charm,Citrine Amulet,5900,8260,1
+Elevore,Wolf Pelt,5900,8260,4
+Veil of the Night,Great Helmet,5825,8155,4
+Edge of Madness,Etched Greatsword,5825,8155,8
+Replica Veil of the Night,Great Helmet,5825,8155,4
+Relentless Fury,Decorative Axe,5725,8015,6
+Thirst for Horrors,War Buckler,5725,8015,4
+Fated End,Paua Ring,5625,7875,1
+Replica Doedre's Damning,Paua Ring,5625,7875,1
+Wake of Destruction,Mesh Boots,5550,7770,4
+Leer Cast,Festival Mask,5550,7770,4
+Lakishu's Blade,Elegant Sword,5550,7770,6
+The Stormheart,Royal Staff,5550,7770,8
+Viper's Scales,Full Scale Armour,5550,7770,6
+Doomfletch's Prism,Royal Bow,5550,7770,8
+The Stormwall,Royal Staff,5550,7770,8
+Meginord's Girdle,Heavy Belt,5475,7665,2
+Berek's Pass,Two-Stone Ring,5475,7665,1
+Berek's Grip,Two-Stone Ring,5475,7665,1
+Kikazaru,Topaz Ring,5475,7665,1
+Belt of the Deceiver,Heavy Belt,5475,7665,2
+Tasalio's Sign,Sapphire Ring,5475,7665,1
+Maligaro's Cruelty,Turquoise Amulet,5475,7665,1
+Curtain Call,Plague Mask,5475,7665,4
+The Felbog Fang,Citrine Amulet,5475,7665,1
+Honoured Alliance,Coral Ring,5475,7665,1
+Geofri's Baptism,Brass Maul,5400,7560,8
+Sundance,Clasped Boots,5400,7560,4
+Slitherpinch,Bronzescale Gauntlets,5400,7560,4
+Queen's Decree,Ornate Sword,5400,7560,8
+Glitterdisc,Burnished Spiked Shield,5400,7560,4
+Queen's Escape,Ornate Sword,5400,7560,8
+Sunspite,Clasped Boots,5400,7560,4
+Geofri's Devotion,Brass Maul,5400,7560,8
+Thousand Ribbons,Simple Robe,5300,7420,6
+Tabula Rasa,Simple Robe,5300,7420,6
+Ewar's Mirage,Antique Rapier,5225,7315,4
+Mark of the Red Covenant,Tribal Circlet,5225,7315,4
+Coward's Legacy,Chain Belt,5150,7210,2
+Circle of Guilt,Iron Ring,5150,7210,1
+Chains of Emancipation,Chain Belt,5150,7210,2
+Carnage Heart,Onyx Amulet,5075,7105,1
+Foxshade,Wild Leather,5075,7105,6
+Prismweave,Rustic Sash,5075,7105,2
+Duskwing,Saqawine Vulture,5075,7105,1
+Timetwist,Moonstone Ring,5075,7105,1
+Fox's Fortune,Wild Leather,5075,7105,6
+Malachai's Simula,Iron Mask,5025,7035,4
+Ashrend,Buckskin Tunic,5025,7035,6
+Solaris Lorica,Copper Plate,5025,7035,6
+Trolltimber Spire,Cedar Tower Shield,5025,7035,8
+Widowhail,Crude Bow,5000,7000,6
+Storm Prison,Spiraled Wand,4925,6895,3
+Amplification Rod,Spiraled Wand,4925,6895,3
+Facebreaker,Strapped Mitts,4875,6825,4
+Mokou's Embrace,Ruby Ring,4875,6825,1
+Ahkeli's Mountain,Ruby Ring,4875,6825,1
+The Peregrine,Visored Sallet,4800,6720,4
+Stormcharger,Plated Greaves,4800,6720,4
+Giantsbane,Bronze Gauntlets,4800,6720,4
+Whakatutuki o Matua,Tarnished Spirit Shield,4800,6720,4
+Flesh and Spirit,Ironscale Gauntlets,4725,6615,4
+Replica Bloodplay,Stiletto,4725,6615,3
+Bones of Ullr,Silk Slippers,4650,6510,4
+Quecholli,Jagged Maul,4650,6510,8
+Deerstalker,Deerskin Boots,4650,6510,4
+Fidelitas' Spike,Jagged Foil,4650,6510,4
+Bated Breath,Chain Belt,4650,6510,2
+Praxis,Paua Ring,4650,6510,1
+Panquetzaliztli,Jagged Maul,4650,6510,8
+Perandus Blazon,Cloth Belt,4375,6125,2
+Ungil's Gauche,Boot Knife,4375,6125,3
+Brightbeak,War Hammer,4375,6125,6
+Daresso's Salute,Citrine Amulet,4375,6125,1
+Victario's Acuity,Turquoise Amulet,4375,6125,1
+Asphyxia's Wrath,Feathered Arrow Quiver,4375,6125,6
+Shaper's Seed,Agate Amulet,4375,6125,1
+The Deep One's Hide,Studded Round Shield,4375,6125,6
+Lavianga's Wisdom,War Hammer,4375,6125,6
+Spine of the First Claimant,Iron Sceptre,4375,6125,6
+Extractor Mentis,Agate Amulet,4375,6125,1
+Demigod's Dominance,Golden Mantle,4375,6125,6
+The Tempestuous Steel,War Sword,4375,6125,6
+Saemus' Gift,Feathered Arrow Quiver,4375,6125,6
+Frostferno,Leather Hood,4375,6125,4
+The Tactician,Studded Belt,4375,6125,2
+The Nomad,Studded Belt,4375,6125,2
+Victario's Flight,Goathide Boots,4325,6055,4
+Ashcaller,Carved Wand,4325,6055,3
+Putembo's Valley,Topaz Ring,4325,6055,1
+Ghostwrithe,Silken Vest,4200,5880,6
+Dusktoe,Ironscale Boots,4125,5775,4
+Wideswing,Poleaxe,4125,5775,8
+Faminebind,Rustic Sash,4125,5775,2
+Roth's Reach,Recurve Bow,4125,5775,8
+Duskblight,Ironscale Boots,4125,5775,4
+Thrillsteel,Barbute Helmet,4125,5775,4
+Doryani's Invitation,Heavy Belt,4075,5705,2
+Night's Hold,Black Maw Talisman,4075,5705,1
+String of Servitude,Heavy Belt,4075,5705,2
+Bear's Girdle,Leather Belt,4075,5705,2
+Hrimnor's Hymn,Sledgehammer,4000,5600,8
+Aurumvorax,Basket Rapier,4000,5600,4
+Hrimnor's Dirge,Sledgehammer,4000,5600,8
+Malachai's Awakening,Iron Mask,4000,5600,4
+Kaltenhalt,Painted Buckler,3900,5460,4
+Nomic's Storm,Strapped Boots,3900,5460,4
+Dreadarc,Cleaver,3900,5460,6
+Kaltensoul,Painted Buckler,3900,5460,4
+Dreadsurge,Cleaver,3900,5460,6
+Uzaza's Meadow,Sapphire Ring,3850,5390,1
+Wreath of Phrecia,Iron Circlet,3850,5390,4
+Demigod's Presence,Gold Amulet,3775,5285,1
+The Ignomon,Gold Amulet,3775,5285,1
+Bloodplay,Stiletto,3775,5285,3
+The Effigon,Gold Amulet,3775,5285,1
+The Untouched Soul,Gold Amulet,3775,5285,1
+Tipua Kaikohuru,Whalebone Rapier,3725,5215,4
+The Goddess Bound,Whalebone Rapier,3725,5215,4
+Shackles of the Wretched,Chain Gloves,3725,5215,4
+Hyrri's Bite,Sharktooth Arrow Quiver,3675,5145,6
+Hyrri's Demise,Sharktooth Arrow Quiver,3675,5145,6
+Chain of Endurance,Chain Belt,3675,5145,2
+Limbsplit,Woodsplitter,3575,5005,8
+Pillar of the Caged God,Iron Staff,3575,5005,8
+Dying Breath,Iron Staff,3575,5005,8
+Realmshaper,Iron Staff,3575,5005,8
+The Cauteriser,Woodsplitter,3575,5005,8
+Realm Ender,Iron Staff,3575,5005,8
+Doedre's Damning,Paua Ring,3525,4935,1
+Quill Rain,Short Bow,3525,4935,6
+Replica Quill Rain,Short Bow,3525,4935,6
+Shiversting,Bastard Sword,3450,4830,8
+Honourhome,Soldier Helmet,3450,4830,4
+Doedre's Tenure,Velvet Gloves,3450,4830,4
+Demigod's Triumph,Golden Wreath,3450,4830,4
+Demigod's Stride,Golden Caligae,3450,4830,4
+Demigod's Touch,Golden Bracers,3450,4830,4
+Demigod's Bounty,Golden Obi,3450,4830,2
+Demigod's Eye,Golden Hoop,3450,4830,1
+Wildslash,Awl,3450,4830,4
+Demigod's Immortality,Golden Visage,3450,4830,4
+Doedre's Malevolence,Velvet Gloves,3450,4830,4
+Kaom's Sign,Coral Ring,3425,4795,1
+Replica Blood Thorn,Gnarled Branch,3425,4795,4
+Replica Fencoil,Gnarled Branch,3425,4795,4
+Feastbind,Rustic Sash,3350,4690,2
+Sadima's Touch,Wool Gloves,3325,4655,4
+Goldrim,Leather Cap,3325,4655,4
+Sacrificial Heart,Paua Amulet,3325,4655,1
+Replica Last Resort,Nailed Fist,3325,4655,4
+The Princess,Sabre,3250,4550,3
+Gorebreaker,Spiked Club,3250,4550,3
+Axiom Perpetuum,Bronze Sceptre,3250,4550,6
+Coward's Chains,Chain Belt,3225,4515,2
+Replica Prismweave,Rustic Sash,3225,4515,2
+Wondertrap,Velvet Slippers,3175,4445,4
+Hrimsorrow,Goathide Gloves,3175,4445,4
+Storm Cloud,Long Bow,3175,4445,8
+Hrimburn,Goathide Gloves,3175,4445,4
+Greedtrap,Velvet Slippers,3175,4445,4
+Wildwrap,Strapped Leather,3175,4445,6
+Bramblejack,Plate Vest,3125,4375,6
+Crest of Perandus,Pine Buckler,3075,4305,4
+Asenath's Chant,Iron Circlet,3075,4305,4
+Stone of Lazhwar,Lapis Amulet,2975,4165,1
+Karui Ward,Jade Amulet,2975,4165,1
+Springleaf,Plank Kite Shield,2975,4165,6
+Tear of Purity,Lapis Amulet,2975,4165,1
+Karui Charge,Jade Amulet,2975,4165,1
+The Oak,Plank Kite Shield,2975,4165,6
+The Screaming Eagle,Jade Hatchet,2900,4060,6
+Abberath's Horn,Goat's Horn,2900,4060,3
+The Gryphon,Jade Hatchet,2900,4060,6
+Ondar's Clasp,Wrapped Mitts,2825,3955,4
+Wheel of the Stormsail,Rotted Round Shield,2825,3955,6
+Goredrill,Skinning Knife,2825,3955,3
+Sanguine Gambol,Skinning Knife,2825,3955,3
+The Megalomaniac,Bronze Stalker Sentinel,2825,3955,4
+Fencoil,Gnarled Branch,2725,3815,4
+Craghead,Serrated Arrow Quiver,2725,3815,6
+The Blood Thorn,Gnarled Branch,2725,3815,4
+Kaom's Way,Coral Ring,2725,3815,1
+Cragfall,Serrated Arrow Quiver,2725,3815,6
+Mirebough,Gnarled Branch,2725,3815,4
+Sidhebreath,Paua Amulet,2650,3710,1
+Crown of Thorns,Vine Circlet,2650,3710,4
+Araku Tiki,Coral Amulet,2650,3710,1
+Wanderlust,Wool Shoes,2650,3710,4
+Last Resort,Nailed Fist,2650,3710,4
+Ngamahu Tiki,Coral Amulet,2650,3710,1
+Martyr's Crown,Vine Circlet,2650,3710,4
+Blackheart,Iron Ring,2575,3605,1
+Blackgleam,Blazing Arrow Quiver,2575,3605,6
+Voidheart,Iron Ring,2575,3605,1
+Oni-Goroshi,Charan's Sword,2575,3605,6
+Redbeak,Rusted Sword,2500,3500,3
+Silverbranch,Crude Bow,2500,3500,6
+Ezomyte Peak,Iron Hat,2500,3500,4
+Lochtonial Caress,Iron Gauntlets,2500,3500,4
+Lifesprig,Driftwood Wand,2500,3500,3
+Talisman of the Victor,Jet Amulet,2500,3500,1
+Demigod's Authority,Golden Blade,2500,3500,6
+Wall of Brambles,Plate Vest,2500,3500,6
+Ezomyte Hold,Iron Hat,2500,3500,4
+Silverbough,Crude Bow,2500,3500,6
+Dreadbeak,Rusted Sword,2500,3500,3
+Grace of the Goddess,Prophecy Wand,108700,152180,3
+Starcaller,Abyssal Axe,348825,488355,8
+Legacy of the Rose,Judgement Staff,348825,488355,8
+The Living Blade,Ezomyte Blade,29450,41230,8
+Tawhoa's Felling,Piledriver,18400,25760,8
+Cadigan's Authority,Platinum Sceptre,30350,42490,3
+Mystic Refractor,Pagan Wand,53050,74270,3
+Ynda's Stand,Studded Belt,22575,31605,2
+The Tides of Time,Vanguard Belt,189000,239400,2
+Venarius' Astrolabe,Astrolabe Amulet,534700,588170,1
+Coiling Whisper,Amethyst Ring,149250,208950,1
+Enmity's Embrace,Vermillion Ring,154975,216965,1
+Binds of Bloody Vengeance,Vanguard Belt,252000,352800,2
+Circle of Ambition,Prismatic Ring,35350,49490,1
+Whispers of Infinity,Seaglass Amulet,129775,181685,1
+The Hateful Accuser,Nameless Ring,108700,152180,1
+Betrayal's Sting,Steel Ring,146075,204505,1
+The Arkhon's Tools,Cloth Belt,131525,184135,2
+Squirming Terror,Unset Ring,36725,51415,1
+The Queller of Minds,Nameless Ring,18125,25375,1
+The Selfish Shepherd,Nameless Ring,18125,25375,1
+Soul Tether,Cloth Belt,20050,28070,2
+Prospero's Protection,Iron Ring,15625,21875,1
+Nevalius Inheritance,Cloth Belt,8775,12285,2
+Grattus Signet,Diamond Ring,6350,8890,1
+The Tempest,Long Bow,3175,4445,8
+Serle's Masterwork,Phantom Mace,14525,20335,6
+Svalinn,Girded Tower Shield,65750,92050,8
+The Celestial Brace,Goliath Gauntlets,69775,97685,4
+The Apostate,Cabalist Regalia,40975,57365,6
+Spinehail,Vile Arrow Quiver,123350,172690,6
+Seven Teachings,Waxed Garb,125000,175000,6
+Kaom's Command,Siege Helmet,20050,28070,4
+Hand of Heresy,Martyr Gloves,292150,409010,4
+Servant of Decay,Torturer Garb,146075,204505,6
+The Devourer of Minds,Pig-Faced Bascinet,140625,178125,4
+Ravenous Passion,Zealot Helmet,53475,74865,4
+Azadi Crest,Lacquered Buckler,108700,152180,4
+The Tempest Rising,Goliath Greaves,71850,100590,4
+Admiral's Arrogance,Antique Gauntlets,15375,21525,4
+The Dark Monarch,Lich's Circlet,116275,162785,4
+The Hand of Phrecia,Mesh Gloves,12500,17500,4
+Howlcrack,Ezomyte Burgonet,36225,50715,4
+Scornflux,Satin Slippers,22650,31710,4
+Veruso's Ambition,Shackled Boots,8300,11620,4
+Broadstroke,Shackled Boots,2975,4165,6
+The Golden Charlatan,Lion Sword,298400,417760,8
+Wing of the Wyvern,Imperial Bow,307350,430290,8
+Festering Resentment,Demon Dagger,326075,456505,3
+Jiquani's Potential,Imperial Staff,1707500,2390500,8
+The Grey Wind,Spectral Axe,38625,54075,6
+Unlight Extant,Sage Wand,7375,10325,3
+The Monastery Bell,Dream Mace,7825,10955,6
+Bitter Instinct,Spiny Round Shield,30350,42490,6
+Rigwald's Hunt,General's Brigandine,102450,143430,6
+The Hallowed Monarch,Faithful Helmet,42000,58800,4
+Hand of the Lords,Carnal Mitts,63850,89390,4
+The Caged Mammoth,Antique Gauntlets,15375,21525,4
+Refuge in Isolation,Paladin Crown,48700,68180,4
+Lost Unity,Formless Ring,79175,110845,1
+Woespike,Steel Ring,48700,68180,1
+The Unseen Hue,Opal Ring,48700,68180,1
+The Sundered Will,Fugitive Ring,9900,13860,1
+Bonemeld,Marble Amulet,43250,60550,1
+The Will of Uul-Netol,Organic Ring,9900,13860,1
+The Will of Esh,Synaptic Ring,9900,13860,1
+The Will of Tul,Cryonic Ring,9900,13860,1
+The Will of Xoph,Enthalpic Ring,9900,13860,1
+Cowards' Wail,Ezomyte Tower Shield,32200,45080,8
+Haunting Memories,Turquoise Amulet,26300,36820,1
+The Desecrated Chalice,Coronal Maul,23325,32655,8
+The Sacred Chalice,Coronal Maul,23325,32655,8
+The Flame of Hope,Maraketh Bow,24750,34650,8
+Skysunder,Exquisite Blade,38425,53795,8
+The Bane of Hope,Maraketh Bow,24750,34650,8
+The Broken Elegy,Foul Staff,24675,34545,8
+Fleshrender,Exquisite Blade,38425,53795,8
+The Sands of Time,Tyrant's Sekhem,80875,113225,6
+Khatal's Geyser,Lapis Amulet,14100,19740,1
+The Bandit Lord's Band,Gold Ring,74000,103600,1
+Screams of the Desiccated,Leather Belt,115300,161420,2
+Solerai's Radiance,Chain Belt,4925,6895,2
+Khatal's Weeping,Lapis Amulet,14100,19740,1
+Replica Gifts from Above,Diamond Ring,6950,9730,1
+Saresh's Darkness,Chain Belt,4925,6895,2
+Seablister,Spiny Round Shield,24675,34545,6
+Spinesnatch,Fleshripper,115300,161420,8
+Subsume the Source,Faithful Helmet,126000,176400,4
+The Crustacean's Call,Primordial Staff,24675,34545,8
+Dread Captain's Cutlass,Ghostflame Blade,36225,50715,6
+Pearl of Tsoatha,Prismatic Ring,85800,120120,1
+Replica Maata's Teaching,Karui Sceptre,76225,106715,6
+Rotmother's Mutiny,Pearlescent Amulet,13650,19110,1
+The Draugur's Lantern,Ancient Spirit Shield,24675,34545,4
+The Unblinking Eye,Harlequin Mask,33150,46410,4
+The Wellhook,Fishing Rod,2128100,2979340,4
+Unholy Accomplice,Cloth Belt,556975,779765,2
+Waxen Soul,Saint's Hauberk,307350,430290,6
+Zana's Ingenuity,Prismatic Ring,149500,209300,1

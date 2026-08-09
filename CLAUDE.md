@@ -51,10 +51,21 @@ Runs every `*.test.js` file (colocated with the module it tests).
   them client-side by item name; items with no price match are hidden.
 - `scripts/import-items.js` + `scripts/seed.csv` — one-time seed of `data/poe-dust.db`
   from a community-sourced dust-value dataset. Re-running it is a full, destructive
-  rebuild: it overwrites ALL SIX dust columns for every item in `seed.csv`, including
-  resetting `dust83`/`dust83q20`/`dust85`/`dust85q20` back to `NULL` even if an admin
-  had already filled them in. Only re-run it if you intend to discard existing admin
-  edits and start over from the seed data.
+  rebuild: it overwrites `dust83`/`dust83q20`/`dust84`/`dust84q20`/`dust85`/`dust85q20`,
+  `slots`, `type`, and `subtype` for every item in `seed.csv` (only `dust84`/`dust84q20`/
+  `slots`/`subtype` actually get a value from the CSV — the rest go back to `NULL`),
+  even if an admin had already filled them in. It also does NOT remove rows for items
+  that existed in a previous `seed.csv` but are absent from the current one (a stale
+  row has to be deleted manually — see the 2026-08-09 cleanup that dropped 18 leftover
+  Legion "Piece of ..." fragments after switching data sources). Only re-run it if you
+  intend to discard existing admin edits and start over from the seed data.
+
+  **Data source:** `scripts/seed.csv` is currently derived from
+  https://github.com/deronek/poe-disenchant-tool/tree/main/data/dust (`poe-dust.js`) —
+  check that repo periodically for updates (if it's still maintained) and regenerate
+  `seed.csv` from it when the numbers drift, since it's more accurate than the original
+  Google Sheet/gist source this project started with (e.g. it uses a per-item quality
+  multiplier instead of a flat +20%, and excludes non-disenchantable fragment items).
 
 ## Key details
 

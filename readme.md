@@ -15,6 +15,11 @@ https://docs.google.com/spreadsheets/d/1GAFw_wDGaI1F85T0qfUk18r20ioA0TOhj4JDpNKf
 
 ovsem tamni dust je jen orientacni - budeme muset najit aktualnejsi zdroj  nekdy v budoucnu - ale je to zaklad
 
+> **Update 2026-08-09:** přešli jsme na přesnější zdroj —
+> https://github.com/deronek/poe-disenchant-tool/tree/main/data/dust (`poe-dust.js`).
+> Sledovat, jestli ho autor dál udržuje, a podle toho `scripts/seed.csv` občas
+> přegenerovat (viz CLAUDE.md, sekce Architecture / Data source).
+
 k zaznamu itemu chceme vest: 
 
 - nazev
