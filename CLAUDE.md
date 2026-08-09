@@ -40,7 +40,8 @@ Runs every `*.test.js` file (colocated with the module it tests).
   takes injectable dependencies so tests can hit real routes without real network
   or a real database file.
 - `lib/db.js` — SQLite (`node:sqlite`) access to the `items` table (`name`,
-  `dust83`, `dust83q20`, `dust84`, `dust84q20`, `dust85`, `dust85q20`).
+  `dust84`, `dust84q20`, `slots`, `type`, `subtype`). ilvl 83/85 columns were
+  dropped (2026-08-09) — the data source only reliably covers ilvl 84.
 - `lib/auth.js` — single-shared-password admin sessions (in-memory token map,
   24h TTL, `HttpOnly` cookie).
 - `lib/priceCache.js` — 1-hour file cache for poe.ninja responses (`cache/<league>.json`).
@@ -51,10 +52,10 @@ Runs every `*.test.js` file (colocated with the module it tests).
   them client-side by item name; items with no price match are hidden.
 - `scripts/import-items.js` + `scripts/seed.csv` — one-time seed of `data/poe-dust.db`
   from a community-sourced dust-value dataset. Re-running it is a full, destructive
-  rebuild: it overwrites `dust83`/`dust83q20`/`dust84`/`dust84q20`/`dust85`/`dust85q20`,
-  `slots`, `type`, and `subtype` for every item in `seed.csv` (only `dust84`/`dust84q20`/
-  `slots`/`subtype` actually get a value from the CSV — the rest go back to `NULL`),
-  even if an admin had already filled them in. It also does NOT remove rows for items
+  rebuild: it overwrites `dust84`, `dust84q20`, `slots`, `type`, and `subtype` for
+  every item in `seed.csv` (only `dust84`/`dust84q20`/`slots`/`subtype` actually get
+  a value from the CSV — `type` goes back to `NULL`), even if an admin had already
+  filled it in. It also does NOT remove rows for items
   that existed in a previous `seed.csv` but are absent from the current one (a stale
   row has to be deleted manually — see the 2026-08-09 cleanup that dropped 18 leftover
   Legion "Piece of ..." fragments after switching data sources). Only re-run it if you
