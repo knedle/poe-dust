@@ -123,7 +123,7 @@ test('PUT /api/admin/items/:name requires an authenticated session', async () =>
   await withServer({ dbConn, cacheDir, adminPassword: 'secret' }, async (base) => {
     const res = await fetch(`${base}/api/admin/items/${encodeURIComponent('Original Sin')}`, {
       method: 'PUT', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ dust83: 100 }),
+      body: JSON.stringify({ dust84q20: 100 }),
     });
     assert.strictEqual(res.status, 401);
   });
@@ -143,17 +143,17 @@ test('PUT /api/admin/items/:name updates a row when authenticated, 404s for an u
     const ok = await fetch(`${base}/api/admin/items/${encodeURIComponent('Original Sin')}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json', Cookie: cookie },
-      body: JSON.stringify({ dust83: 100 }),
+      body: JSON.stringify({ dust84q20: 100 }),
     });
     assert.strictEqual(ok.status, 200);
 
     const items = await (await fetch(`${base}/api/items`)).json();
-    assert.strictEqual(items[0].dust83, 100);
+    assert.strictEqual(items[0].dust84q20, 100);
 
     const missing = await fetch(`${base}/api/admin/items/${encodeURIComponent('Nope')}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json', Cookie: cookie },
-      body: JSON.stringify({ dust83: 1 }),
+      body: JSON.stringify({ dust84q20: 1 }),
     });
     assert.strictEqual(missing.status, 404);
   });
@@ -237,7 +237,7 @@ test('PUT /api/admin/items/:name with a malformed percent-encoded name segment r
     const res = await fetch(`${base}/api/admin/items/%E0%A4%A`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json', Cookie: cookie },
-      body: JSON.stringify({ dust83: 100 }),
+      body: JSON.stringify({ dust84q20: 100 }),
     });
     assert.strictEqual(res.status, 400);
   });

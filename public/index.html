@@ -293,16 +293,8 @@
         </label>
       </div>
       <div class="modal-row">
-        <label>ilvl 83<input type="number" id="editDust83"></label>
-        <label>ilvl 83 +20q<input type="number" id="editDust83q20"></label>
-      </div>
-      <div class="modal-row">
-        <label>ilvl 84<input type="number" id="editDust84"></label>
-        <label>ilvl 84 +20q<input type="number" id="editDust84q20"></label>
-      </div>
-      <div class="modal-row">
-        <label>ilvl 85<input type="number" id="editDust85"></label>
-        <label>ilvl 85 +20q<input type="number" id="editDust85q20"></label>
+        <label>Dust<input type="number" id="editDust84"></label>
+        <label>Dust +20q<input type="number" id="editDust84q20"></label>
       </div>
       <div class="error-msg" id="editError" style="display:none"></div>
       <div class="modal-actions">
@@ -318,17 +310,11 @@ const COLUMNS = [
   { key: 'name', label: 'Name', numeric: false },
   { key: 'slots', label: 'Slots', numeric: true },
   { key: 'chaosValue', label: 'Price (c)', numeric: true },
-  { key: 'dust83', label: '83', numeric: true },
-  { key: 'dust83q20', label: '83+20', numeric: true },
-  { key: 'eff83', label: 'dust/c 83', numeric: true },
-  { key: 'dust84', label: '84', numeric: true },
-  { key: 'dust84q20', label: '84+20', numeric: true },
-  { key: 'eff84', label: 'dust/c 84', numeric: true },
-  { key: 'dust85', label: '85', numeric: true },
-  { key: 'dust85q20', label: '85+20', numeric: true },
-  { key: 'eff85', label: 'dust/c 85', numeric: true },
+  { key: 'dust84', label: 'Dust', numeric: true },
+  { key: 'dust84q20', label: 'Dust +20q', numeric: true },
+  { key: 'eff84', label: 'dust/c', numeric: true },
 ];
-const DUST_FIELDS = ['dust83', 'dust83q20', 'dust84', 'dust84q20', 'dust85', 'dust85q20'];
+const DUST_FIELDS = ['dust84', 'dust84q20'];
 const TYPE_LABELS = { UniqueWeapon: 'Weapon', UniqueArmour: 'Armour', UniqueAccessory: 'Jewellery' };
 const CACHE_TTL = 60 * 60 * 1000;
 const SKIP_LEAGUES = new Set(['Standard', 'Hardcore', 'SSF Standard', 'SSF Hardcore']);
@@ -361,9 +347,7 @@ function mergeItemsWithPrices() {
       ...item,
       chaosValue: price.chaosValue,
       _category: price._category,
-      eff83: computeEfficiency(item.dust83q20, price.chaosValue),
       eff84: computeEfficiency(item.dust84q20, price.chaosValue),
-      eff85: computeEfficiency(item.dust85q20, price.chaosValue),
     });
   }
   mergedItems = merged;

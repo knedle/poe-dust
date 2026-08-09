@@ -31,7 +31,7 @@ test('parseSeedCsv extracts name, dust84, dust84q20, slots, and subtype from eve
   ]);
 });
 
-test('run imports the CSV into a fresh SQLite file with dust83/85 left null', () => {
+test('run imports the CSV into a fresh SQLite file', () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'poe-dust-import-test-'));
   const csvPath = path.join(dir, 'seed.csv');
   const dbPath = path.join(dir, 'poe-dust.db');
@@ -47,8 +47,6 @@ test('run imports the CSV into a fresh SQLite file with dust83/85 left null', ()
   const originalSin = rows.find(r => r.name === 'Original Sin');
   assert.strictEqual(originalSin.dust84, 2257780);
   assert.strictEqual(originalSin.dust84q20, 2709336);
-  assert.strictEqual(originalSin.dust83, null);
-  assert.strictEqual(originalSin.dust85, null);
   assert.strictEqual(originalSin.slots, 1);
   assert.strictEqual(originalSin.subtype, 'Amethyst Ring');
   assert.strictEqual(originalSin.type, null);
