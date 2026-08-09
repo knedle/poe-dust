@@ -31,6 +31,7 @@ function parseSeedCsv(csvText) {
   const dust84Idx = header.indexOf('dustValIlvl84');
   const dust84q20Idx = header.indexOf('dustValIlvl84Q20');
   const slotsIdx = header.indexOf('slots');
+  const baseTypeIdx = header.indexOf('baseType');
   const items = [];
   for (let i = 1; i < lines.length; i++) {
     if (!lines[i].trim()) continue;
@@ -38,11 +39,13 @@ function parseSeedCsv(csvText) {
     const name = fields[nameIdx];
     if (!name) continue;
     const slots = slotsIdx === -1 ? null : parseInt(fields[slotsIdx], 10);
+    const subtype = baseTypeIdx === -1 ? null : (fields[baseTypeIdx] || null);
     items.push({
       name,
       dust84: Math.round(parseFloat(fields[dust84Idx])),
       dust84q20: Math.round(parseFloat(fields[dust84q20Idx])),
       slots: Number.isNaN(slots) ? null : slots,
+      subtype,
     });
   }
   return items;

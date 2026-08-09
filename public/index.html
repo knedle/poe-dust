@@ -152,9 +152,10 @@
       cursor: pointer;
       user-select: none;
     }
-    thead th:nth-child(1), thead th:nth-child(2) { text-align: left; }
+    thead th:nth-child(1) { text-align: left; }
     thead th.sorted { color: #1a0e04; background: #e0d4b8; }
     thead th .arrow { font-size: 0.7rem; margin-left: 0.2rem; }
+    thead th.no-sort { cursor: default; }
 
     tbody td {
       border-bottom: 1px solid #e0d4b8;
@@ -162,12 +163,75 @@
       text-align: right;
       white-space: nowrap;
     }
-    tbody td:nth-child(1), tbody td:nth-child(2) { text-align: left; }
+    tbody td:nth-child(1) { text-align: left; }
     tbody tr:hover { background: #f8f0e0; }
 
     .empty-row td { text-align: center; color: #8a6840; padding: 3rem; }
 
-    td input[type="number"] { width: 90px; text-align: right; padding: 0.2rem 0.4rem; }
+    .edit-btn {
+      background: #ede5d0;
+      border: 1px solid #c8a870;
+      color: #6a5030;
+      padding: 0.25rem 0.7rem;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .edit-btn:hover { border-color: #7a3010; color: #1a0e04; background: #e0d4b8; }
+
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: #1a0e0480;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+    }
+    .modal-overlay.visible { display: flex; }
+
+    .modal {
+      background: linear-gradient(160deg, #fffdf5 0%, #f8f0e0 100%);
+      border: 1px solid #d4bc8c;
+      border-radius: 8px;
+      padding: 1.5rem;
+      width: 420px;
+      max-width: 90vw;
+      box-shadow: 0 8px 30px #00000040;
+    }
+    .modal h2 { color: #7a3010; font-size: 1.15rem; margin-bottom: 1rem; }
+    .modal-row { display: flex; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .modal-row label {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+      font-size: 0.8rem;
+      color: #6a5030;
+    }
+    .modal-row input, .modal-row select {
+      background: #fffdf5;
+      border: 1px solid #c8a870;
+      color: #1a0e04;
+      padding: 0.4rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      width: 100%;
+      outline: none;
+    }
+    .modal-actions { display: flex; justify-content: flex-end; gap: 0.5rem; margin-top: 0.5rem; }
+    button#editSaveBtn {
+      background: linear-gradient(180deg, #c87830 0%, #7a3010 100%);
+      border: 1px solid #7a3010;
+      color: #fffdf5;
+      padding: 0.45rem 1.1rem;
+    }
+    button#editCancelBtn {
+      background: #ede5d0;
+      border: 1px solid #c8a870;
+      color: #1a0e04;
+      padding: 0.45rem 1.1rem;
+    }
   </style>
 </head>
 <body>
@@ -208,10 +272,51 @@
   </table>
 </main>
 
+<div class="modal-overlay" id="editOverlay">
+  <div class="modal">
+    <h2 id="editModalTitle">Edit</h2>
+    <form id="editForm">
+      <div class="modal-row">
+        <label>Type
+          <select id="editType">
+            <option value="">—</option>
+            <option value="Weapon">Weapon</option>
+            <option value="Armour">Armour</option>
+            <option value="Jewellery">Jewellery</option>
+          </select>
+        </label>
+        <label>Subtype
+          <input type="text" id="editSubtype" placeholder="e.g. Amethyst Ring">
+        </label>
+        <label>Slots
+          <input type="number" id="editSlots" min="1" step="1">
+        </label>
+      </div>
+      <div class="modal-row">
+        <label>ilvl 83<input type="number" id="editDust83"></label>
+        <label>ilvl 83 +20q<input type="number" id="editDust83q20"></label>
+      </div>
+      <div class="modal-row">
+        <label>ilvl 84<input type="number" id="editDust84"></label>
+        <label>ilvl 84 +20q<input type="number" id="editDust84q20"></label>
+      </div>
+      <div class="modal-row">
+        <label>ilvl 85<input type="number" id="editDust85"></label>
+        <label>ilvl 85 +20q<input type="number" id="editDust85q20"></label>
+      </div>
+      <div class="error-msg" id="editError" style="display:none"></div>
+      <div class="modal-actions">
+        <button type="button" id="editCancelBtn">Cancel</button>
+        <button type="submit" id="editSaveBtn">Save</button>
+      </div>
+    </form>
+  </div>
+</div>
+
 <script>
 const COLUMNS = [
   { key: 'name', label: 'Name', numeric: false },
-  { key: '_category', label: 'Type', numeric: false },
+  { key: 'slots', label: 'Slots', numeric: true },
   { key: 'chaosValue', label: 'Price (c)', numeric: true },
   { key: 'dust83', label: '83', numeric: true },
   { key: 'dust83q20', label: '83+20', numeric: true },
@@ -223,7 +328,7 @@ const COLUMNS = [
   { key: 'dust85q20', label: '85+20', numeric: true },
   { key: 'eff85', label: 'dust/c 85', numeric: true },
 ];
-const EDITABLE_COLUMNS = ['dust83', 'dust83q20', 'dust84', 'dust84q20', 'dust85', 'dust85q20'];
+const DUST_FIELDS = ['dust83', 'dust83q20', 'dust84', 'dust84q20', 'dust85', 'dust85q20'];
 const TYPE_LABELS = { UniqueWeapon: 'Weapon', UniqueArmour: 'Armour', UniqueAccessory: 'Jewellery' };
 const CACHE_TTL = 60 * 60 * 1000;
 const SKIP_LEAGUES = new Set(['Standard', 'Hardcore', 'SSF Standard', 'SSF Hardcore']);
@@ -240,6 +345,7 @@ let minChaos = 0;
 let maxChaos = Infinity;
 let refreshBlockedUntil = 0;
 let btnInterval = null;
+let editingItemName = null;
 
 function computeEfficiency(dustQ20, chaosValue) {
   if (dustQ20 == null || !chaosValue) return null;
@@ -279,6 +385,12 @@ function renderHeader() {
     });
     row.appendChild(th);
   }
+  if (isAdmin) {
+    const th = document.createElement('th');
+    th.textContent = 'Edit';
+    th.classList.add('no-sort');
+    row.appendChild(th);
+  }
 }
 
 function formatNumber(n) {
@@ -291,56 +403,91 @@ function formatEfficiency(n) {
   return n.toFixed(2);
 }
 
-async function saveEdit(name, field, value) {
-  const parsed = value === '' ? null : Math.round(parseFloat(value));
+function defaultTypeFor(item) {
+  return item.type || TYPE_LABELS[item._category] || '';
+}
+
+function openEditModal(item) {
+  editingItemName = item.name;
+  document.getElementById('editModalTitle').textContent = `Edit — ${item.name}`;
+  document.getElementById('editType').value = defaultTypeFor(item);
+  document.getElementById('editSubtype').value = item.subtype ?? '';
+  document.getElementById('editSlots').value = item.slots ?? '';
+  for (const field of DUST_FIELDS) {
+    document.getElementById('edit' + field[0].toUpperCase() + field.slice(1)).value = item[field] ?? '';
+  }
+  document.getElementById('editError').style.display = 'none';
+  document.getElementById('editOverlay').classList.add('visible');
+}
+
+function closeEditModal() {
+  editingItemName = null;
+  document.getElementById('editOverlay').classList.remove('visible');
+}
+
+function showEditError(msg) {
+  const el = document.getElementById('editError');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+function collectEditFields() {
+  const fields = {};
+  const typeVal = document.getElementById('editType').value;
+  fields.type = typeVal === '' ? null : typeVal;
+  const subtypeVal = document.getElementById('editSubtype').value.trim();
+  fields.subtype = subtypeVal === '' ? null : subtypeVal;
+  const slotsVal = document.getElementById('editSlots').value;
+  fields.slots = slotsVal === '' ? null : Math.round(parseFloat(slotsVal));
+  for (const field of DUST_FIELDS) {
+    const val = document.getElementById('edit' + field[0].toUpperCase() + field.slice(1)).value;
+    fields[field] = val === '' ? null : Math.round(parseFloat(val));
+  }
+  return fields;
+}
+
+async function saveEditModal() {
+  const name = editingItemName;
+  const fields = collectEditFields();
   const res = await fetch(`/api/admin/items/${encodeURIComponent(name)}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ [field]: parsed }),
+    body: JSON.stringify(fields),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const item = rawItems.find(i => i.name === name);
-  if (item) item[field] = parsed;
+  if (item) Object.assign(item, fields);
   mergeItemsWithPrices();
-}
-
-function editableCell(item, field) {
-  const td = document.createElement('td');
-  const input = document.createElement('input');
-  input.type = 'number';
-  input.value = item[field] ?? '';
-  const commit = () => {
-    saveEdit(item.name, field, input.value).catch(e => {
-      input.value = item[field] ?? '';
-      alert(`Save failed: ${e.message}`);
-    });
-  };
-  input.addEventListener('blur', commit);
-  input.addEventListener('keydown', e => { if (e.key === 'Enter') input.blur(); });
-  td.appendChild(input);
-  return td;
+  renderSlotsFilter();
+  applyAndRender();
+  closeEditModal();
 }
 
 function renderRows(items) {
   const tbody = document.getElementById('tbody');
   tbody.innerHTML = '';
+  const colCount = COLUMNS.length + (isAdmin ? 1 : 0);
   if (items.length === 0) {
-    tbody.innerHTML = `<tr class="empty-row"><td colspan="${COLUMNS.length}">No items match the current filters.</td></tr>`;
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="${colCount}">No items match the current filters.</td></tr>`;
     return;
   }
   for (const item of items) {
     const tr = document.createElement('tr');
     for (const col of COLUMNS) {
-      if (isAdmin && EDITABLE_COLUMNS.includes(col.key)) {
-        tr.appendChild(editableCell(item, col.key));
-        continue;
-      }
       const td = document.createElement('td');
       if (col.key === 'name') td.textContent = item.name;
-      else if (col.key === '_category') td.textContent = TYPE_LABELS[item._category] || item._category;
       else if (col.key === 'chaosValue') td.textContent = formatNumber(item.chaosValue);
       else if (col.key.startsWith('eff')) td.textContent = formatEfficiency(item[col.key]);
       else td.textContent = formatNumber(item[col.key]);
+      tr.appendChild(td);
+    }
+    if (isAdmin) {
+      const td = document.createElement('td');
+      const btn = document.createElement('button');
+      btn.className = 'edit-btn';
+      btn.textContent = 'Edit';
+      btn.addEventListener('click', () => openEditModal(item));
+      td.appendChild(btn);
       tr.appendChild(td);
     }
     tbody.appendChild(tr);
@@ -483,6 +630,7 @@ async function checkAdminSession() {
 
 function updateAdminUI() {
   document.getElementById('logoutBtn').style.display = isAdmin ? 'inline-block' : 'none';
+  renderHeader();
   applyAndRender();
 }
 
@@ -502,6 +650,18 @@ document.getElementById('logoutBtn').addEventListener('click', async () => {
   await fetch('/api/admin/logout', { method: 'POST' });
   isAdmin = false;
   updateAdminUI();
+});
+document.getElementById('editForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  try {
+    await saveEditModal();
+  } catch (err) {
+    showEditError(`Save failed: ${err.message}`);
+  }
+});
+document.getElementById('editCancelBtn').addEventListener('click', closeEditModal);
+document.getElementById('editOverlay').addEventListener('click', e => {
+  if (e.target.id === 'editOverlay') closeEditModal();
 });
 
 renderHeader();
