@@ -1,48 +1,59 @@
-> Implemented — see `CLAUDE.md` for how to run it, and
-> `docs/superpowers/specs/2026-08-09-poe-dust-design.md` /
-> `docs/superpowers/plans/2026-08-09-poe-dust-implementation.md` for the design
-> and implementation history.
+# poe-dust
 
-web funkcnosti podobny poe heist replika - viz e:\docker\heist\
+Webová stránka, která ukazuje, jaké Path of Exile unique itemy se vyplatí
+kupovat a rozenchantovat na dust — pro každý item spočítá poměr
+dust-za-chaos vůči aktuální ceně z poe.ninja.
 
-o co jde: 
+Architektura a vzhled vychází z `E:\docker\heist` (poe-heist replika).
 
-chceme stranku, ktera bude nacitat z poe.ninja ceny uniq predmetu, ktere jdou promenit v dust
-tj. zbrane, armour, jewerly
+## Jak to funguje
 
-prevezmeme zdroj dat z - 
-https://docs.google.com/spreadsheets/d/1GAFw_wDGaI1F85T0qfUk18r20ioA0TOhj4JDpNKfGwM/edit?gid=1777750195#gid=1777750195
+- Appka nese vlastní seznam itemů s jejich dust hodnotami (`scripts/seed.csv`,
+  naimportováno do SQLite databáze při každém startu serveru).
+- Po kliknutí na **Load** stáhne z poe.ninja aktuální ceny (`UniqueWeapon`,
+  `UniqueArmour`, `UniqueAccessory`) pro zvolenou ligu a napáruje je k itemům
+  podle jména. Načtení je omezené na jednou za hodinu (server cachuje
+  odpověď).
+- Item, ke kterému se v aktuální lize nenajde cena, se v tabulce vůbec
+  nezobrazí.
+- Nahoře jde filtrovat podle jména, rozsahu ceny v chaosech a podle počtu
+  slotů, které item zabírá v inventáři (prsten = 1, opasek = 2, boty = 4...).
+- Tabulka: název, počet slotů, cena v chaosech, dust (ilvl 84), dust +20 %
+  kvalita (ilvl 84), a přepočet dust/chaos. Klik na hlavičku sloupce řadí,
+  klik na název itemu ho zkopíruje do schránky.
+- Appka je čistě **read-only** — žádné přihlašování ani editace dat přímo ve
+  webu (dřív existovalo, zrušeno 2026-08-09, viz `CLAUDE.md`).
 
-ovsem tamni dust je jen orientacni - budeme muset najit aktualnejsi zdroj  nekdy v budoucnu - ale je to zaklad
+## Zdroj dust dat
 
-> **Update 2026-08-09:** přešli jsme na přesnější zdroj —
-> https://github.com/deronek/poe-disenchant-tool/tree/main/data/dust (`poe-dust.js`).
-> Sledovat, jestli ho autor dál udržuje, a podle toho `scripts/seed.csv` občas
-> přegenerovat (viz CLAUDE.md, sekce Architecture / Data source).
+Aktuálně: https://github.com/deronek/poe-disenchant-tool (`data/dust/poe-dust.js`)
+— přesnější než původní zdroj (Google Sheet), protože počítá s kvalitním
+bonusem per-item (ne plošných +20 %) a nezahrnuje nesmyslné položky
+(fragmenty typu "Piece of ..."). Je potřeba občas zkontrolovat, jestli se
+repo dál udržuje, a `scripts/seed.csv` z něj přegenerovat — postup je
+popsaný v `CLAUDE.md` (sekce Architecture → Data source).
 
-k zaznamu itemu chceme vest: 
+Data se omezují na item level 84 — zdroj spolehlivě nepokrývá ilvl 83/85,
+takže jsme je z appky úplně odstranili (2026-08-09), místo abychom drželi
+nepoužitelné/prázdné sloupce.
 
-- nazev
-- typ (belt, ring, helma, boty...)
-- dust ilvl 83
-- dust - ilvl 83 + 20 kvality (u jewerly to jsou catalisty...)
-- pak 84 a 85 - analogicky
-- cena v chaosech
+Původní zdroj (jen pro historii, už se nepoužívá):
+https://docs.google.com/spreadsheets/d/1GAFw_wDGaI1F85T0qfUk18r20ioA0TOhj4JDpNKfGwM
 
-stranka nacte z poe.ninja info o aktualni lize - stejne jako to mame v heistu
-tlacitko pro nacteni dat - stejne jako v heist - omezit jednou za hodinu
-naparovat ceny do itemu
+## Spuštění
 
-zobrazeni - nahore filtrace + limit od do v chaosech 
+Lokálně přes Docker (viz `CLAUDE.md`):
 
+```bash
+docker compose up -d
+```
 
-tabulka - nazev, cena v chaosech - a 3 sloupce v ramci levelu: dust level, dust+20q level, prepocet na 1 chaos
+Produkce: Render, free tier, stejně jako heist — návod krok za krokem je
+v `DEPLOY.md`. GitHub: https://github.com/knedle/poe-dust.
 
+## Další dokumentace
 
-
-
-
-lokalne chceme vse vyzkouset = zprovozni docker - via heist
-
-
-produkce pak bude totozna jako v heist - on render...
+- `CLAUDE.md` — architektura, jak appka běží, jak se aktualizují data
+- `DEPLOY.md` — nasazení na Render
+- `docs/superpowers/specs/2026-08-09-poe-dust-design.md` — původní design spec
+- `docs/superpowers/plans/2026-08-09-poe-dust-implementation.md` — implementační plán
