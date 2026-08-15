@@ -163,7 +163,8 @@
     thead th:nth-child(3) { width: 90px; }
     thead th:nth-child(4) { width: 90px; }
     thead th:nth-child(5) { width: 100px; }
-    thead th:nth-child(6) { width: 80px; }
+    thead th:nth-child(6) { width: 90px; }
+    thead th:nth-child(7) { width: 100px; }
     thead th.sorted { color: #1a0e04; background: #e0d4b8; }
     thead th .arrow { font-size: 0.7rem; margin-left: 0.2rem; }
 
@@ -231,7 +232,8 @@ const COLUMNS = [
   { key: 'chaosValue', label: 'Price (c)', numeric: true },
   { key: 'dust84', label: 'Dust', numeric: true },
   { key: 'dust84q20', label: 'Dust +20q', numeric: true },
-  { key: 'eff84', label: 'dust/c', numeric: true },
+  { key: 'eff84', label: 'Dust/chaos', numeric: true },
+  { key: 'dustPerSlot', label: 'Dust/slot', numeric: true },
 ];
 const CACHE_TTL = 60 * 60 * 1000;
 const SKIP_LEAGUES = new Set(['Standard', 'Hardcore', 'SSF Standard', 'SSF Hardcore']);
@@ -253,6 +255,11 @@ function computeEfficiency(dustQ20, chaosValue) {
   return dustQ20 / chaosValue;
 }
 
+function computeDustPerSlot(dust84, slots) {
+  if (dust84 == null || !slots) return null;
+  return dust84 / slots;
+}
+
 function mergeItemsWithPrices() {
   const merged = [];
   for (const item of rawItems) {
@@ -263,6 +270,7 @@ function mergeItemsWithPrices() {
       chaosValue: price.chaosValue,
       _category: price._category,
       eff84: computeEfficiency(item.dust84q20, price.chaosValue),
+      dustPerSlot: computeDustPerSlot(item.dust84, item.slots),
     });
   }
   mergedItems = merged;
